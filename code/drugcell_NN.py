@@ -12,13 +12,14 @@ from util import *
 
 class drugcell_nn(nn.Module):
 
-	def __init__(self, term_size_map, term_direct_gene_map, dG, ngene, ndrug, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final):
+	# def __init__(self, term_size_map, term_direct_gene_map, dG, ngene, ndrug, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final):
+	def __init__(self, term_size_map, term_direct_gene_map, dG, ngene, root, num_hiddens_genotype, num_hiddens_final):
 	
 		super(drugcell_nn, self).__init__()
 
 		self.root = root
 		self.num_hiddens_genotype = num_hiddens_genotype
-		self.num_hiddens_drug = num_hiddens_drug
+		# self.num_hiddens_drug = num_hiddens_drug
 		
 		# dictionary from terms to genes directly annotated with the term
 		self.term_direct_gene_map = term_direct_gene_map   
@@ -28,21 +29,24 @@ class drugcell_nn(nn.Module):
 		
 		# ngenes, gene_dim are the number of all genes	
 		self.gene_dim = ngene			   
-		self.drug_dim = ndrug
+		# self.drug_dim = ndrug
 
 		# add modules for neural networks to process genotypes
 		self.contruct_direct_gene_layer()
 		self.construct_NN_graph(dG)
 
 		# add modules for neural networks to process drugs	
-		self.construct_NN_drug()
+		# self.construct_NN_drug()
 
 		# add modules for final layer
-		final_input_size = num_hiddens_genotype + num_hiddens_drug[-1]
+		final_input_size = num_hiddens_genotype # + num_hiddens_drug[-1]
 		self.add_module('final_linear_layer', nn.Linear(final_input_size, num_hiddens_final))
-		self.add_module('final_batchnorm_layer', nn.BatchNorm1d(num_hiddens_final))
-		self.add_module('final_aux_linear_layer', nn.Linear(num_hiddens_final,1))
-		self.add_module('final_linear_layer_output', nn.Linear(1, 1))
+		# self.add_module('final_linear_layer', nn.Sigmoid())
+		# self.add_module('final_batchnorm_layer', nn.BatchNorm1d(num_hiddens_final))
+		# self.add_module('final_aux_linear_layer', nn.Linear(num_hiddens_final, 1))
+		# self.add_module('final_linear_layer_output', nn.Linear(1, 1))
+		self.add_module('final_linear_layer_output', nn.Sigmoid())
+		# self.add_module('final_linear_layer_output', nn.Linear(2, 2))
 
 	# calculate the number of values in a state (term)
 	def cal_term_dim(self, term_size_map):
@@ -71,6 +75,7 @@ class drugcell_nn(nn.Module):
 
 
 	# add modules for fully connected neural networks for drug processing
+	"""
 	def construct_NN_drug(self):
 		input_size = self.drug_dim
 
@@ -81,6 +86,7 @@ class drugcell_nn(nn.Module):
 			self.add_module('drug_aux_linear_layer2_' + str(i+1), nn.Linear(1,1))
 
 			input_size = self.num_hiddens_drug[i]
+	"""
 
 
 	# start from bottom (leaves), and start building a neural network using the given ontology
@@ -131,7 +137,7 @@ class drugcell_nn(nn.Module):
 	# definition of forward function
 	def forward(self, x):
 		gene_input = x.narrow(1, 0, self.gene_dim)
-		drug_input = x.narrow(1, self.gene_dim, self.drug_dim)
+		# drug_input = x.narrow(1, self.gene_dim, self.drug_dim)
 
 		# define forward function for genotype dcell #############################################
 		term_gene_out_map = {}
@@ -164,8 +170,10 @@ class drugcell_nn(nn.Module):
 				aux_out_map[term] = self._modules[term+'_aux_linear_layer2'](aux_layer1_out)		
 
 		# define forward function for drug dcell #################################################
+		"""
 		drug_out = drug_input
 
+		## TODO: remove this
 		for i in range(1, len(self.num_hiddens_drug)+1, 1):
 			drug_out = self._modules['drug_batchnorm_layer_'+str(i)]( torch.tanh(self._modules['drug_linear_layer_' + str(i)](drug_out)))
 			term_NN_out_map['drug_'+str(i)] = drug_out
@@ -176,10 +184,15 @@ class drugcell_nn(nn.Module):
 		# connect two neural networks at the top #################################################
 		final_input = torch.cat((term_NN_out_map[self.root], drug_out), 1)
 
+		## TODO: Change final out to either two neuron cross entropy or single neuron sigmoid
 		out = self._modules['final_batchnorm_layer'](torch.tanh(self._modules['final_linear_layer'](final_input)))
-		term_NN_out_map['final'] = out
+		"""
+		out = self._modules['final_linear_layer'](term_NN_out_map[self.root])
+		# term_NN_out_map['final'] = out
 
-		aux_layer_out = torch.tanh(self._modules['final_aux_linear_layer'](out))
-		aux_out_map['final'] = self._modules['final_linear_layer_output'](aux_layer_out)
+		# aux_layer_out = torch.tanh(self._modules['final_aux_linear_layer'](out))
+		# aux_out_map['final'] = self._modules['final_linear_layer_output'](aux_layer_out)
+		aux_out_map['final'] = self._modules['final_linear_layer_output'](out)
+		print(f"prediction of NN: {aux_out_map['final'].size()}")
 
 		return aux_out_map, term_NN_out_map
