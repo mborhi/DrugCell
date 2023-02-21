@@ -105,7 +105,7 @@ def load_train_data(file_name, cell2id):
 
 			feature.append([cell2id[tokens[0]]])
 			label.append([float(tokens[1])])
-
+			
 	return feature, label
 
 
