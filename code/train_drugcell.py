@@ -107,8 +107,8 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 					# torch.argmax(output, dim=1, keepdim=True).float().size()
 					print(f"output: {name} : {output.float()}")
 					# so the out put is a row col of 5000 since that is the batch size
-					total_loss += 0.2 * loss(output.float(), torch.squeeze(cuda_labels).long())
-					# total_loss += 0.2 * loss(output, cuda_labels)
+					# total_loss += 0.2 * loss(output.float(), torch.squeeze(cuda_labels).long())
+					total_loss += 0.2 * loss(output, cuda_labels)
 
 			total_loss.backward()
 
