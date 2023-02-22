@@ -129,11 +129,11 @@ class drugcell_nn(nn.Module):
 
 				self.add_module(term+'_linear_layer', nn.Linear(input_size, term_hidden))
 				self.add_module(term+'_batchnorm_layer', nn.BatchNorm1d(term_hidden))
-				self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,1)) # change from (term_hidden, 1)
-				# self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,2)) # change from (term_hidden, 1)
-				self.add_module(term+'_aux_linear_layer2', nn.Linear(1, 1)) # change from nn.Linear(1, 1)
+				# self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,1)) # change from (term_hidden, 1)
+				self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,2)) # change from (term_hidden, 1)
+				# self.add_module(term+'_aux_linear_layer2', nn.Linear(1, 1)) # change from nn.Linear(1, 1)
 				# self.add_module(term+'_aux_linear_layer2', nn.Softmax(dim=1)) # change from nn.Linear(1, 1)
-				# self.add_module(term+'_aux_linear_layer2', nn.Linear(2, 2)) # change from nn.Linear(1, 1)
+				self.add_module(term+'_aux_linear_layer2', nn.Linear(2, 2)) # change from nn.Linear(1, 1)
 
 			dG.remove_nodes_from(leaves)
 

@@ -98,17 +98,11 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 				# loss = nn.MSELoss()
 				loss = nn.CrossEntropyLoss()
 				if name == 'final':
-					# print(f"cel label: {cuda_labels.long().size()}")
-					# print(f"output: {torch.argmax(output, dim=1, keepdim=True).float().size()}")
 					total_loss += loss(output.float(), torch.squeeze(cuda_labels.long()))
 					# total_loss += loss(output, cuda_labels)
 				else: # change 0.2 to smaller one for big terms
-					print(f"cel label : {torch.squeeze(cuda_labels.long())}")
-					# torch.argmax(output, dim=1, keepdim=True).float().size()
-					print(f"output: {name} : {output.float()}")
-					# so the out put is a row col of 5000 since that is the batch size
 					# total_loss += 0.2 * loss(output.float(), torch.squeeze(cuda_labels).long())
-					total_loss += 0.2 * loss(output, cuda_labels)
+					total_loss += 0.2 * loss(output.float(), torch.squeeze(cuda_labels.long()))
 
 			total_loss.backward()
 
