@@ -148,6 +148,17 @@ def load_mapping(mapping_file):
 	
 	return mapping
 
+def load_sample2data_mapping(mapping_file):
+	mapping = {}
+
+	with open(mapping_file, "r") as f:
+		lines = f.readlines()
+		for line in lines:
+			tokens = line.rstrip().split("\t")
+			mapping[tokens[0]] = tokens[1]
+	
+	return mapping
+
 
 # def prepare_train_data(train_file, test_file, cell2id_mapping_file, drug2id_mapping_file):
 

@@ -1,6 +1,6 @@
-# import pandas as pd
 import numpy as np
 import requests
+import argparse
 
 # classifications
 CLASS_A = "Breast Invasive Ductal Carcinoma"
@@ -84,10 +84,18 @@ def collect_data(filename):
     # all_mpids = set()
     # for sid in all_study_ids:
     #     all_mpids = all_mpids.union(get_molecular_profiles(sid))
-    # print("all molecular profile ids:", list(all_mpids))
+    # #  print("all molecular profile ids:", list(all_mpids))
     # all_mpids_list = list(all_mpids)
-    all_mpids_list =  ['brca_mbcproject_2022_rna_seq_mrna_median_Zscores', 'brca_tcga_methylation_hm450', 'brca_tcga_pan_can_atlas_2018_rppa_Zscores', 'brca_tcga_pub2015_mrna_median_Zscores', 'breast_ink4_msk_2021_structural_variants', 'brca_mapk_hp_msk_2021_cna', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median_all_sample_Zscores', 'brca_tcga_pub2015_protein_quantification_zscores', 'brca_tcga_pub2015_rna_seq_v2_mrna', 'brca_metabric_cna', 'brca_tcga_protein_quantification_zscores', 'breast_alpelisib_2020_cna', 'brca_tcga_rna_seq_v2_mrna_median_Zscores', 'brca_mapk_hp_msk_2021_mutations', 'brca_tcga_pub2015_mutations', 'brca_mbcproject_2022_mutations', 'brca_tcga_pub2015_mrna_median_all_sample_Zscores', 'brca_tcga_pub2015_rna_seq_v2_mrna_median_all_sample_Zscores', 'brca_tcga_protein_quantification', 'breast_alpelisib_2020_structural_variants', 'brca_metabric_mrna', 'breast_msk_2018_mutations', 'brca_metabric_methylation_promoters_rrbs', 'brca_tcga_rna_seq_v2_mrna', 'brca_tcga_pub2015_rna_seq_v2_mrna_median_Zscores', 'brca_mbcproject_wagle_2017_mutations', 'brca_tcga_pan_can_atlas_2018_log2CNA', 'brca_tcga_pan_can_atlas_2018_gistic', 'brca_tcga_pan_can_atlas_2018_protein_quantification', 'breast_msk_2018_structural_variants', 'brca_tcga_linear_CNA', 'brca_tcga_pub2015_methylation_hm27', 'brca_tcga_pan_can_atlas_2018_structural_variants', 'brca_tcga_gistic', 'brca_tcga_pub2015_linear_CNA', 'brca_tcga_rna_seq_v2_mrna_median_all_sample_Zscores', 'brca_mbcproject_wagle_2017_rna_seq_v2_mrna', 'brca_hta9_htan_2022_cna', 'brca_tcga_mrna', 'brca_tcga_rppa_Zscores', 'brca_tcga_pub2015_methylation_hm450', 'brca_hta9_htan_2022_mutations', 'brca_tcga_pub2015_mrna', 'brca_tcga_phosphoprotein_quantification', 'brca_tcga_mutations', 'brca_smc_2018_mrna_seq_tpm_all_sample_Zscores', 'brca_mbcproject_2022_rna_seq_v2_mrna', 'breast_ink4_msk_2021_cna', 'brca_mbcproject_2022_structural_variants', 'brca_tcga_mrna_median_all_sample_Zscores', 'brca_smc_2018_mutations', 'breast_alpelisib_2020_mutations', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna', 'brca_tcga_pan_can_atlas_2018_methylation_hm27_hm450_merge', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median_Zscores', 'brca_tcga_pan_can_atlas_2018_protein_quantification_zscores', 'brca_tcga_mrna_median_Zscores', 'brca_tcga_pan_can_atlas_2018_phosphoprotein_quantification', 'brca_smc_2018_mrna_seq_tpm', 'brca_tcga_pan_can_atlas_2018_mutations', 'breast_msk_2018_cna', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median_all_sample_ref_normal_Zscores', 'breast_ink4_msk_2021_mutations', 'brca_tcga_pub2015_gistic', 'brca_metabric_mrna_median_all_sample_Zscores', 'brca_tcga_pub2015_protein_quantification', 'brca_tcga_pan_can_atlas_2018_armlevel_cna', 'brca_tcga_rppa', 'brca_mbcproject_2022_gistic', 'brca_tcga_pan_can_atlas_2018_microbiome_signature', 'brca_mbcproject_wagle_2017_gistic', 'brca_mapk_hp_msk_2021_structural_variants', 'brca_mbcproject_wagle_2017_rna_seq_mrna_median_Zscores', 'brca_tcga_pan_can_atlas_2018_rppa', 'brca_metabric_mutations']
-    sample_to_mutations = get_all_sample_gene_mutuations(all_mpids_list, study_sample_to_type.keys())#list(all_mpids))
+    all_mpids_list =  ['brca_mbcproject_2022_rna_seq_mrna_median_Zscores', 'brca_tcga_methylation_hm450', 
+                       'brca_tcga_pan_can_atlas_2018_rppa_Zscores', 'brca_tcga_pub2015_mrna_median_Zscores', 
+                       'breast_ink4_msk_2021_structural_variants', 'brca_mapk_hp_msk_2021_cna', 
+                       'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median_all_sample_Zscores', 
+                       'brca_tcga_pub2015_protein_quantification_zscores', 'brca_tcga_pub2015_rna_seq_v2_mrna', 
+                       'brca_metabric_cna', 'brca_tcga_protein_quantification_zscores', 'breast_alpelisib_2020_cna', 
+                       'brca_tcga_rna_seq_v2_mrna_median_Zscores', 'brca_mapk_hp_msk_2021_mutations', 
+                       'brca_tcga_pub2015_mutations', 'brca_mbcproject_2022_mutations', 
+                       'brca_tcga_pub2015_mrna_median_all_sample_Zscores', 'brca_tcga_pub2015_rna_seq_v2_mrna_median_all_sample_Zscores', 'brca_tcga_protein_quantification', 'breast_alpelisib_2020_structural_variants', 'brca_metabric_mrna', 'breast_msk_2018_mutations', 'brca_metabric_methylation_promoters_rrbs', 'brca_tcga_rna_seq_v2_mrna', 'brca_tcga_pub2015_rna_seq_v2_mrna_median_Zscores', 'brca_mbcproject_wagle_2017_mutations', 'brca_tcga_pan_can_atlas_2018_log2CNA', 'brca_tcga_pan_can_atlas_2018_gistic', 'brca_tcga_pan_can_atlas_2018_protein_quantification', 'breast_msk_2018_structural_variants', 'brca_tcga_linear_CNA', 'brca_tcga_pub2015_methylation_hm27', 'brca_tcga_pan_can_atlas_2018_structural_variants', 'brca_tcga_gistic', 'brca_tcga_pub2015_linear_CNA', 'brca_tcga_rna_seq_v2_mrna_median_all_sample_Zscores', 'brca_mbcproject_wagle_2017_rna_seq_v2_mrna', 'brca_hta9_htan_2022_cna', 'brca_tcga_mrna', 'brca_tcga_rppa_Zscores', 'brca_tcga_pub2015_methylation_hm450', 'brca_hta9_htan_2022_mutations', 'brca_tcga_pub2015_mrna', 'brca_tcga_phosphoprotein_quantification', 'brca_tcga_mutations', 'brca_smc_2018_mrna_seq_tpm_all_sample_Zscores', 'brca_mbcproject_2022_rna_seq_v2_mrna', 'breast_ink4_msk_2021_cna', 'brca_mbcproject_2022_structural_variants', 'brca_tcga_mrna_median_all_sample_Zscores', 'brca_smc_2018_mutations', 'breast_alpelisib_2020_mutations', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna', 'brca_tcga_pan_can_atlas_2018_methylation_hm27_hm450_merge', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median_Zscores', 'brca_tcga_pan_can_atlas_2018_protein_quantification_zscores', 'brca_tcga_mrna_median_Zscores', 'brca_tcga_pan_can_atlas_2018_phosphoprotein_quantification', 'brca_smc_2018_mrna_seq_tpm', 'brca_tcga_pan_can_atlas_2018_mutations', 'breast_msk_2018_cna', 'brca_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median_all_sample_ref_normal_Zscores', 'breast_ink4_msk_2021_mutations', 'brca_tcga_pub2015_gistic', 'brca_metabric_mrna_median_all_sample_Zscores', 'brca_tcga_pub2015_protein_quantification', 'brca_tcga_pan_can_atlas_2018_armlevel_cna', 'brca_tcga_rppa', 'brca_mbcproject_2022_gistic', 'brca_tcga_pan_can_atlas_2018_microbiome_signature', 'brca_mbcproject_wagle_2017_gistic', 'brca_mapk_hp_msk_2021_structural_variants', 'brca_mbcproject_wagle_2017_rna_seq_mrna_median_Zscores', 'brca_tcga_pan_can_atlas_2018_rppa', 'brca_metabric_mutations']
+    sample_to_mutations = get_all_sample_gene_mutuations(all_mpids_list, study_sample_to_type.keys())
     
     return study_sample_to_type, sample_to_mutations#sample_to_gene_mutations
 
@@ -114,23 +122,25 @@ def write_test_train(filename, keys, dict):
 def prepare_data(dict):
     keys = list(dict.keys())
     np.random.shuffle(keys)
-    # 80/20 split
-    train = keys[:int(len(keys) * 0.8)]
-    test = keys[int(len(keys) * 0.8):]
+    # split data
+    train = keys[:int(len(keys) * 0.85)]
+    test = keys[int(len(keys) * 0.85):]
 
     return train, test
 
 if __name__ == "__main__":
-    # sample_to_type, sample_to_gene_mutations = collect_data("./../../custom_data/combined_study_clinical_data.tsv")
-    sample_to_type, sample_to_gene_mutations = collect_data("./../../custom_data/combined_study_clinical_ILC_IDC.tsv")
+    parser = argparse.ArgumentParser(description='Clean data')
+    parser.add_argument('-output_dir', help='The directory to write new data files to', type=str)
+    parser.add_argument('-combined_file', help='The file containing all combined patient data', type=str)
+    opt = parser.parse_args()
+
+    output_dir = opt.output_dir
+    sample_to_type, sample_to_gene_mutations = collect_data(opt.combined_file)
     
     sample_to_type_train, sample_to_type_test = prepare_data(sample_to_type)
-    # sample_to_gene_mutations_train, sample_to_gene_mutations_test = prepare_data(sample_to_gene_mutations)
 
-    write_sample_to_type("./../../custom_data/sample2type_ILC_IDC.txt", sample_to_type)
-    write_sample_to_gene_mutations("./../../custom_data/sample2mutations_ILC_IDC.txt", sample_to_gene_mutations)
+    write_sample_to_type(output_dir + "sample2type_ILC_IDC.txt", sample_to_type)
+    write_sample_to_gene_mutations(output_dir + "sample2mutations_ILC_IDC.txt", sample_to_gene_mutations)
 
-    write_test_train("./../../custom_data/sample2type_train_ILC_IDC.txt", sample_to_type_train, sample_to_type)
-    write_test_train("./../../custom_data/sample2type_test_ILC_IDC.txt", sample_to_type_test, sample_to_type)
-    # write_test_train("./../../custom_data/sample_to_gene_mutations_train.txt", sample_to_gene_mutations_train, sample_to_gene_mutations)
-    # write_test_train("./../../custom_data/sample_to_gene_mutations_test.txt", sample_to_gene_mutations_test, sample_to_gene_mutations)
+    write_test_train(output_dir + "sample2type_train_ILC_IDC.txt", sample_to_type_train, sample_to_type)
+    write_test_train(output_dir + "sample2type_test_ILC_IDC.txt", sample_to_type_test, sample_to_type)

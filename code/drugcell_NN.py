@@ -48,6 +48,7 @@ class drugcell_nn(nn.Module):
 		# self.add_module('final_linear_layer_output', nn.Linear(1, 1)) # original
 		# self.add_module('final_linear_layer_output', nn.Sigmoid()) # single neuron sigmoid prediction
 		self.add_module('final_linear_layer_output', nn.Linear(final_input_size, 2)) # cross entropy, two neuron
+		# self.add_module('final_linear_layer_output', nn.Softmax(dim=1)) # cross entropy, two neuron
 
 	# calculate the number of values in a state (term)
 	def cal_term_dim(self, term_size_map):
@@ -198,6 +199,6 @@ class drugcell_nn(nn.Module):
 		# aux_layer_out = torch.tanh(self._modules['final_aux_linear_layer'](out))
 		# aux_out_map['final'] = self._modules['final_linear_layer_output'](aux_layer_out)
 		aux_out_map['final'] = self._modules['final_linear_layer_output'](term_NN_out_map[self.root])
-		print(f"prediction of NN: {aux_out_map['final'].size()}")
+		print(f"Final model output: {aux_out_map['final']}")
 
 		return aux_out_map, term_NN_out_map
