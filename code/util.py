@@ -53,8 +53,8 @@ def load_reactome(file_name, gene2id_mapping):
 
     print('There are', len(gene_set), 'genes')
 
-    min_req_genes = 30
-    min_distinct = 10
+    min_req_genes = 0#30
+    min_distinct = 0#10
     nodes_to_remove = []
     for term in dG.nodes():
         predecessor = [p for p in dG.predecessors(term)]

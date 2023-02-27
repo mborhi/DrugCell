@@ -192,13 +192,13 @@ class drugcell_nn(nn.Module):
 		## TODO: Change final out to either two neuron cross entropy or single neuron sigmoid
 		out = self._modules['final_batchnorm_layer'](torch.tanh(self._modules['final_linear_layer'](final_input)))
 		"""
-		print(f"VNN final output: {term_NN_out_map[self.root].size()}")
+		# print(f"VNN final output: {term_NN_out_map[self.root].size()}")
 		#out = self._modules['final_linear_layer'](term_NN_out_map[self.root])
 		# term_NN_out_map['final'] = out
 
 		# aux_layer_out = torch.tanh(self._modules['final_aux_linear_layer'](out))
 		# aux_out_map['final'] = self._modules['final_linear_layer_output'](aux_layer_out)
 		aux_out_map['final'] = self._modules['final_linear_layer_output'](term_NN_out_map[self.root])
-		print(f"Final model output: {aux_out_map['final']}")
+		# print(f"Final model output: {aux_out_map['final']}")
 
 		return aux_out_map, term_NN_out_map

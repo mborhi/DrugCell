@@ -110,7 +110,6 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 				if '_direct_gene_layer.weight' not in name:
 					continue
 				term_name = name.split('_')[0]
-				#print name, param.grad.data.size(), term_mask_map[term_name].size()
 				param.grad.data = torch.mul(param.grad.data, term_mask_map[term_name])
 
 			optimizer.step()
