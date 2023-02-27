@@ -1,6 +1,6 @@
 #!/bin/bash
 data_dir="./../../classification_data/"
-pathway_relations=$data_dir"ReactomeRelations.txt"
+pathway_relations=$data_dir"ReactomePathwaysRelation.txt"
 pathway_genes=$data_dir"ReactomePathways.gmt"
 
 source activate pytorch3drugcell
