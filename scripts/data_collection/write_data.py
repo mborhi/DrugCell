@@ -1,7 +1,7 @@
 import argparse
 
 def construct_mutation_line(mutations_list, gene2ind):
-    binary = ["0"] * 3008
+    binary = ["0"] * len(gene2ind.keys())# 3008
     for mutation in mutations_list:
         if mutation in gene2ind:
             binary[gene2ind[mutation]] = "1"
@@ -57,5 +57,5 @@ if __name__ == "__main__":
     
     sample2mutations = read_data(opt.sample2mutations)
     gene2ind = get_gene2ind(opt.gene2ind)
-    write_sample2ind(output_dir + "sample2ind.txt", list(sample2mutations.keys()))
-    write_sample2binary_mut(output_dir + "sample2binary_mutation.txt", sample2mutations, gene2ind)
+    write_sample2ind(output_dir + "reactome-sample2ind.txt", list(sample2mutations.keys()))
+    write_sample2binary_mut(output_dir + "reactome-sample2binary_mutation.txt", sample2mutations, gene2ind)
