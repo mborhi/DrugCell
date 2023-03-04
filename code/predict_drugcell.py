@@ -56,7 +56,10 @@ def predict_dcell(predict_data, gene_dim, model_file, hidden_folder, batch_size,
 		batch_num += 1
 
 	test_corr = pearson_corr(test_predict, predict_label_gpu)
+	test_acc = accuracy(test_predict, predict_label_gpu)
 	print("Test pearson corr\t%s\t%.6f" % (model.root, test_corr))
+	print(f"Accuracy\t{test_acc}")
+	print(f"Confusion Matrix\t{confusion_matrix(test_predict, predict_label_gpu)}")
 
 	np.savetxt(result_file+'/drugcell.predict', test_predict.cpu().numpy(),'%.4e')
 

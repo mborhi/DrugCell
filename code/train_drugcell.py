@@ -39,7 +39,9 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 
 	epoch_start_time = time.time()
 	best_model = 0
+	best_model_acc = 0
 	max_corr = 0
+	max_acc = 0
 
 	# dcell neural network
 	# model = drugcell_nn(term_size_map, term_direct_gene_map, dG, gene_dim, drug_dim, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final)
@@ -117,7 +119,7 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 		train_corr = pearson_corr(train_predict, train_label_gpu)
 
 		#if epoch % 10 == 0:
-		torch.save(model, model_save_folder + '/model_' + str(epoch) + '.pt')
+		# torch.save(model, model_save_folder + '/model_' + str(epoch) + '.pt')
 
 		#Test: random variables in training mode become static
 		model.eval()
@@ -138,15 +140,30 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 				test_predict = torch.cat([test_predict, aux_out_map['final'].data], dim=0)
 
 		test_corr = pearson_corr(test_predict, test_label_gpu)
+		test_acc = accuracy(test_predict, test_label_gpu)
 
 		epoch_end_time = time.time()
 		# print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, total_loss, epoch_end_time-epoch_start_time))
-		print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, total_loss, epoch_end_time-epoch_start_time))
+		print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\tacc\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, test_acc, total_loss, epoch_end_time-epoch_start_time))
 		epoch_start_time = epoch_end_time
 	
 		if test_corr >= max_corr:
+			# remove old best
+			# if os.path.isfile('model_' + str(best_model) + '.pt'):
+			# 	os.remove('model_' + str(best_model) + '.pt')
 			max_corr = test_corr
 			best_model = epoch
+			# save new best
+			# torch.save(model, model_save_folder + '/model_' + str(epoch) + '.pt')
+			torch.save(model, model_save_folder + '/model_best_corr.pt')
+		
+		if test_acc >= max_acc:
+			max_acc = test_acc
+			best_model_acc = epoch
+			torch.save(model, model_save_folder + '/model_best_acc.pt')
+		
+		# if epoch - 1 != best_model and os.path.isfile('model_' + str(best_model) + '.pt'):
+		# 		os.remove('model_' + str(best_model) + '.pt')
 
 	torch.save(model, model_save_folder + '/model_final.pt')	
 

@@ -11,6 +11,20 @@ def pearson_corr(x, y):
 
 	return torch.sum(xx*yy) / (torch.norm(xx, 2)*torch.norm(yy,2))
 
+def accuracy(x, y):
+	preds = torch.argmax(x, dim=1).long()
+	bools = torch.eq(preds, torch.squeeze(y.long()))
+	acc = torch.sum(bools).item() / len(preds)
+	return acc
+
+def confusion_matrix(x, y):
+	preds = torch.argmax(x, dim=1).long()
+	targets = torch.squeeze(y).long()
+	c_m = torch.zeros(2, 2)
+	for i, target in enumerate(targets):
+		c_m[preds[i]][target] += 1
+	return c_m
+
 
 def get_total_genes(term, dG, subsystem_to_genes, total_genes: set):
     if term in subsystem_to_genes:
