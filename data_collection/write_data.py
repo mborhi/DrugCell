@@ -1,4 +1,5 @@
 import argparse
+# import pandas as pd
 
 def construct_mutation_line(mutations_list, gene2ind):
     binary = ["0"] * len(gene2ind.keys())# 3008
@@ -27,6 +28,22 @@ def read_data(filename):
             tokens = line.rstrip().split("\t")
             collection[tokens[0]] = tokens[1].split(",")
     return collection
+
+def get_all_mutated_genes(filename, gene_filename):
+    # genes_df = pd.read_csv(filename, sep="\t")
+    all_genes = set()
+    with open(filename, 'r') as f:
+        lines = f.readlines()
+        for line in lines[1:]:
+            tokens = line.strip().split("\t")
+            all_genes.add(tokens[0])
+    # all_genes = genes_df["Gene"]
+    with open(gene_filename, 'w') as f:
+        ind = 0
+        for gene in all_genes:
+            line = str(ind) + "\t" + gene + "\n"
+            f.write(line)
+            ind += 1
 
 def get_gene2ind(filename):
     gene2ind = {}
@@ -57,5 +74,9 @@ if __name__ == "__main__":
     
     sample2mutations = read_data(opt.sample2mutations)
     gene2ind = get_gene2ind(opt.gene2ind)
-    write_sample2ind(output_dir + "reactome-sample2ind.txt", list(sample2mutations.keys()))
-    write_sample2binary_mut(output_dir + "reactome-sample2binary_mutation.txt", sample2mutations, gene2ind)
+    # write_sample2ind(output_dir + "reactome-sample2ind.txt", list(sample2mutations.keys()))
+    # write_sample2binary_mut(output_dir + "reactome-sample2binary_mutation.txt", sample2mutations, gene2ind)
+    write_sample2binary_mut(output_dir + "top-gene-reactome-sample2binary_mutation.txt", sample2mutations, gene2ind)
+    # get_all_mutated_genes(output_dir + "All_Mutated_Genes.txt", output_dir + "all-cbioPortal-gene2ind.txt")
+    # cbioPortal_gene2ind = get_gene2ind(output_dir + "all-cbioPortal-gene2ind.txt")
+    # write_sample2binary_mut(output_dir + "all-cbioPortal-sample2binary-mut.txt", sample2mutations, cbioPortal_gene2ind)

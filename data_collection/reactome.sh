@@ -1,5 +1,5 @@
 #!/bin/bash
-data_dir="./../../classification_data/"
+data_dir="./../classification_data/"
 pathway_relations=$data_dir"ReactomePathwaysRelation.txt"
 pathway_genes=$data_dir"ReactomePathways.gmt"
 

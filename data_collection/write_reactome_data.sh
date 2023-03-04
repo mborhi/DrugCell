@@ -1,5 +1,5 @@
 #!/bin/bash
-data_dir="./../../classification_data/"
+data_dir="./../classification_data/"
 sample2mutations=$data_dir"sample2mutations_ILC_IDC.txt"
 gene2ind=$data_dir"reactome-genes2ind.txt"
 
