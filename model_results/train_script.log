@@ -1,0 +1,2009 @@
+Total number of cell lines = 7709
+There are 2133 genes
+There are 26 roots: ['R-HSA-74160', 'R-HSA-112316', 'R-HSA-397014', 'R-HSA-1266738', 'R-HSA-168256', 'R-HSA-392499', 'R-HSA-382551', 'R-HSA-1643685', 'R-HSA-8963743', 'R-HSA-109582', 'R-HSA-400253', 'R-HSA-1500931', 'R-HSA-73894', 'R-HSA-4839726', 'R-HSA-1852241', 'R-HSA-8953897', 'R-HSA-1640170', 'R-HSA-1474165', 'R-HSA-1474244', 'R-HSA-162582', 'R-HSA-5653656', 'R-HSA-5357801', 'R-HSA-69306', 'R-HSA-1430728', 'R-HSA-8953854', 'R-HSA-5205647']
+There are 1699 terms
+There are 18 connected componenets
+Making adjustments...
+There are 1 roots: ['root']
+There are 1699 terms
+There are 1 connected componenets
+term	R-HSA-9013507	term_size	7	num_hiddens	6
+term	R-HSA-9017802	term_size	1	num_hiddens	6
+term	R-HSA-1169410	term_size	29	num_hiddens	6
+term	R-HSA-1169408	term_size	29	num_hiddens	6
+term	R-HSA-73927	term_size	1	num_hiddens	6
+term	R-HSA-110330	term_size	1	num_hiddens	6
+term	R-HSA-110331	term_size	1	num_hiddens	6
+term	R-HSA-5693579	term_size	16	num_hiddens	6
+term	R-HSA-5693616	term_size	15	num_hiddens	6
+term	R-HSA-1296071	term_size	33	num_hiddens	6
+term	R-HSA-1296065	term_size	4	num_hiddens	6
+term	R-HSA-1296072	term_size	20	num_hiddens	6
+term	R-HSA-1296061	term_size	3	num_hiddens	6
+term	R-HSA-1296052	term_size	3	num_hiddens	6
+term	R-HSA-1296346	term_size	3	num_hiddens	6
+term	R-HSA-991365	term_size	7	num_hiddens	6
+term	R-HSA-997269	term_size	5	num_hiddens	6
+term	R-HSA-997272	term_size	2	num_hiddens	6
+term	R-HSA-5250941	term_size	12	num_hiddens	6
+term	R-HSA-427359	term_size	1	num_hiddens	6
+term	R-HSA-427413	term_size	12	num_hiddens	6
+term	R-HSA-69656	term_size	10	num_hiddens	6
+term	R-HSA-187577	term_size	6	num_hiddens	6
+term	R-HSA-453276	term_size	6	num_hiddens	6
+term	R-HSA-174143	term_size	6	num_hiddens	6
+term	R-HSA-391251	term_size	16	num_hiddens	6
+term	R-HSA-389977	term_size	2	num_hiddens	6
+term	R-HSA-390466	term_size	14	num_hiddens	6
+term	R-HSA-69278	term_size	123	num_hiddens	6
+term	R-HSA-68874	term_size	10	num_hiddens	6
+term	R-HSA-453279	term_size	30	num_hiddens	6
+term	R-HSA-69242	term_size	26	num_hiddens	6
+term	R-HSA-68886	term_size	86	num_hiddens	6
+term	R-HSA-453274	term_size	44	num_hiddens	6
+term	R-HSA-5685942	term_size	22	num_hiddens	6
+term	R-HSA-5693537	term_size	16	num_hiddens	6
+term	R-HSA-5633007	term_size	51	num_hiddens	6
+term	R-HSA-6804758	term_size	11	num_hiddens	6
+term	R-HSA-6804760	term_size	10	num_hiddens	6
+term	R-HSA-6804759	term_size	6	num_hiddens	6
+term	R-HSA-6806003	term_size	18	num_hiddens	6
+term	R-HSA-6804756	term_size	27	num_hiddens	6
+term	R-HSA-2428928	term_size	20	num_hiddens	6
+term	R-HSA-112399	term_size	18	num_hiddens	6
+term	R-HSA-2453902	term_size	2	num_hiddens	6
+term	R-HSA-1483249	term_size	18	num_hiddens	6
+term	R-HSA-1855167	term_size	2	num_hiddens	6
+term	R-HSA-1855204	term_size	14	num_hiddens	6
+term	R-HSA-1855183	term_size	4	num_hiddens	6
+term	R-HSA-373076	term_size	16	num_hiddens	6
+term	R-HSA-375281	term_size	3	num_hiddens	6
+term	R-HSA-375280	term_size	3	num_hiddens	6
+term	R-HSA-418038	term_size	1	num_hiddens	6
+term	R-HSA-375276	term_size	9	num_hiddens	6
+term	R-HSA-209776	term_size	5	num_hiddens	6
+term	R-HSA-209905	term_size	1	num_hiddens	6
+term	R-HSA-209968	term_size	4	num_hiddens	6
+term	R-HSA-166058	term_size	20	num_hiddens	6
+term	R-HSA-450294	term_size	15	num_hiddens	6
+term	R-HSA-937039	term_size	1	num_hiddens	6
+term	R-HSA-937042	term_size	2	num_hiddens	6
+term	R-HSA-445989	term_size	3	num_hiddens	6
+term	R-HSA-73854	term_size	8	num_hiddens	6
+term	R-HSA-73762	term_size	7	num_hiddens	6
+term	R-HSA-73772	term_size	6	num_hiddens	6
+term	R-HSA-73728	term_size	2	num_hiddens	6
+term	R-HSA-176814	term_size	5	num_hiddens	6
+term	R-HSA-176412	term_size	1	num_hiddens	6
+term	R-HSA-176409	term_size	5	num_hiddens	6
+term	R-HSA-5654743	term_size	13	num_hiddens	6
+term	R-HSA-5654733	term_size	7	num_hiddens	6
+term	R-HSA-5654716	term_size	7	num_hiddens	6
+term	R-HSA-190322	term_size	1	num_hiddens	6
+term	R-HSA-1643713	term_size	10	num_hiddens	6
+term	R-HSA-5637812	term_size	9	num_hiddens	6
+term	R-HSA-5638302	term_size	2	num_hiddens	6
+term	R-HSA-5637815	term_size	10	num_hiddens	6
+term	R-HSA-72202	term_size	25	num_hiddens	6
+term	R-HSA-159234	term_size	6	num_hiddens	6
+term	R-HSA-159236	term_size	20	num_hiddens	6
+term	R-HSA-69109	term_size	3	num_hiddens	6
+term	R-HSA-69091	term_size	3	num_hiddens	6
+term	R-HSA-2995410	term_size	3	num_hiddens	6
+term	R-HSA-2995383	term_size	3	num_hiddens	6
+term	R-HSA-5638303	term_size	2	num_hiddens	6
+term	R-HSA-109703	term_size	1	num_hiddens	6
+term	R-HSA-165160	term_size	1	num_hiddens	6
+term	R-HSA-500792	term_size	26	num_hiddens	6
+term	R-HSA-373080	term_size	5	num_hiddens	6
+term	R-HSA-420499	term_size	5	num_hiddens	6
+term	R-HSA-8935690	term_size	5	num_hiddens	6
+term	R-HSA-189085	term_size	3	num_hiddens	6
+term	R-HSA-192456	term_size	1	num_hiddens	6
+term	R-HSA-913709	term_size	17	num_hiddens	6
+term	R-HSA-977068	term_size	10	num_hiddens	6
+term	R-HSA-390918	term_size	1	num_hiddens	6
+term	R-HSA-390247	term_size	1	num_hiddens	6
+term	R-HSA-389887	term_size	1	num_hiddens	6
+term	R-HSA-74259	term_size	2	num_hiddens	6
+term	R-HSA-8878166	term_size	30	num_hiddens	6
+term	R-HSA-8941333	term_size	1	num_hiddens	6
+term	R-HSA-8939902	term_size	12	num_hiddens	6
+term	R-HSA-8941332	term_size	4	num_hiddens	6
+term	R-HSA-8941326	term_size	12	num_hiddens	6
+term	R-HSA-556833	term_size	109	num_hiddens	6
+term	R-HSA-8979227	term_size	3	num_hiddens	6
+term	R-HSA-8978868	term_size	15	num_hiddens	6
+term	R-HSA-428157	term_size	7	num_hiddens	6
+term	R-HSA-75896	term_size	1	num_hiddens	6
+term	R-HSA-74182	term_size	2	num_hiddens	6
+term	R-HSA-400206	term_size	22	num_hiddens	6
+term	R-HSA-9018678	term_size	1	num_hiddens	6
+term	R-HSA-1483257	term_size	46	num_hiddens	6
+term	R-HSA-8957322	term_size	26	num_hiddens	6
+term	R-HSA-72306	term_size	20	num_hiddens	6
+term	R-HSA-6784531	term_size	16	num_hiddens	6
+term	R-HSA-6787450	term_size	1	num_hiddens	6
+term	R-HSA-6782315	term_size	3	num_hiddens	6
+term	R-HSA-174417	term_size	5	num_hiddens	6
+term	R-HSA-174411	term_size	3	num_hiddens	6
+term	R-HSA-174414	term_size	2	num_hiddens	6
+term	R-HSA-174430	term_size	2	num_hiddens	6
+term	R-HSA-5696399	term_size	16	num_hiddens	6
+term	R-HSA-5696397	term_size	5	num_hiddens	6
+term	R-HSA-5696395	term_size	12	num_hiddens	6
+term	R-HSA-5696400	term_size	12	num_hiddens	6
+term	R-HSA-5696394	term_size	5	num_hiddens	6
+term	R-HSA-114508	term_size	14	num_hiddens	6
+term	R-HSA-111933	term_size	9	num_hiddens	6
+term	R-HSA-111931	term_size	6	num_hiddens	6
+term	R-HSA-111957	term_size	1	num_hiddens	6
+term	R-HSA-5668914	term_size	9	num_hiddens	6
+term	R-HSA-2978092	term_size	1	num_hiddens	6
+term	R-HSA-3296482	term_size	4	num_hiddens	6
+term	R-HSA-5687613	term_size	1	num_hiddens	6
+term	R-HSA-5663084	term_size	3	num_hiddens	6
+term	R-HSA-69563	term_size	12	num_hiddens	6
+term	R-HSA-69560	term_size	2	num_hiddens	6
+term	R-HSA-69541	term_size	9	num_hiddens	6
+term	R-HSA-8978934	term_size	4	num_hiddens	6
+term	R-HSA-1474151	term_size	3	num_hiddens	6
+term	R-HSA-389542	term_size	1	num_hiddens	6
+term	R-HSA-111996	term_size	11	num_hiddens	6
+term	R-HSA-111997	term_size	9	num_hiddens	6
+term	R-HSA-111995	term_size	2	num_hiddens	6
+term	R-HSA-114452	term_size	7	num_hiddens	6
+term	R-HSA-111447	term_size	3	num_hiddens	6
+term	R-HSA-139915	term_size	3	num_hiddens	6
+term	R-HSA-111448	term_size	1	num_hiddens	6
+term	R-HSA-111446	term_size	1	num_hiddens	6
+term	R-HSA-177929	term_size	17	num_hiddens	6
+term	R-HSA-180336	term_size	5	num_hiddens	6
+term	R-HSA-212718	term_size	3	num_hiddens	6
+term	R-HSA-182971	term_size	10	num_hiddens	6
+term	R-HSA-180292	term_size	4	num_hiddens	6
+term	R-HSA-179812	term_size	5	num_hiddens	6
+term	R-HSA-2404192	term_size	20	num_hiddens	6
+term	R-HSA-2428924	term_size	20	num_hiddens	6
+term	R-HSA-8856828	term_size	37	num_hiddens	6
+term	R-HSA-8856825	term_size	28	num_hiddens	6
+term	R-HSA-3642278	term_size	2	num_hiddens	6
+term	R-HSA-3645790	term_size	2	num_hiddens	6
+term	R-HSA-3642279	term_size	1	num_hiddens	6
+term	R-HSA-71291	term_size	25	num_hiddens	6
+term	R-HSA-6788656	term_size	5	num_hiddens	6
+term	R-HSA-351202	term_size	6	num_hiddens	6
+term	R-HSA-1614635	term_size	2	num_hiddens	6
+term	R-HSA-389661	term_size	3	num_hiddens	6
+term	R-HSA-6798163	term_size	2	num_hiddens	6
+term	R-HSA-70614	term_size	2	num_hiddens	6
+term	R-HSA-5662702	term_size	1	num_hiddens	6
+term	R-HSA-69481	term_size	29	num_hiddens	6
+term	R-HSA-69473	term_size	19	num_hiddens	6
+term	R-HSA-176187	term_size	6	num_hiddens	6
+term	R-HSA-6791312	term_size	14	num_hiddens	6
+term	R-HSA-6804116	term_size	4	num_hiddens	6
+term	R-HSA-6804114	term_size	6	num_hiddens	6
+term	R-HSA-6804115	term_size	6	num_hiddens	6
+term	R-HSA-452723	term_size	14	num_hiddens	6
+term	R-HSA-2892247	term_size	4	num_hiddens	6
+term	R-HSA-2892245	term_size	2	num_hiddens	6
+term	R-HSA-5619084	term_size	6	num_hiddens	6
+term	R-HSA-5678895	term_size	5	num_hiddens	6
+term	R-HSA-5683177	term_size	1	num_hiddens	6
+term	R-HSA-170670	term_size	5	num_hiddens	6
+term	R-HSA-392518	term_size	2	num_hiddens	6
+term	R-HSA-428930	term_size	1	num_hiddens	6
+term	R-HSA-418592	term_size	2	num_hiddens	6
+term	R-HSA-2691230	term_size	4	num_hiddens	6
+term	R-HSA-2691232	term_size	4	num_hiddens	6
+term	R-HSA-75109	term_size	2	num_hiddens	6
+term	R-HSA-163560	term_size	1	num_hiddens	6
+term	R-HSA-73893	term_size	12	num_hiddens	6
+term	R-HSA-110314	term_size	8	num_hiddens	6
+term	R-HSA-110313	term_size	8	num_hiddens	6
+term	R-HSA-69618	term_size	27	num_hiddens	6
+term	R-HSA-141405	term_size	1	num_hiddens	6
+term	R-HSA-141424	term_size	26	num_hiddens	6
+term	R-HSA-193639	term_size	2	num_hiddens	6
+term	R-HSA-209560	term_size	2	num_hiddens	6
+term	R-HSA-209543	term_size	1	num_hiddens	6
+term	R-HSA-1234174	term_size	9	num_hiddens	6
+term	R-HSA-1234176	term_size	6	num_hiddens	6
+term	R-HSA-1234162	term_size	2	num_hiddens	6
+term	R-HSA-1234158	term_size	5	num_hiddens	6
+term	R-HSA-4086400	term_size	13	num_hiddens	6
+term	R-HSA-5140745	term_size	2	num_hiddens	6
+term	R-HSA-4608870	term_size	6	num_hiddens	6
+term	R-HSA-5099900	term_size	3	num_hiddens	6
+term	R-HSA-112311	term_size	3	num_hiddens	6
+term	R-HSA-379401	term_size	1	num_hiddens	6
+term	R-HSA-199220	term_size	5	num_hiddens	6
+term	R-HSA-446203	term_size	49	num_hiddens	6
+term	R-HSA-948021	term_size	39	num_hiddens	6
+term	R-HSA-446193	term_size	5	num_hiddens	6
+term	R-HSA-532668	term_size	4	num_hiddens	6
+term	R-HSA-5655253	term_size	9	num_hiddens	6
+term	R-HSA-1839126	term_size	3	num_hiddens	6
+term	R-HSA-349425	term_size	6	num_hiddens	6
+term	R-HSA-1168372	term_size	13	num_hiddens	6
+term	R-HSA-2025928	term_size	2	num_hiddens	6
+term	R-HSA-1169092	term_size	2	num_hiddens	6
+term	R-HSA-1169091	term_size	9	num_hiddens	6
+term	R-HSA-70635	term_size	2	num_hiddens	6
+term	R-HSA-71288	term_size	1	num_hiddens	6
+term	R-HSA-350562	term_size	3	num_hiddens	6
+term	R-HSA-203765	term_size	3	num_hiddens	6
+term	R-HSA-203754	term_size	1	num_hiddens	6
+term	R-HSA-203641	term_size	2	num_hiddens	6
+term	R-HSA-203615	term_size	2	num_hiddens	6
+term	R-HSA-168142	term_size	18	num_hiddens	6
+term	R-HSA-975871	term_size	18	num_hiddens	6
+term	R-HSA-429914	term_size	11	num_hiddens	6
+term	R-HSA-429958	term_size	2	num_hiddens	6
+term	R-HSA-430039	term_size	1	num_hiddens	6
+term	R-HSA-429947	term_size	8	num_hiddens	6
+term	R-HSA-373760	term_size	64	num_hiddens	6
+term	R-HSA-437239	term_size	15	num_hiddens	6
+term	R-HSA-447043	term_size	5	num_hiddens	6
+term	R-HSA-445144	term_size	11	num_hiddens	6
+term	R-HSA-445095	term_size	25	num_hiddens	6
+term	R-HSA-447041	term_size	7	num_hiddens	6
+term	R-HSA-447038	term_size	5	num_hiddens	6
+term	R-HSA-74160	term_size	338	num_hiddens	6
+term	R-HSA-74158	term_size	5	num_hiddens	6
+term	R-HSA-211000	term_size	28	num_hiddens	6
+term	R-HSA-73857	term_size	293	num_hiddens	6
+term	R-HSA-212165	term_size	29	num_hiddens	6
+term	R-HSA-75944	term_size	1	num_hiddens	6
+term	R-HSA-73864	term_size	8	num_hiddens	6
+term	R-HSA-451306	term_size	4	num_hiddens	6
+term	R-HSA-451307	term_size	2	num_hiddens	6
+term	R-HSA-451308	term_size	4	num_hiddens	6
+term	R-HSA-9033241	term_size	10	num_hiddens	6
+term	R-HSA-9033500	term_size	1	num_hiddens	6
+term	R-HSA-112316	term_size	129	num_hiddens	6
+term	R-HSA-112315	term_size	68	num_hiddens	6
+term	R-HSA-6794362	term_size	45	num_hiddens	6
+term	R-HSA-2514856	term_size	8	num_hiddens	6
+term	R-HSA-2485179	term_size	2	num_hiddens	6
+term	R-HSA-2514859	term_size	7	num_hiddens	6
+term	R-HSA-9034015	term_size	11	num_hiddens	6
+term	R-HSA-9034793	term_size	2	num_hiddens	6
+term	R-HSA-9034013	term_size	1	num_hiddens	6
+term	R-HSA-9603381	term_size	4	num_hiddens	6
+term	R-HSA-9603505	term_size	2	num_hiddens	6
+term	R-HSA-9034864	term_size	4	num_hiddens	6
+term	R-HSA-5625740	term_size	11	num_hiddens	6
+term	R-HSA-5625886	term_size	4	num_hiddens	6
+term	R-HSA-196854	term_size	37	num_hiddens	6
+term	R-HSA-6806667	term_size	10	num_hiddens	6
+term	R-HSA-196849	term_size	23	num_hiddens	6
+term	R-HSA-75153	term_size	20	num_hiddens	6
+term	R-HSA-111465	term_size	19	num_hiddens	6
+term	R-HSA-140342	term_size	1	num_hiddens	6
+term	R-HSA-1187000	term_size	7	num_hiddens	6
+term	R-HSA-1300642	term_size	4	num_hiddens	6
+term	R-HSA-1300644	term_size	3	num_hiddens	6
+term	R-HSA-6802957	term_size	38	num_hiddens	6
+term	R-HSA-6802952	term_size	29	num_hiddens	6
+term	R-HSA-6802948	term_size	15	num_hiddens	6
+term	R-HSA-6802946	term_size	20	num_hiddens	6
+term	R-HSA-6802955	term_size	20	num_hiddens	6
+term	R-HSA-6802949	term_size	27	num_hiddens	6
+term	R-HSA-6802953	term_size	3	num_hiddens	6
+term	R-HSA-175474	term_size	1	num_hiddens	6
+term	R-HSA-174495	term_size	1	num_hiddens	6
+term	R-HSA-140534	term_size	3	num_hiddens	6
+term	R-HSA-3371378	term_size	2	num_hiddens	6
+term	R-HSA-69416	term_size	2	num_hiddens	6
+term	R-HSA-397014	term_size	68	num_hiddens	6
+term	R-HSA-5576891	term_size	50	num_hiddens	6
+term	R-HSA-390522	term_size	8	num_hiddens	6
+term	R-HSA-445355	term_size	10	num_hiddens	6
+term	R-HSA-5693538	term_size	33	num_hiddens	6
+term	R-HSA-5685939	term_size	6	num_hiddens	6
+term	R-HSA-5693567	term_size	30	num_hiddens	6
+term	R-HSA-399721	term_size	10	num_hiddens	6
+term	R-HSA-399710	term_size	3	num_hiddens	6
+term	R-HSA-399719	term_size	10	num_hiddens	6
+term	R-HSA-69239	term_size	14	num_hiddens	6
+term	R-HSA-68952	term_size	2	num_hiddens	6
+term	R-HSA-69190	term_size	5	num_hiddens	6
+term	R-HSA-69052	term_size	9	num_hiddens	6
+term	R-HSA-3906995	term_size	37	num_hiddens	6
+term	R-HSA-5083632	term_size	10	num_hiddens	6
+term	R-HSA-5083635	term_size	23	num_hiddens	6
+term	R-HSA-5083625	term_size	10	num_hiddens	6
+term	R-HSA-5083630	term_size	4	num_hiddens	6
+term	R-HSA-5083636	term_size	10	num_hiddens	6
+term	R-HSA-597592	term_size	301	num_hiddens	6
+term	R-HSA-5688426	term_size	68	num_hiddens	6
+term	R-HSA-163841	term_size	3	num_hiddens	6
+term	R-HSA-8876725	term_size	3	num_hiddens	6
+term	R-HSA-8957275	term_size	30	num_hiddens	6
+term	R-HSA-2990846	term_size	71	num_hiddens	6
+term	R-HSA-163125	term_size	13	num_hiddens	6
+term	R-HSA-8951664	term_size	26	num_hiddens	6
+term	R-HSA-8955332	term_size	7	num_hiddens	6
+term	R-HSA-5173105	term_size	41	num_hiddens	6
+term	R-HSA-8873719	term_size	1	num_hiddens	6
+term	R-HSA-8852135	term_size	13	num_hiddens	6
+term	R-HSA-157858	term_size	7	num_hiddens	6
+term	R-HSA-190828	term_size	6	num_hiddens	6
+term	R-HSA-191650	term_size	1	num_hiddens	6
+term	R-HSA-354192	term_size	12	num_hiddens	6
+term	R-HSA-354194	term_size	7	num_hiddens	6
+term	R-HSA-372708	term_size	7	num_hiddens	6
+term	R-HSA-202403	term_size	23	num_hiddens	6
+term	R-HSA-202427	term_size	5	num_hiddens	6
+term	R-HSA-202433	term_size	7	num_hiddens	6
+term	R-HSA-202424	term_size	15	num_hiddens	6
+term	R-HSA-202430	term_size	3	num_hiddens	6
+term	R-HSA-622312	term_size	6	num_hiddens	6
+term	R-HSA-844623	term_size	1	num_hiddens	6
+term	R-HSA-844455	term_size	1	num_hiddens	6
+term	R-HSA-844456	term_size	4	num_hiddens	6
+term	R-HSA-8863795	term_size	13	num_hiddens	6
+term	R-HSA-1358803	term_size	7	num_hiddens	6
+term	R-HSA-1236975	term_size	9	num_hiddens	6
+term	R-HSA-1236977	term_size	1	num_hiddens	6
+term	R-HSA-1236974	term_size	6	num_hiddens	6
+term	R-HSA-1236973	term_size	2	num_hiddens	6
+term	R-HSA-1236978	term_size	4	num_hiddens	6
+term	R-HSA-1296053	term_size	2	num_hiddens	6
+term	R-HSA-1296059	term_size	2	num_hiddens	6
+term	R-HSA-1296025	term_size	2	num_hiddens	6
+term	R-HSA-9018683	term_size	1	num_hiddens	6
+term	R-HSA-9025094	term_size	1	num_hiddens	6
+term	R-HSA-1266738	term_size	277	num_hiddens	6
+term	R-HSA-381340	term_size	19	num_hiddens	6
+term	R-HSA-1181150	term_size	6	num_hiddens	6
+term	R-HSA-5682910	term_size	1	num_hiddens	6
+term	R-HSA-186712	term_size	5	num_hiddens	6
+term	R-HSA-422475	term_size	192	num_hiddens	6
+term	R-HSA-525793	term_size	11	num_hiddens	6
+term	R-HSA-6805567	term_size	22	num_hiddens	6
+term	R-HSA-5619507	term_size	18	num_hiddens	6
+term	R-HSA-168928	term_size	14	num_hiddens	6
+term	R-HSA-933543	term_size	1	num_hiddens	6
+term	R-HSA-936440	term_size	8	num_hiddens	6
+term	R-HSA-918233	term_size	3	num_hiddens	6
+term	R-HSA-933542	term_size	3	num_hiddens	6
+term	R-HSA-933541	term_size	4	num_hiddens	6
+term	R-HSA-5621481	term_size	35	num_hiddens	6
+term	R-HSA-5607764	term_size	17	num_hiddens	6
+term	R-HSA-5621480	term_size	13	num_hiddens	6
+term	R-HSA-5621575	term_size	8	num_hiddens	6
+term	R-HSA-168643	term_size	12	num_hiddens	6
+term	R-HSA-168638	term_size	6	num_hiddens	6
+term	R-HSA-629602	term_size	1	num_hiddens	6
+term	R-HSA-622323	term_size	1	num_hiddens	6
+term	R-HSA-622327	term_size	1	num_hiddens	6
+term	R-HSA-111885	term_size	23	num_hiddens	6
+term	R-HSA-112040	term_size	17	num_hiddens	6
+term	R-HSA-180024	term_size	7	num_hiddens	6
+term	R-HSA-166520	term_size	38	num_hiddens	6
+term	R-HSA-9036866	term_size	1	num_hiddens	6
+term	R-HSA-187037	term_size	30	num_hiddens	6
+term	R-HSA-9006115	term_size	10	num_hiddens	6
+term	R-HSA-425407	term_size	48	num_hiddens	6
+term	R-HSA-425393	term_size	28	num_hiddens	6
+term	R-HSA-425366	term_size	12	num_hiddens	6
+term	R-HSA-425397	term_size	8	num_hiddens	6
+term	R-HSA-170834	term_size	27	num_hiddens	6
+term	R-HSA-2173791	term_size	7	num_hiddens	6
+term	R-HSA-2173789	term_size	11	num_hiddens	6
+term	R-HSA-2173793	term_size	17	num_hiddens	6
+term	R-HSA-168256	term_size	411	num_hiddens	6
+term	R-HSA-168249	term_size	206	num_hiddens	6
+term	R-HSA-1280215	term_size	138	num_hiddens	6
+term	R-HSA-1280218	term_size	170	num_hiddens	6
+term	R-HSA-446728	term_size	28	num_hiddens	6
+term	R-HSA-446107	term_size	8	num_hiddens	6
+term	R-HSA-446353	term_size	3	num_hiddens	6
+term	R-HSA-421270	term_size	17	num_hiddens	6
+term	R-HSA-5617472	term_size	18	num_hiddens	6
+term	R-HSA-5339562	term_size	4	num_hiddens	6
+term	R-HSA-5336415	term_size	1	num_hiddens	6
+term	R-HSA-5210891	term_size	2	num_hiddens	6
+term	R-HSA-8942233	term_size	1	num_hiddens	6
+term	R-HSA-69895	term_size	2	num_hiddens	6
+term	R-HSA-198725	term_size	8	num_hiddens	6
+term	R-HSA-198745	term_size	2	num_hiddens	6
+term	R-HSA-177504	term_size	6	num_hiddens	6
+term	R-HSA-198203	term_size	8	num_hiddens	6
+term	R-HSA-187687	term_size	8	num_hiddens	6
+term	R-HSA-187015	term_size	2	num_hiddens	6
+term	R-HSA-167021	term_size	2	num_hiddens	6
+term	R-HSA-162791	term_size	1	num_hiddens	6
+term	R-HSA-162699	term_size	1	num_hiddens	6
+term	R-HSA-162710	term_size	2	num_hiddens	6
+term	R-HSA-375165	term_size	36	num_hiddens	6
+term	R-HSA-419037	term_size	21	num_hiddens	6
+term	R-HSA-77289	term_size	1	num_hiddens	6
+term	R-HSA-71032	term_size	1	num_hiddens	6
+term	R-HSA-400451	term_size	3	num_hiddens	6
+term	R-HSA-434316	term_size	3	num_hiddens	6
+term	R-HSA-6782861	term_size	1	num_hiddens	6
+term	R-HSA-194313	term_size	3	num_hiddens	6
+term	R-HSA-195399	term_size	3	num_hiddens	6
+term	R-HSA-201681	term_size	45	num_hiddens	6
+term	R-HSA-5368598	term_size	1	num_hiddens	6
+term	R-HSA-3772470	term_size	2	num_hiddens	6
+term	R-HSA-201722	term_size	16	num_hiddens	6
+term	R-HSA-4641263	term_size	6	num_hiddens	6
+term	R-HSA-3769402	term_size	18	num_hiddens	6
+term	R-HSA-4641262	term_size	9	num_hiddens	6
+term	R-HSA-4641257	term_size	7	num_hiddens	6
+term	R-HSA-4641258	term_size	6	num_hiddens	6
+term	R-HSA-73884	term_size	6	num_hiddens	6
+term	R-HSA-73933	term_size	6	num_hiddens	6
+term	R-HSA-73929	term_size	1	num_hiddens	6
+term	R-HSA-210745	term_size	5	num_hiddens	6
+term	R-HSA-211163	term_size	4	num_hiddens	6
+term	R-HSA-937061	term_size	21	num_hiddens	6
+term	R-HSA-936964	term_size	3	num_hiddens	6
+term	R-HSA-937041	term_size	3	num_hiddens	6
+term	R-HSA-2562578	term_size	2	num_hiddens	6
+term	R-HSA-937072	term_size	4	num_hiddens	6
+term	R-HSA-168179	term_size	20	num_hiddens	6
+term	R-HSA-5358351	term_size	32	num_hiddens	6
+term	R-HSA-5610787	term_size	23	num_hiddens	6
+term	R-HSA-5632684	term_size	17	num_hiddens	6
+term	R-HSA-5358346	term_size	7	num_hiddens	6
+term	R-HSA-450282	term_size	10	num_hiddens	6
+term	R-HSA-450302	term_size	2	num_hiddens	6
+term	R-HSA-5684264	term_size	3	num_hiddens	6
+term	R-HSA-450321	term_size	3	num_hiddens	6
+term	R-HSA-5654738	term_size	17	num_hiddens	6
+term	R-HSA-190241	term_size	1	num_hiddens	6
+term	R-HSA-6803529	term_size	4	num_hiddens	6
+term	R-HSA-5654696	term_size	7	num_hiddens	6
+term	R-HSA-5654727	term_size	7	num_hiddens	6
+term	R-HSA-73887	term_size	41	num_hiddens	6
+term	R-HSA-75893	term_size	9	num_hiddens	6
+term	R-HSA-75157	term_size	1	num_hiddens	6
+term	R-HSA-75158	term_size	1	num_hiddens	6
+term	R-HSA-193704	term_size	33	num_hiddens	6
+term	R-HSA-181431	term_size	1	num_hiddens	6
+term	R-HSA-112314	term_size	45	num_hiddens	6
+term	R-HSA-442755	term_size	21	num_hiddens	6
+term	R-HSA-451326	term_size	6	num_hiddens	6
+term	R-HSA-977443	term_size	11	num_hiddens	6
+term	R-HSA-3858494	term_size	33	num_hiddens	6
+term	R-HSA-4086398	term_size	20	num_hiddens	6
+term	R-HSA-500657	term_size	3	num_hiddens	6
+term	R-HSA-167044	term_size	4	num_hiddens	6
+term	R-HSA-171007	term_size	2	num_hiddens	6
+term	R-HSA-9012852	term_size	17	num_hiddens	6
+term	R-HSA-9013508	term_size	11	num_hiddens	6
+term	R-HSA-3247509	term_size	89	num_hiddens	6
+term	R-HSA-3214858	term_size	14	num_hiddens	6
+term	R-HSA-3214847	term_size	26	num_hiddens	6
+term	R-HSA-3214842	term_size	14	num_hiddens	6
+term	R-HSA-3214815	term_size	9	num_hiddens	6
+term	R-HSA-3214841	term_size	25	num_hiddens	6
+term	R-HSA-629587	term_size	1	num_hiddens	6
+term	R-HSA-629597	term_size	1	num_hiddens	6
+term	R-HSA-72203	term_size	57	num_hiddens	6
+term	R-HSA-72187	term_size	13	num_hiddens	6
+term	R-HSA-72172	term_size	41	num_hiddens	6
+term	R-HSA-1483206	term_size	12	num_hiddens	6
+term	R-HSA-1483255	term_size	34	num_hiddens	6
+term	R-HSA-111461	term_size	1	num_hiddens	6
+term	R-HSA-111458	term_size	1	num_hiddens	6
+term	R-HSA-111459	term_size	1	num_hiddens	6
+term	R-HSA-1538133	term_size	5	num_hiddens	6
+term	R-HSA-1362277	term_size	3	num_hiddens	6
+term	R-HSA-1362300	term_size	2	num_hiddens	6
+term	R-HSA-8853338	term_size	7	num_hiddens	6
+term	R-HSA-2033514	term_size	1	num_hiddens	6
+term	R-HSA-4791275	term_size	12	num_hiddens	6
+term	R-HSA-4839743	term_size	7	num_hiddens	6
+term	R-HSA-5339717	term_size	1	num_hiddens	6
+term	R-HSA-4839735	term_size	6	num_hiddens	6
+term	R-HSA-4839744	term_size	6	num_hiddens	6
+term	R-HSA-4839748	term_size	6	num_hiddens	6
+term	R-HSA-5339700	term_size	1	num_hiddens	6
+term	R-HSA-5545619	term_size	1	num_hiddens	6
+term	R-HSA-5340588	term_size	3	num_hiddens	6
+term	R-HSA-5339716	term_size	7	num_hiddens	6
+term	R-HSA-163359	term_size	7	num_hiddens	6
+term	R-HSA-164378	term_size	7	num_hiddens	6
+term	R-HSA-211227	term_size	1	num_hiddens	6
+term	R-HSA-5632681	term_size	2	num_hiddens	6
+term	R-HSA-5635838	term_size	3	num_hiddens	6
+term	R-HSA-5635851	term_size	5	num_hiddens	6
+term	R-HSA-168188	term_size	20	num_hiddens	6
+term	R-HSA-162906	term_size	42	num_hiddens	6
+term	R-HSA-162909	term_size	27	num_hiddens	6
+term	R-HSA-162587	term_size	32	num_hiddens	6
+term	R-HSA-400508	term_size	1	num_hiddens	6
+term	R-HSA-400511	term_size	1	num_hiddens	6
+term	R-HSA-381771	term_size	1	num_hiddens	6
+term	R-HSA-392499	term_size	378	num_hiddens	6
+term	R-HSA-977225	term_size	10	num_hiddens	6
+term	R-HSA-1268020	term_size	4	num_hiddens	6
+term	R-HSA-2980736	term_size	18	num_hiddens	6
+term	R-HSA-5683826	term_size	4	num_hiddens	6
+term	R-HSA-381119	term_size	17	num_hiddens	6
+term	R-HSA-381426	term_size	33	num_hiddens	6
+term	R-HSA-72766	term_size	15	num_hiddens	6
+term	R-HSA-8943723	term_size	8	num_hiddens	6
+term	R-HSA-8948700	term_size	7	num_hiddens	6
+term	R-HSA-109581	term_size	40	num_hiddens	6
+term	R-HSA-169911	term_size	5	num_hiddens	6
+term	R-HSA-5357769	term_size	6	num_hiddens	6
+term	R-HSA-109606	term_size	11	num_hiddens	6
+term	R-HSA-112409	term_size	4	num_hiddens	6
+term	R-HSA-110056	term_size	2	num_hiddens	6
+term	R-HSA-112411	term_size	1	num_hiddens	6
+term	R-HSA-68867	term_size	7	num_hiddens	6
+term	R-HSA-68616	term_size	2	num_hiddens	6
+term	R-HSA-68827	term_size	6	num_hiddens	6
+term	R-HSA-68689	term_size	2	num_hiddens	6
+term	R-HSA-382551	term_size	179	num_hiddens	6
+term	R-HSA-445717	term_size	8	num_hiddens	6
+term	R-HSA-983712	term_size	70	num_hiddens	6
+term	R-HSA-174824	term_size	16	num_hiddens	6
+term	R-HSA-382556	term_size	31	num_hiddens	6
+term	R-HSA-8949215	term_size	3	num_hiddens	6
+term	R-HSA-5223345	term_size	3	num_hiddens	6
+term	R-HSA-1480926	term_size	1	num_hiddens	6
+term	R-HSA-917937	term_size	7	num_hiddens	6
+term	R-HSA-442742	term_size	16	num_hiddens	6
+term	R-HSA-444257	term_size	5	num_hiddens	6
+term	R-HSA-442982	term_size	9	num_hiddens	6
+term	R-HSA-1226099	term_size	21	num_hiddens	6
+term	R-HSA-5655332	term_size	7	num_hiddens	6
+term	R-HSA-5655291	term_size	7	num_hiddens	6
+term	R-HSA-5655302	term_size	16	num_hiddens	6
+term	R-HSA-76005	term_size	32	num_hiddens	6
+term	R-HSA-114516	term_size	1	num_hiddens	6
+term	R-HSA-114608	term_size	31	num_hiddens	6
+term	R-HSA-76002	term_size	70	num_hiddens	6
+term	R-HSA-430116	term_size	4	num_hiddens	6
+term	R-HSA-114604	term_size	13	num_hiddens	6
+term	R-HSA-76009	term_size	13	num_hiddens	6
+term	R-HSA-456926	term_size	3	num_hiddens	6
+term	R-HSA-6781827	term_size	17	num_hiddens	6
+term	R-HSA-6782210	term_size	15	num_hiddens	6
+term	R-HSA-6782135	term_size	16	num_hiddens	6
+term	R-HSA-6781823	term_size	11	num_hiddens	6
+term	R-HSA-376176	term_size	33	num_hiddens	6
+term	R-HSA-8985801	term_size	2	num_hiddens	6
+term	R-HSA-9010553	term_size	15	num_hiddens	6
+term	R-HSA-8985586	term_size	4	num_hiddens	6
+term	R-HSA-9010642	term_size	3	num_hiddens	6
+term	R-HSA-428543	term_size	4	num_hiddens	6
+term	R-HSA-428890	term_size	6	num_hiddens	6
+term	R-HSA-428542	term_size	7	num_hiddens	6
+term	R-HSA-428540	term_size	6	num_hiddens	6
+term	R-HSA-141430	term_size	1	num_hiddens	6
+term	R-HSA-5467340	term_size	6	num_hiddens	6
+term	R-HSA-5467345	term_size	1	num_hiddens	6
+term	R-HSA-877300	term_size	14	num_hiddens	6
+term	R-HSA-877312	term_size	2	num_hiddens	6
+term	R-HSA-2219528	term_size	40	num_hiddens	6
+term	R-HSA-2219530	term_size	27	num_hiddens	6
+term	R-HSA-5674400	term_size	13	num_hiddens	6
+term	R-HSA-2894858	term_size	20	num_hiddens	6
+term	R-HSA-2894862	term_size	20	num_hiddens	6
+term	R-HSA-68875	term_size	27	num_hiddens	6
+term	R-HSA-2465910	term_size	2	num_hiddens	6
+term	R-HSA-2980766	term_size	15	num_hiddens	6
+term	R-HSA-162658	term_size	4	num_hiddens	6
+term	R-HSA-2299718	term_size	5	num_hiddens	6
+term	R-HSA-1643685	term_size	245	num_hiddens	6
+term	R-HSA-5663202	term_size	131	num_hiddens	6
+term	R-HSA-5619115	term_size	6	num_hiddens	6
+term	R-HSA-8863678	term_size	8	num_hiddens	6
+term	R-HSA-5260271	term_size	4	num_hiddens	6
+term	R-HSA-5423599	term_size	5	num_hiddens	6
+term	R-HSA-5663205	term_size	55	num_hiddens	6
+term	R-HSA-3781865	term_size	45	num_hiddens	6
+term	R-HSA-2173795	term_size	11	num_hiddens	6
+term	R-HSA-2173796	term_size	11	num_hiddens	6
+term	R-HSA-418889	term_size	3	num_hiddens	6
+term	R-HSA-372790	term_size	143	num_hiddens	6
+term	R-HSA-388396	term_size	137	num_hiddens	6
+term	R-HSA-975576	term_size	2	num_hiddens	6
+term	R-HSA-975578	term_size	2	num_hiddens	6
+term	R-HSA-2029480	term_size	38	num_hiddens	6
+term	R-HSA-2029485	term_size	13	num_hiddens	6
+term	R-HSA-2029482	term_size	24	num_hiddens	6
+term	R-HSA-2029481	term_size	3	num_hiddens	6
+term	R-HSA-5675482	term_size	3	num_hiddens	6
+term	R-HSA-5218900	term_size	2	num_hiddens	6
+term	R-HSA-1433557	term_size	20	num_hiddens	6
+term	R-HSA-1433559	term_size	6	num_hiddens	6
+term	R-HSA-927802	term_size	13	num_hiddens	6
+term	R-HSA-975957	term_size	13	num_hiddens	6
+term	R-HSA-975956	term_size	3	num_hiddens	6
+term	R-HSA-110320	term_size	3	num_hiddens	6
+term	R-HSA-5656169	term_size	6	num_hiddens	6
+term	R-HSA-5655862	term_size	4	num_hiddens	6
+term	R-HSA-110312	term_size	4	num_hiddens	6
+term	R-HSA-5656121	term_size	4	num_hiddens	6
+term	R-HSA-69610	term_size	6	num_hiddens	6
+term	R-HSA-69601	term_size	6	num_hiddens	6
+term	R-HSA-68884	term_size	7	num_hiddens	6
+term	R-HSA-2470946	term_size	7	num_hiddens	6
+term	R-HSA-5358508	term_size	7	num_hiddens	6
+term	R-HSA-5358565	term_size	6	num_hiddens	6
+term	R-HSA-5358606	term_size	6	num_hiddens	6
+term	R-HSA-75955	term_size	11	num_hiddens	6
+term	R-HSA-112382	term_size	11	num_hiddens	6
+term	R-HSA-113418	term_size	5	num_hiddens	6
+term	R-HSA-195721	term_size	71	num_hiddens	6
+term	R-HSA-195253	term_size	15	num_hiddens	6
+term	R-HSA-3238698	term_size	1	num_hiddens	6
+term	R-HSA-69002	term_size	10	num_hiddens	6
+term	R-HSA-174437	term_size	2	num_hiddens	6
+term	R-HSA-165159	term_size	8	num_hiddens	6
+term	R-HSA-166208	term_size	3	num_hiddens	6
+term	R-HSA-380972	term_size	5	num_hiddens	6
+term	R-HSA-165181	term_size	3	num_hiddens	6
+term	R-HSA-163685	term_size	32	num_hiddens	6
+term	R-HSA-163358	term_size	1	num_hiddens	6
+term	R-HSA-163680	term_size	1	num_hiddens	6
+term	R-HSA-422356	term_size	21	num_hiddens	6
+term	R-HSA-163767	term_size	2	num_hiddens	6
+term	R-HSA-163765	term_size	5	num_hiddens	6
+term	R-HSA-73980	term_size	1	num_hiddens	6
+term	R-HSA-76046	term_size	5	num_hiddens	6
+term	R-HSA-749476	term_size	5	num_hiddens	6
+term	R-HSA-73780	term_size	1	num_hiddens	6
+term	R-HSA-1834949	term_size	12	num_hiddens	6
+term	R-HSA-3134973	term_size	3	num_hiddens	6
+term	R-HSA-3134975	term_size	2	num_hiddens	6
+term	R-HSA-1834941	term_size	2	num_hiddens	6
+term	R-HSA-3134963	term_size	1	num_hiddens	6
+term	R-HSA-1606322	term_size	1	num_hiddens	6
+term	R-HSA-6804754	term_size	2	num_hiddens	6
+term	R-HSA-6804757	term_size	17	num_hiddens	6
+term	R-HSA-3249367	term_size	1	num_hiddens	6
+term	R-HSA-5213460	term_size	3	num_hiddens	6
+term	R-HSA-8963743	term_size	6	num_hiddens	6
+term	R-HSA-8963676	term_size	1	num_hiddens	6
+term	R-HSA-9006931	term_size	49	num_hiddens	6
+term	R-HSA-5362517	term_size	4	num_hiddens	6
+term	R-HSA-8939211	term_size	45	num_hiddens	6
+term	R-HSA-446219	term_size	5	num_hiddens	6
+term	R-HSA-4085001	term_size	3	num_hiddens	6
+term	R-HSA-446210	term_size	1	num_hiddens	6
+term	R-HSA-211733	term_size	4	num_hiddens	6
+term	R-HSA-8964043	term_size	10	num_hiddens	6
+term	R-HSA-8866427	term_size	3	num_hiddens	6
+term	R-HSA-8964011	term_size	2	num_hiddens	6
+term	R-HSA-8964038	term_size	6	num_hiddens	6
+term	R-HSA-8964046	term_size	4	num_hiddens	6
+term	R-HSA-8964026	term_size	2	num_hiddens	6
+term	R-HSA-202131	term_size	3	num_hiddens	6
+term	R-HSA-109582	term_size	170	num_hiddens	6
+term	R-HSA-75205	term_size	2	num_hiddens	6
+term	R-HSA-75892	term_size	5	num_hiddens	6
+term	R-HSA-202733	term_size	33	num_hiddens	6
+term	R-HSA-140877	term_size	11	num_hiddens	6
+term	R-HSA-418346	term_size	30	num_hiddens	6
+term	R-HSA-983231	term_size	50	num_hiddens	6
+term	R-HSA-2644605	term_size	2	num_hiddens	6
+term	R-HSA-2644607	term_size	2	num_hiddens	6
+term	R-HSA-913531	term_size	45	num_hiddens	6
+term	R-HSA-909733	term_size	7	num_hiddens	6
+term	R-HSA-212436	term_size	270	num_hiddens	6
+term	R-HSA-383280	term_size	7	num_hiddens	6
+term	R-HSA-3700989	term_size	96	num_hiddens	6
+term	R-HSA-8878159	term_size	27	num_hiddens	6
+term	R-HSA-350054	term_size	9	num_hiddens	6
+term	R-HSA-8953750	term_size	10	num_hiddens	6
+term	R-HSA-2032785	term_size	2	num_hiddens	6
+term	R-HSA-8878171	term_size	58	num_hiddens	6
+term	R-HSA-8864260	term_size	13	num_hiddens	6
+term	R-HSA-9013694	term_size	12	num_hiddens	6
+term	R-HSA-9013695	term_size	6	num_hiddens	6
+term	R-HSA-9013700	term_size	2	num_hiddens	6
+term	R-HSA-9604323	term_size	6	num_hiddens	6
+term	R-HSA-3560782	term_size	8	num_hiddens	6
+term	R-HSA-3560783	term_size	7	num_hiddens	6
+term	R-HSA-3595177	term_size	4	num_hiddens	6
+term	R-HSA-4420332	term_size	7	num_hiddens	6
+term	R-HSA-3656253	term_size	3	num_hiddens	6
+term	R-HSA-3560801	term_size	7	num_hiddens	6
+term	R-HSA-3656225	term_size	1	num_hiddens	6
+term	R-HSA-3656243	term_size	1	num_hiddens	6
+term	R-HSA-3656244	term_size	1	num_hiddens	6
+term	R-HSA-3595172	term_size	4	num_hiddens	6
+term	R-HSA-3656237	term_size	3	num_hiddens	6
+term	R-HSA-3595174	term_size	4	num_hiddens	6
+term	R-HSA-450341	term_size	4	num_hiddens	6
+term	R-HSA-198753	term_size	8	num_hiddens	6
+term	R-HSA-199920	term_size	3	num_hiddens	6
+term	R-HSA-5654712	term_size	4	num_hiddens	6
+term	R-HSA-5654228	term_size	2	num_hiddens	6
+term	R-HSA-5654719	term_size	4	num_hiddens	6
+term	R-HSA-5654720	term_size	3	num_hiddens	6
+term	R-HSA-199991	term_size	159	num_hiddens	6
+term	R-HSA-9007101	term_size	30	num_hiddens	6
+term	R-HSA-199977	term_size	36	num_hiddens	6
+term	R-HSA-917729	term_size	3	num_hiddens	6
+term	R-HSA-199992	term_size	18	num_hiddens	6
+term	R-HSA-1445148	term_size	14	num_hiddens	6
+term	R-HSA-6811442	term_size	46	num_hiddens	6
+term	R-HSA-400253	term_size	10	num_hiddens	6
+term	R-HSA-1368071	term_size	1	num_hiddens	6
+term	R-HSA-1368108	term_size	2	num_hiddens	6
+term	R-HSA-1368082	term_size	2	num_hiddens	6
+term	R-HSA-190377	term_size	1	num_hiddens	6
+term	R-HSA-190375	term_size	1	num_hiddens	6
+term	R-HSA-9018677	term_size	1	num_hiddens	6
+term	R-HSA-351906	term_size	7	num_hiddens	6
+term	R-HSA-264870	term_size	3	num_hiddens	6
+term	R-HSA-1307965	term_size	1	num_hiddens	6
+term	R-HSA-166658	term_size	10	num_hiddens	6
+term	R-HSA-166665	term_size	3	num_hiddens	6
+term	R-HSA-174577	term_size	2	num_hiddens	6
+term	R-HSA-977606	term_size	10	num_hiddens	6
+term	R-HSA-166663	term_size	1	num_hiddens	6
+term	R-HSA-75815	term_size	4	num_hiddens	6
+term	R-HSA-69229	term_size	4	num_hiddens	6
+term	R-HSA-181438	term_size	20	num_hiddens	6
+term	R-HSA-169893	term_size	5	num_hiddens	6
+term	R-HSA-170984	term_size	3	num_hiddens	6
+term	R-HSA-170968	term_size	4	num_hiddens	6
+term	R-HSA-1428517	term_size	8	num_hiddens	6
+term	R-HSA-163200	term_size	2	num_hiddens	6
+term	R-HSA-71406	term_size	7	num_hiddens	6
+term	R-HSA-446652	term_size	20	num_hiddens	6
+term	R-HSA-9014843	term_size	1	num_hiddens	6
+term	R-HSA-9014826	term_size	2	num_hiddens	6
+term	R-HSA-9020702	term_size	11	num_hiddens	6
+term	R-HSA-9012546	term_size	1	num_hiddens	6
+term	R-HSA-9007892	term_size	2	num_hiddens	6
+term	R-HSA-9008059	term_size	7	num_hiddens	6
+term	R-HSA-418594	term_size	56	num_hiddens	6
+term	R-HSA-2187338	term_size	20	num_hiddens	6
+term	R-HSA-1500931	term_size	41	num_hiddens	6
+term	R-HSA-391160	term_size	2	num_hiddens	6
+term	R-HSA-373753	term_size	11	num_hiddens	6
+term	R-HSA-8853334	term_size	6	num_hiddens	6
+term	R-HSA-3656534	term_size	4	num_hiddens	6
+term	R-HSA-3656532	term_size	4	num_hiddens	6
+term	R-HSA-3656535	term_size	2	num_hiddens	6
+term	R-HSA-964739	term_size	1	num_hiddens	6
+term	R-HSA-964827	term_size	1	num_hiddens	6
+term	R-HSA-73894	term_size	78	num_hiddens	6
+term	R-HSA-5693532	term_size	44	num_hiddens	6
+term	R-HSA-73942	term_size	1	num_hiddens	6
+term	R-HSA-5696398	term_size	22	num_hiddens	6
+term	R-HSA-6783310	term_size	11	num_hiddens	6
+term	R-HSA-73943	term_size	1	num_hiddens	6
+term	R-HSA-112126	term_size	1	num_hiddens	6
+term	R-HSA-187706	term_size	2	num_hiddens	6
+term	R-HSA-9006921	term_size	12	num_hiddens	6
+term	R-HSA-4839726	term_size	89	num_hiddens	6
+term	R-HSA-186797	term_size	32	num_hiddens	6
+term	R-HSA-186763	term_size	17	num_hiddens	6
+term	R-HSA-190239	term_size	1	num_hiddens	6
+term	R-HSA-190372	term_size	1	num_hiddens	6
+term	R-HSA-190371	term_size	1	num_hiddens	6
+term	R-HSA-6807070	term_size	38	num_hiddens	6
+term	R-HSA-8943724	term_size	18	num_hiddens	6
+term	R-HSA-8948751	term_size	13	num_hiddens	6
+term	R-HSA-8948747	term_size	4	num_hiddens	6
+term	R-HSA-1839128	term_size	1	num_hiddens	6
+term	R-HSA-390666	term_size	2	num_hiddens	6
+term	R-HSA-390648	term_size	1	num_hiddens	6
+term	R-HSA-881907	term_size	9	num_hiddens	6
+term	R-HSA-2179392	term_size	4	num_hiddens	6
+term	R-HSA-68962	term_size	6	num_hiddens	6
+term	R-HSA-3323169	term_size	3	num_hiddens	6
+term	R-HSA-3371599	term_size	3	num_hiddens	6
+term	R-HSA-6806834	term_size	21	num_hiddens	6
+term	R-HSA-8865999	term_size	2	num_hiddens	6
+term	R-HSA-8875791	term_size	3	num_hiddens	6
+term	R-HSA-6806942	term_size	2	num_hiddens	6
+term	R-HSA-8851907	term_size	4	num_hiddens	6
+term	R-HSA-8875878	term_size	7	num_hiddens	6
+term	R-HSA-8875656	term_size	2	num_hiddens	6
+term	R-HSA-8851805	term_size	6	num_hiddens	6
+term	R-HSA-6807004	term_size	9	num_hiddens	6
+term	R-HSA-73863	term_size	5	num_hiddens	6
+term	R-HSA-73777	term_size	5	num_hiddens	6
+term	R-HSA-112043	term_size	17	num_hiddens	6
+term	R-HSA-373755	term_size	31	num_hiddens	6
+term	R-HSA-416700	term_size	10	num_hiddens	6
+term	R-HSA-400685	term_size	14	num_hiddens	6
+term	R-HSA-399956	term_size	7	num_hiddens	6
+term	R-HSA-399954	term_size	8	num_hiddens	6
+term	R-HSA-399955	term_size	8	num_hiddens	6
+term	R-HSA-8956319	term_size	3	num_hiddens	6
+term	R-HSA-73621	term_size	1	num_hiddens	6
+term	R-HSA-8850843	term_size	1	num_hiddens	6
+term	R-HSA-3000171	term_size	22	num_hiddens	6
+term	R-HSA-3000170	term_size	7	num_hiddens	6
+term	R-HSA-72737	term_size	6	num_hiddens	6
+term	R-HSA-72689	term_size	2	num_hiddens	6
+term	R-HSA-72695	term_size	2	num_hiddens	6
+term	R-HSA-72731	term_size	1	num_hiddens	6
+term	R-HSA-72706	term_size	5	num_hiddens	6
+term	R-HSA-72702	term_size	4	num_hiddens	6
+term	R-HSA-72662	term_size	4	num_hiddens	6
+term	R-HSA-389958	term_size	3	num_hiddens	6
+term	R-HSA-390450	term_size	3	num_hiddens	6
+term	R-HSA-389957	term_size	3	num_hiddens	6
+term	R-HSA-389960	term_size	2	num_hiddens	6
+term	R-HSA-5688849	term_size	1	num_hiddens	6
+term	R-HSA-5688890	term_size	1	num_hiddens	6
+term	R-HSA-449147	term_size	94	num_hiddens	6
+term	R-HSA-982772	term_size	10	num_hiddens	6
+term	R-HSA-1170546	term_size	5	num_hiddens	6
+term	R-HSA-5668541	term_size	7	num_hiddens	6
+term	R-HSA-9020591	term_size	6	num_hiddens	6
+term	R-HSA-8950505	term_size	2	num_hiddens	6
+term	R-HSA-159424	term_size	1	num_hiddens	6
+term	R-HSA-177128	term_size	1	num_hiddens	6
+term	R-HSA-69275	term_size	43	num_hiddens	6
+term	R-HSA-2565942	term_size	27	num_hiddens	6
+term	R-HSA-8852276	term_size	8	num_hiddens	6
+term	R-HSA-69273	term_size	3	num_hiddens	6
+term	R-HSA-156711	term_size	3	num_hiddens	6
+term	R-HSA-380287	term_size	26	num_hiddens	6
+term	R-HSA-8854050	term_size	6	num_hiddens	6
+term	R-HSA-8854521	term_size	2	num_hiddens	6
+term	R-HSA-8854518	term_size	24	num_hiddens	6
+term	R-HSA-193697	term_size	1	num_hiddens	6
+term	R-HSA-193634	term_size	1	num_hiddens	6
+term	R-HSA-209563	term_size	1	num_hiddens	6
+term	R-HSA-5362798	term_size	3	num_hiddens	6
+term	R-HSA-157579	term_size	6	num_hiddens	6
+term	R-HSA-180786	term_size	6	num_hiddens	6
+term	R-HSA-110373	term_size	4	num_hiddens	6
+term	R-HSA-5651801	term_size	3	num_hiddens	6
+term	R-HSA-110362	term_size	1	num_hiddens	6
+term	R-HSA-6807505	term_size	11	num_hiddens	6
+term	R-HSA-76042	term_size	9	num_hiddens	6
+term	R-HSA-77075	term_size	5	num_hiddens	6
+term	R-HSA-73856	term_size	13	num_hiddens	6
+term	R-HSA-674695	term_size	16	num_hiddens	6
+term	R-HSA-73779	term_size	9	num_hiddens	6
+term	R-HSA-6803157	term_size	4	num_hiddens	6
+term	R-HSA-6803544	term_size	1	num_hiddens	6
+term	R-HSA-1461973	term_size	1	num_hiddens	6
+term	R-HSA-425986	term_size	4	num_hiddens	6
+term	R-HSA-426117	term_size	4	num_hiddens	6
+term	R-HSA-427601	term_size	4	num_hiddens	6
+term	R-HSA-427652	term_size	1	num_hiddens	6
+term	R-HSA-428643	term_size	1	num_hiddens	6
+term	R-HSA-425381	term_size	7	num_hiddens	6
+term	R-HSA-425561	term_size	4	num_hiddens	6
+term	R-HSA-352230	term_size	2	num_hiddens	6
+term	R-HSA-901042	term_size	4	num_hiddens	6
+term	R-HSA-901032	term_size	4	num_hiddens	6
+term	R-HSA-1482801	term_size	4	num_hiddens	6
+term	R-HSA-1483226	term_size	1	num_hiddens	6
+term	R-HSA-1483115	term_size	2	num_hiddens	6
+term	R-HSA-1482798	term_size	1	num_hiddens	6
+term	R-HSA-1483213	term_size	1	num_hiddens	6
+term	R-HSA-1483166	term_size	4	num_hiddens	6
+term	R-HSA-1483148	term_size	1	num_hiddens	6
+term	R-HSA-1483191	term_size	4	num_hiddens	6
+term	R-HSA-1482788	term_size	3	num_hiddens	6
+term	R-HSA-1482839	term_size	2	num_hiddens	6
+term	R-HSA-1482925	term_size	2	num_hiddens	6
+term	R-HSA-1482922	term_size	2	num_hiddens	6
+term	R-HSA-1660661	term_size	3	num_hiddens	6
+term	R-HSA-1660662	term_size	4	num_hiddens	6
+term	R-HSA-425410	term_size	4	num_hiddens	6
+term	R-HSA-435354	term_size	1	num_hiddens	6
+term	R-HSA-379724	term_size	2	num_hiddens	6
+term	R-HSA-379726	term_size	2	num_hiddens	6
+term	R-HSA-111471	term_size	1	num_hiddens	6
+term	R-HSA-168254	term_size	17	num_hiddens	6
+term	R-HSA-168255	term_size	15	num_hiddens	6
+term	R-HSA-168253	term_size	16	num_hiddens	6
+term	R-HSA-112310	term_size	14	num_hiddens	6
+term	R-HSA-112308	term_size	7	num_hiddens	6
+term	R-HSA-416993	term_size	6	num_hiddens	6
+term	R-HSA-381070	term_size	15	num_hiddens	6
+term	R-HSA-381038	term_size	12	num_hiddens	6
+term	R-HSA-1227986	term_size	24	num_hiddens	6
+term	R-HSA-6785631	term_size	8	num_hiddens	6
+term	R-HSA-8847993	term_size	6	num_hiddens	6
+term	R-HSA-1963642	term_size	8	num_hiddens	6
+term	R-HSA-1963640	term_size	8	num_hiddens	6
+term	R-HSA-1306955	term_size	2	num_hiddens	6
+term	R-HSA-1250196	term_size	12	num_hiddens	6
+term	R-HSA-1251932	term_size	4	num_hiddens	6
+term	R-HSA-426496	term_size	6	num_hiddens	6
+term	R-HSA-426486	term_size	5	num_hiddens	6
+term	R-HSA-5578749	term_size	18	num_hiddens	6
+term	R-HSA-203927	term_size	8	num_hiddens	6
+term	R-HSA-5601884	term_size	6	num_hiddens	6
+term	R-HSA-156842	term_size	2	num_hiddens	6
+term	R-HSA-156902	term_size	2	num_hiddens	6
+term	R-HSA-192105	term_size	6	num_hiddens	6
+term	R-HSA-193807	term_size	2	num_hiddens	6
+term	R-HSA-193775	term_size	1	num_hiddens	6
+term	R-HSA-193368	term_size	4	num_hiddens	6
+term	R-HSA-170660	term_size	5	num_hiddens	6
+term	R-HSA-69183	term_size	3	num_hiddens	6
+term	R-HSA-69166	term_size	3	num_hiddens	6
+term	R-HSA-1295596	term_size	4	num_hiddens	6
+term	R-HSA-72312	term_size	14	num_hiddens	6
+term	R-HSA-8868773	term_size	14	num_hiddens	6
+term	R-HSA-69206	term_size	19	num_hiddens	6
+term	R-HSA-113510	term_size	5	num_hiddens	6
+term	R-HSA-69205	term_size	3	num_hiddens	6
+term	R-HSA-69202	term_size	12	num_hiddens	6
+term	R-HSA-167172	term_size	13	num_hiddens	6
+term	R-HSA-167161	term_size	9	num_hiddens	6
+term	R-HSA-167238	term_size	6	num_hiddens	6
+term	R-HSA-167290	term_size	6	num_hiddens	6
+term	R-HSA-167169	term_size	8	num_hiddens	6
+term	R-HSA-167160	term_size	5	num_hiddens	6
+term	R-HSA-167162	term_size	9	num_hiddens	6
+term	R-HSA-167287	term_size	6	num_hiddens	6
+term	R-HSA-167152	term_size	8	num_hiddens	6
+term	R-HSA-167243	term_size	6	num_hiddens	6
+term	R-HSA-5654687	term_size	8	num_hiddens	6
+term	R-HSA-5654693	term_size	5	num_hiddens	6
+term	R-HSA-5654219	term_size	3	num_hiddens	6
+term	R-HSA-5654688	term_size	5	num_hiddens	6
+term	R-HSA-5654689	term_size	4	num_hiddens	6
+term	R-HSA-5632968	term_size	1	num_hiddens	6
+term	R-HSA-5632987	term_size	2	num_hiddens	6
+term	R-HSA-5632928	term_size	3	num_hiddens	6
+term	R-HSA-5545483	term_size	2	num_hiddens	6
+term	R-HSA-5632927	term_size	2	num_hiddens	6
+term	R-HSA-196807	term_size	6	num_hiddens	6
+term	R-HSA-197264	term_size	5	num_hiddens	6
+term	R-HSA-167060	term_size	1	num_hiddens	6
+term	R-HSA-975634	term_size	10	num_hiddens	6
+term	R-HSA-8848021	term_size	27	num_hiddens	6
+term	R-HSA-8849469	term_size	4	num_hiddens	6
+term	R-HSA-8849474	term_size	1	num_hiddens	6
+term	R-HSA-8857538	term_size	4	num_hiddens	6
+term	R-HSA-8849473	term_size	4	num_hiddens	6
+term	R-HSA-8849471	term_size	8	num_hiddens	6
+term	R-HSA-8849470	term_size	2	num_hiddens	6
+term	R-HSA-539107	term_size	3	num_hiddens	6
+term	R-HSA-2173788	term_size	9	num_hiddens	6
+term	R-HSA-1369007	term_size	4	num_hiddens	6
+term	R-HSA-1369062	term_size	8	num_hiddens	6
+term	R-HSA-1638074	term_size	2	num_hiddens	6
+term	R-HSA-2022854	term_size	2	num_hiddens	6
+term	R-HSA-2022857	term_size	1	num_hiddens	6
+term	R-HSA-1839130	term_size	1	num_hiddens	6
+term	R-HSA-2033515	term_size	1	num_hiddens	6
+term	R-HSA-6811555	term_size	3	num_hiddens	6
+term	R-HSA-2682334	term_size	35	num_hiddens	6
+term	R-HSA-3928663	term_size	9	num_hiddens	6
+term	R-HSA-3928665	term_size	16	num_hiddens	6
+term	R-HSA-3928662	term_size	17	num_hiddens	6
+term	R-HSA-3928664	term_size	5	num_hiddens	6
+term	R-HSA-418555	term_size	31	num_hiddens	6
+term	R-HSA-381753	term_size	12	num_hiddens	6
+term	R-HSA-173736	term_size	1	num_hiddens	6
+term	R-HSA-6809371	term_size	17	num_hiddens	6
+term	R-HSA-611105	term_size	2	num_hiddens	6
+term	R-HSA-190873	term_size	6	num_hiddens	6
+term	R-HSA-5173214	term_size	23	num_hiddens	6
+term	R-HSA-167246	term_size	8	num_hiddens	6
+term	R-HSA-167158	term_size	5	num_hiddens	6
+term	R-HSA-167242	term_size	3	num_hiddens	6
+term	R-HSA-2142753	term_size	8	num_hiddens	6
+term	R-HSA-2142691	term_size	3	num_hiddens	6
+term	R-HSA-2142816	term_size	1	num_hiddens	6
+term	R-HSA-2162123	term_size	2	num_hiddens	6
+term	R-HSA-2142770	term_size	1	num_hiddens	6
+term	R-HSA-2142712	term_size	1	num_hiddens	6
+term	R-HSA-69236	term_size	14	num_hiddens	6
+term	R-HSA-69231	term_size	14	num_hiddens	6
+term	R-HSA-191647	term_size	1	num_hiddens	6
+term	R-HSA-68911	term_size	1	num_hiddens	6
+term	R-HSA-204998	term_size	30	num_hiddens	6
+term	R-HSA-205043	term_size	1	num_hiddens	6
+term	R-HSA-193648	term_size	29	num_hiddens	6
+term	R-HSA-5617833	term_size	57	num_hiddens	6
+term	R-HSA-5620924	term_size	9	num_hiddens	6
+term	R-HSA-5620912	term_size	35	num_hiddens	6
+term	R-HSA-5620920	term_size	12	num_hiddens	6
+term	R-HSA-156587	term_size	1	num_hiddens	6
+term	R-HSA-9006934	term_size	155	num_hiddens	6
+term	R-HSA-1236394	term_size	18	num_hiddens	6
+term	R-HSA-194138	term_size	46	num_hiddens	6
+term	R-HSA-8852405	term_size	2	num_hiddens	6
+term	R-HSA-190236	term_size	22	num_hiddens	6
+term	R-HSA-74752	term_size	22	num_hiddens	6
+term	R-HSA-6799198	term_size	1	num_hiddens	6
+term	R-HSA-774815	term_size	5	num_hiddens	6
+term	R-HSA-606279	term_size	5	num_hiddens	6
+term	R-HSA-8866654	term_size	8	num_hiddens	6
+term	R-HSA-8866652	term_size	6	num_hiddens	6
+term	R-HSA-168164	term_size	21	num_hiddens	6
+term	R-HSA-9013957	term_size	2	num_hiddens	6
+term	R-HSA-9013973	term_size	3	num_hiddens	6
+term	R-HSA-9014325	term_size	4	num_hiddens	6
+term	R-HSA-168927	term_size	3	num_hiddens	6
+term	R-HSA-5218859	term_size	3	num_hiddens	6
+term	R-HSA-5685938	term_size	15	num_hiddens	6
+term	R-HSA-5693607	term_size	20	num_hiddens	6
+term	R-HSA-3108232	term_size	71	num_hiddens	6
+term	R-HSA-5610785	term_size	6	num_hiddens	6
+term	R-HSA-5610783	term_size	6	num_hiddens	6
+term	R-HSA-5610780	term_size	7	num_hiddens	6
+term	R-HSA-983705	term_size	32	num_hiddens	6
+term	R-HSA-983695	term_size	18	num_hiddens	6
+term	R-HSA-5690714	term_size	2	num_hiddens	6
+term	R-HSA-1299503	term_size	1	num_hiddens	6
+term	R-HSA-1299316	term_size	1	num_hiddens	6
+term	R-HSA-1299344	term_size	1	num_hiddens	6
+term	R-HSA-912694	term_size	2	num_hiddens	6
+term	R-HSA-1630316	term_size	24	num_hiddens	6
+term	R-HSA-1793185	term_size	10	num_hiddens	6
+term	R-HSA-1638091	term_size	14	num_hiddens	6
+term	R-HSA-2142845	term_size	5	num_hiddens	6
+term	R-HSA-174362	term_size	1	num_hiddens	6
+term	R-HSA-190242	term_size	2	num_hiddens	6
+term	R-HSA-190373	term_size	1	num_hiddens	6
+term	R-HSA-190370	term_size	1	num_hiddens	6
+term	R-HSA-190374	term_size	2	num_hiddens	6
+term	R-HSA-75035	term_size	1	num_hiddens	6
+term	R-HSA-194068	term_size	10	num_hiddens	6
+term	R-HSA-159418	term_size	5	num_hiddens	6
+term	R-HSA-373752	term_size	21	num_hiddens	6
+term	R-HSA-418886	term_size	2	num_hiddens	6
+term	R-HSA-418885	term_size	4	num_hiddens	6
+term	R-HSA-418890	term_size	8	num_hiddens	6
+term	R-HSA-376172	term_size	4	num_hiddens	6
+term	R-HSA-397795	term_size	7	num_hiddens	6
+term	R-HSA-416476	term_size	41	num_hiddens	6
+term	R-HSA-416482	term_size	35	num_hiddens	6
+term	R-HSA-418597	term_size	9	num_hiddens	6
+term	R-HSA-4411364	term_size	4	num_hiddens	6
+term	R-HSA-432040	term_size	8	num_hiddens	6
+term	R-HSA-5654732	term_size	7	num_hiddens	6
+term	R-HSA-3304351	term_size	5	num_hiddens	6
+term	R-HSA-3304349	term_size	5	num_hiddens	6
+term	R-HSA-3304347	term_size	3	num_hiddens	6
+term	R-HSA-189445	term_size	2	num_hiddens	6
+term	R-HSA-189451	term_size	2	num_hiddens	6
+term	R-HSA-162594	term_size	1	num_hiddens	6
+term	R-HSA-173107	term_size	1	num_hiddens	6
+term	R-HSA-380284	term_size	23	num_hiddens	6
+term	R-HSA-380259	term_size	23	num_hiddens	6
+term	R-HSA-111453	term_size	1	num_hiddens	6
+term	R-HSA-75108	term_size	2	num_hiddens	6
+term	R-HSA-114294	term_size	1	num_hiddens	6
+term	R-HSA-141444	term_size	26	num_hiddens	6
+term	R-HSA-176033	term_size	13	num_hiddens	6
+term	R-HSA-180910	term_size	13	num_hiddens	6
+term	R-HSA-629594	term_size	1	num_hiddens	6
+term	R-HSA-2644602	term_size	20	num_hiddens	6
+term	R-HSA-2644606	term_size	20	num_hiddens	6
+term	R-HSA-8956320	term_size	1	num_hiddens	6
+term	R-HSA-500753	term_size	1	num_hiddens	6
+term	R-HSA-451927	term_size	18	num_hiddens	6
+term	R-HSA-8985947	term_size	5	num_hiddens	6
+term	R-HSA-912526	term_size	12	num_hiddens	6
+term	R-HSA-9020558	term_size	5	num_hiddens	6
+term	R-HSA-9020958	term_size	6	num_hiddens	6
+term	R-HSA-8983432	term_size	7	num_hiddens	6
+term	R-HSA-2161522	term_size	3	num_hiddens	6
+term	R-HSA-2161517	term_size	2	num_hiddens	6
+term	R-HSA-2161541	term_size	1	num_hiddens	6
+term	R-HSA-2142850	term_size	2	num_hiddens	6
+term	R-HSA-2160916	term_size	3	num_hiddens	6
+term	R-HSA-9006936	term_size	33	num_hiddens	6
+term	R-HSA-1502540	term_size	6	num_hiddens	6
+term	R-HSA-201451	term_size	5	num_hiddens	6
+term	R-HSA-75067	term_size	7	num_hiddens	6
+term	R-HSA-77595	term_size	7	num_hiddens	6
+term	R-HSA-176408	term_size	5	num_hiddens	6
+term	R-HSA-174113	term_size	4	num_hiddens	6
+term	R-HSA-8853333	term_size	1	num_hiddens	6
+term	R-HSA-2023837	term_size	1	num_hiddens	6
+term	R-HSA-8851708	term_size	3	num_hiddens	6
+term	R-HSA-2033519	term_size	1	num_hiddens	6
+term	R-HSA-8949664	term_size	2	num_hiddens	6
+term	R-HSA-8876384	term_size	8	num_hiddens	6
+term	R-HSA-176974	term_size	1	num_hiddens	6
+term	R-HSA-69186	term_size	4	num_hiddens	6
+term	R-HSA-8849932	term_size	11	num_hiddens	6
+term	R-HSA-388844	term_size	15	num_hiddens	6
+term	R-HSA-6794361	term_size	26	num_hiddens	6
+term	R-HSA-512988	term_size	21	num_hiddens	6
+term	R-HSA-912631	term_size	12	num_hiddens	6
+term	R-HSA-110381	term_size	1	num_hiddens	6
+term	R-HSA-5649702	term_size	1	num_hiddens	6
+term	R-HSA-110357	term_size	1	num_hiddens	6
+term	R-HSA-1474290	term_size	48	num_hiddens	6
+term	R-HSA-2022090	term_size	36	num_hiddens	6
+term	R-HSA-1650814	term_size	39	num_hiddens	6
+term	R-HSA-163615	term_size	6	num_hiddens	6
+term	R-HSA-71403	term_size	5	num_hiddens	6
+term	R-HSA-70268	term_size	2	num_hiddens	6
+term	R-HSA-171319	term_size	1	num_hiddens	6
+term	R-HSA-174490	term_size	1	num_hiddens	6
+term	R-HSA-2559586	term_size	10	num_hiddens	6
+term	R-HSA-2559584	term_size	1	num_hiddens	6
+term	R-HSA-15869	term_size	7	num_hiddens	6
+term	R-HSA-499943	term_size	1	num_hiddens	6
+term	R-HSA-8956321	term_size	2	num_hiddens	6
+term	R-HSA-5654708	term_size	7	num_hiddens	6
+term	R-HSA-5654706	term_size	4	num_hiddens	6
+term	R-HSA-5654710	term_size	3	num_hiddens	6
+term	R-HSA-5654704	term_size	4	num_hiddens	6
+term	R-HSA-5654227	term_size	2	num_hiddens	6
+term	R-HSA-168274	term_size	1	num_hiddens	6
+term	R-HSA-168333	term_size	1	num_hiddens	6
+term	R-HSA-6807878	term_size	20	num_hiddens	6
+term	R-HSA-204005	term_size	17	num_hiddens	6
+term	R-HSA-5694530	term_size	9	num_hiddens	6
+term	R-HSA-156584	term_size	1	num_hiddens	6
+term	R-HSA-9018519	term_size	43	num_hiddens	6
+term	R-HSA-9006927	term_size	27	num_hiddens	6
+term	R-HSA-68877	term_size	58	num_hiddens	6
+term	R-HSA-2500257	term_size	32	num_hiddens	6
+term	R-HSA-2514853	term_size	3	num_hiddens	6
+term	R-HSA-380320	term_size	27	num_hiddens	6
+term	R-HSA-5693606	term_size	19	num_hiddens	6
+term	R-HSA-5693565	term_size	18	num_hiddens	6
+term	R-HSA-5693548	term_size	5	num_hiddens	6
+term	R-HSA-159854	term_size	2	num_hiddens	6
+term	R-HSA-159763	term_size	2	num_hiddens	6
+term	R-HSA-159782	term_size	2	num_hiddens	6
+term	R-HSA-159740	term_size	2	num_hiddens	6
+term	R-HSA-1614558	term_size	2	num_hiddens	6
+term	R-HSA-70171	term_size	21	num_hiddens	6
+term	R-HSA-170822	term_size	13	num_hiddens	6
+term	R-HSA-5654699	term_size	4	num_hiddens	6
+term	R-HSA-5654700	term_size	4	num_hiddens	6
+term	R-HSA-5654695	term_size	3	num_hiddens	6
+term	R-HSA-5654221	term_size	2	num_hiddens	6
+term	R-HSA-109704	term_size	15	num_hiddens	6
+term	R-HSA-165158	term_size	1	num_hiddens	6
+term	R-HSA-435368	term_size	1	num_hiddens	6
+term	R-HSA-5250913	term_size	12	num_hiddens	6
+term	R-HSA-427389	term_size	3	num_hiddens	6
+term	R-HSA-5250924	term_size	10	num_hiddens	6
+term	R-HSA-109688	term_size	13	num_hiddens	6
+term	R-HSA-977441	term_size	4	num_hiddens	6
+term	R-HSA-977444	term_size	7	num_hiddens	6
+term	R-HSA-6785807	term_size	30	num_hiddens	6
+term	R-HSA-449836	term_size	7	num_hiddens	6
+term	R-HSA-8854691	term_size	8	num_hiddens	6
+term	R-HSA-447115	term_size	8	num_hiddens	6
+term	R-HSA-1266695	term_size	15	num_hiddens	6
+term	R-HSA-6783783	term_size	4	num_hiddens	6
+term	R-HSA-6783589	term_size	7	num_hiddens	6
+term	R-HSA-448424	term_size	15	num_hiddens	6
+term	R-HSA-168276	term_size	16	num_hiddens	6
+term	R-HSA-2555396	term_size	40	num_hiddens	6
+term	R-HSA-71387	term_size	61	num_hiddens	6
+term	R-HSA-8853383	term_size	1	num_hiddens	6
+term	R-HSA-70326	term_size	26	num_hiddens	6
+term	R-HSA-8982491	term_size	10	num_hiddens	6
+term	R-HSA-1852241	term_size	62	num_hiddens	6
+term	R-HSA-1592230	term_size	5	num_hiddens	6
+term	R-HSA-191273	term_size	1	num_hiddens	6
+term	R-HSA-2454202	term_size	38	num_hiddens	6
+term	R-HSA-2871837	term_size	12	num_hiddens	6
+term	R-HSA-2730905	term_size	7	num_hiddens	6
+term	R-HSA-2871796	term_size	15	num_hiddens	6
+term	R-HSA-2871809	term_size	15	num_hiddens	6
+term	R-HSA-2243919	term_size	4	num_hiddens	6
+term	R-HSA-2214320	term_size	6	num_hiddens	6
+term	R-HSA-140837	term_size	4	num_hiddens	6
+term	R-HSA-140875	term_size	8	num_hiddens	6
+term	R-HSA-1989781	term_size	8	num_hiddens	6
+term	R-HSA-72649	term_size	4	num_hiddens	6
+term	R-HSA-3296469	term_size	1	num_hiddens	6
+term	R-HSA-3359462	term_size	1	num_hiddens	6
+term	R-HSA-3359463	term_size	1	num_hiddens	6
+term	R-HSA-888590	term_size	3	num_hiddens	6
+term	R-HSA-916853	term_size	1	num_hiddens	6
+term	R-HSA-3315487	term_size	5	num_hiddens	6
+term	R-HSA-3304356	term_size	4	num_hiddens	6
+term	R-HSA-392851	term_size	1	num_hiddens	6
+term	R-HSA-392154	term_size	12	num_hiddens	6
+term	R-HSA-432142	term_size	6	num_hiddens	6
+term	R-HSA-418360	term_size	12	num_hiddens	6
+term	R-HSA-8963899	term_size	4	num_hiddens	6
+term	R-HSA-8963898	term_size	4	num_hiddens	6
+term	R-HSA-727802	term_size	1	num_hiddens	6
+term	R-HSA-804914	term_size	1	num_hiddens	6
+term	R-HSA-879518	term_size	5	num_hiddens	6
+term	R-HSA-427589	term_size	1	num_hiddens	6
+term	R-HSA-5684996	term_size	83	num_hiddens	6
+term	R-HSA-5673001	term_size	83	num_hiddens	6
+term	R-HSA-69200	term_size	2	num_hiddens	6
+term	R-HSA-438064	term_size	18	num_hiddens	6
+term	R-HSA-442729	term_size	6	num_hiddens	6
+term	R-HSA-442720	term_size	2	num_hiddens	6
+term	R-HSA-975155	term_size	22	num_hiddens	6
+term	R-HSA-975110	term_size	2	num_hiddens	6
+term	R-HSA-975138	term_size	22	num_hiddens	6
+term	R-HSA-5669034	term_size	1	num_hiddens	6
+term	R-HSA-5676594	term_size	2	num_hiddens	6
+term	R-HSA-5676590	term_size	4	num_hiddens	6
+term	R-HSA-168271	term_size	1	num_hiddens	6
+term	R-HSA-168273	term_size	13	num_hiddens	6
+term	R-HSA-8963678	term_size	1	num_hiddens	6
+term	R-HSA-69580	term_size	12	num_hiddens	6
+term	R-HSA-416572	term_size	12	num_hiddens	6
+term	R-HSA-416550	term_size	5	num_hiddens	6
+term	R-HSA-1462054	term_size	1	num_hiddens	6
+term	R-HSA-4419969	term_size	2	num_hiddens	6
+term	R-HSA-3301854	term_size	13	num_hiddens	6
+term	R-HSA-73886	term_size	11	num_hiddens	6
+term	R-HSA-8953897	term_size	84	num_hiddens	6
+term	R-HSA-1632852	term_size	8	num_hiddens	6
+term	R-HSA-2262752	term_size	78	num_hiddens	6
+term	R-HSA-5578768	term_size	3	num_hiddens	6
+term	R-HSA-5576886	term_size	5	num_hiddens	6
+term	R-HSA-5576890	term_size	2	num_hiddens	6
+term	R-HSA-5576893	term_size	9	num_hiddens	6
+term	R-HSA-5576894	term_size	2	num_hiddens	6
+term	R-HSA-5576892	term_size	18	num_hiddens	6
+term	R-HSA-5578775	term_size	20	num_hiddens	6
+term	R-HSA-2046104	term_size	1	num_hiddens	6
+term	R-HSA-2046106	term_size	1	num_hiddens	6
+term	R-HSA-2024096	term_size	5	num_hiddens	6
+term	R-HSA-1971475	term_size	7	num_hiddens	6
+term	R-HSA-2022928	term_size	8	num_hiddens	6
+term	R-HSA-5467348	term_size	6	num_hiddens	6
+term	R-HSA-5467343	term_size	1	num_hiddens	6
+term	R-HSA-1640170	term_size	159	num_hiddens	6
+term	R-HSA-69620	term_size	61	num_hiddens	6
+term	R-HSA-1500620	term_size	24	num_hiddens	6
+term	R-HSA-2187335	term_size	1	num_hiddens	6
+term	R-HSA-1474165	term_size	31	num_hiddens	6
+term	R-HSA-5607763	term_size	5	num_hiddens	6
+term	R-HSA-5660668	term_size	2	num_hiddens	6
+term	R-HSA-5607761	term_size	4	num_hiddens	6
+term	R-HSA-166166	term_size	21	num_hiddens	6
+term	R-HSA-74217	term_size	2	num_hiddens	6
+term	R-HSA-162599	term_size	31	num_hiddens	6
+term	R-HSA-5358752	term_size	7	num_hiddens	6
+term	R-HSA-5358749	term_size	7	num_hiddens	6
+term	R-HSA-5358747	term_size	7	num_hiddens	6
+term	R-HSA-5358751	term_size	7	num_hiddens	6
+term	R-HSA-8941284	term_size	3	num_hiddens	6
+term	R-HSA-8940973	term_size	9	num_hiddens	6
+term	R-HSA-421837	term_size	18	num_hiddens	6
+term	R-HSA-450531	term_size	15	num_hiddens	6
+term	R-HSA-450513	term_size	3	num_hiddens	6
+term	R-HSA-450604	term_size	3	num_hiddens	6
+term	R-HSA-450408	term_size	6	num_hiddens	6
+term	R-HSA-450520	term_size	4	num_hiddens	6
+term	R-HSA-450385	term_size	5	num_hiddens	6
+term	R-HSA-199418	term_size	41	num_hiddens	6
+term	R-HSA-6811558	term_size	36	num_hiddens	6
+term	R-HSA-1474244	term_size	118	num_hiddens	6
+term	R-HSA-1474228	term_size	30	num_hiddens	6
+term	R-HSA-1566977	term_size	1	num_hiddens	6
+term	R-HSA-216083	term_size	31	num_hiddens	6
+term	R-HSA-3000178	term_size	31	num_hiddens	6
+term	R-HSA-3000157	term_size	20	num_hiddens	6
+term	R-HSA-8941237	term_size	4	num_hiddens	6
+term	R-HSA-1566948	term_size	13	num_hiddens	6
+term	R-HSA-211897	term_size	11	num_hiddens	6
+term	R-HSA-211916	term_size	2	num_hiddens	6
+term	R-HSA-211979	term_size	3	num_hiddens	6
+term	R-HSA-211958	term_size	3	num_hiddens	6
+term	R-HSA-211981	term_size	3	num_hiddens	6
+term	R-HSA-211976	term_size	4	num_hiddens	6
+term	R-HSA-211935	term_size	4	num_hiddens	6
+term	R-HSA-176034	term_size	1	num_hiddens	6
+term	R-HSA-180534	term_size	5	num_hiddens	6
+term	R-HSA-164952	term_size	7	num_hiddens	6
+term	R-HSA-180585	term_size	4	num_hiddens	6
+term	R-HSA-177243	term_size	15	num_hiddens	6
+term	R-HSA-418457	term_size	8	num_hiddens	6
+term	R-HSA-390471	term_size	11	num_hiddens	6
+term	R-HSA-6814122	term_size	4	num_hiddens	6
+term	R-HSA-159231	term_size	6	num_hiddens	6
+term	R-HSA-159227	term_size	1	num_hiddens	6
+term	R-HSA-159230	term_size	1	num_hiddens	6
+term	R-HSA-9027604	term_size	1	num_hiddens	6
+term	R-HSA-9018679	term_size	1	num_hiddens	6
+term	R-HSA-162582	term_size	597	num_hiddens	6
+term	R-HSA-9006925	term_size	98	num_hiddens	6
+term	R-HSA-2028269	term_size	6	num_hiddens	6
+term	R-HSA-5683057	term_size	101	num_hiddens	6
+term	R-HSA-157118	term_size	48	num_hiddens	6
+term	R-HSA-194315	term_size	134	num_hiddens	6
+term	R-HSA-2586552	term_size	8	num_hiddens	6
+term	R-HSA-5387390	term_size	4	num_hiddens	6
+term	R-HSA-5362768	term_size	4	num_hiddens	6
+term	R-HSA-168138	term_size	24	num_hiddens	6
+term	R-HSA-180746	term_size	14	num_hiddens	6
+term	R-HSA-165054	term_size	14	num_hiddens	6
+term	R-HSA-1592389	term_size	2	num_hiddens	6
+term	R-HSA-1442490	term_size	7	num_hiddens	6
+term	R-HSA-5693571	term_size	14	num_hiddens	6
+term	R-HSA-400042	term_size	5	num_hiddens	6
+term	R-HSA-399997	term_size	3	num_hiddens	6
+term	R-HSA-381676	term_size	11	num_hiddens	6
+term	R-HSA-1257604	term_size	84	num_hiddens	6
+term	R-HSA-198693	term_size	6	num_hiddens	6
+term	R-HSA-198323	term_size	7	num_hiddens	6
+term	R-HSA-179419	term_size	5	num_hiddens	6
+term	R-HSA-174154	term_size	5	num_hiddens	6
+term	R-HSA-174048	term_size	2	num_hiddens	6
+term	R-HSA-6788467	term_size	5	num_hiddens	6
+term	R-HSA-1059683	term_size	5	num_hiddens	6
+term	R-HSA-917977	term_size	2	num_hiddens	6
+term	R-HSA-975144	term_size	1	num_hiddens	6
+term	R-HSA-975163	term_size	4	num_hiddens	6
+term	R-HSA-264876	term_size	11	num_hiddens	6
+term	R-HSA-422085	term_size	1	num_hiddens	6
+term	R-HSA-2022377	term_size	5	num_hiddens	6
+term	R-HSA-194306	term_size	4	num_hiddens	6
+term	R-HSA-4420097	term_size	42	num_hiddens	6
+term	R-HSA-418217	term_size	2	num_hiddens	6
+term	R-HSA-392451	term_size	5	num_hiddens	6
+term	R-HSA-5334118	term_size	3	num_hiddens	6
+term	R-HSA-5221030	term_size	3	num_hiddens	6
+term	R-HSA-212300	term_size	7	num_hiddens	6
+term	R-HSA-5654736	term_size	15	num_hiddens	6
+term	R-HSA-5658623	term_size	1	num_hiddens	6
+term	R-HSA-5654726	term_size	8	num_hiddens	6
+term	R-HSA-5687128	term_size	22	num_hiddens	6
+term	R-HSA-5653656	term_size	170	num_hiddens	6
+term	R-HSA-2173782	term_size	12	num_hiddens	6
+term	R-HSA-187042	term_size	1	num_hiddens	6
+term	R-HSA-187024	term_size	2	num_hiddens	6
+term	R-HSA-8866904	term_size	1	num_hiddens	6
+term	R-HSA-8869496	term_size	3	num_hiddens	6
+term	R-HSA-8866907	term_size	3	num_hiddens	6
+term	R-HSA-8866911	term_size	4	num_hiddens	6
+term	R-HSA-8866906	term_size	1	num_hiddens	6
+term	R-HSA-8866910	term_size	6	num_hiddens	6
+term	R-HSA-75105	term_size	3	num_hiddens	6
+term	R-HSA-2172127	term_size	13	num_hiddens	6
+term	R-HSA-879415	term_size	3	num_hiddens	6
+term	R-HSA-6798695	term_size	81	num_hiddens	6
+term	R-HSA-1222556	term_size	5	num_hiddens	6
+term	R-HSA-168898	term_size	32	num_hiddens	6
+term	R-HSA-1912422	term_size	20	num_hiddens	6
+term	R-HSA-1980145	term_size	9	num_hiddens	6
+term	R-HSA-1980143	term_size	24	num_hiddens	6
+term	R-HSA-68949	term_size	7	num_hiddens	6
+term	R-HSA-69017	term_size	6	num_hiddens	6
+term	R-HSA-389356	term_size	14	num_hiddens	6
+term	R-HSA-389357	term_size	10	num_hiddens	6
+term	R-HSA-389359	term_size	2	num_hiddens	6
+term	R-HSA-200425	term_size	2	num_hiddens	6
+term	R-HSA-1433617	term_size	2	num_hiddens	6
+term	R-HSA-381033	term_size	4	num_hiddens	6
+term	R-HSA-8874211	term_size	1	num_hiddens	6
+term	R-HSA-381042	term_size	1	num_hiddens	6
+term	R-HSA-113507	term_size	2	num_hiddens	6
+term	R-HSA-113501	term_size	3	num_hiddens	6
+term	R-HSA-375170	term_size	11	num_hiddens	6
+term	R-HSA-163282	term_size	1	num_hiddens	6
+term	R-HSA-6811440	term_size	9	num_hiddens	6
+term	R-HSA-6811438	term_size	10	num_hiddens	6
+term	R-HSA-8856688	term_size	31	num_hiddens	6
+term	R-HSA-8875360	term_size	6	num_hiddens	6
+term	R-HSA-8876493	term_size	3	num_hiddens	6
+term	R-HSA-3232118	term_size	8	num_hiddens	6
+term	R-HSA-3899300	term_size	16	num_hiddens	6
+term	R-HSA-4755510	term_size	2	num_hiddens	6
+term	R-HSA-4655427	term_size	6	num_hiddens	6
+term	R-HSA-3232142	term_size	15	num_hiddens	6
+term	R-HSA-4551638	term_size	21	num_hiddens	6
+term	R-HSA-4085377	term_size	13	num_hiddens	6
+term	R-HSA-4090294	term_size	8	num_hiddens	6
+term	R-HSA-3108214	term_size	33	num_hiddens	6
+term	R-HSA-4615885	term_size	18	num_hiddens	6
+term	R-HSA-4570464	term_size	16	num_hiddens	6
+term	R-HSA-1839124	term_size	12	num_hiddens	6
+term	R-HSA-2468052	term_size	6	num_hiddens	6
+term	R-HSA-210991	term_size	3	num_hiddens	6
+term	R-HSA-210990	term_size	4	num_hiddens	6
+term	R-HSA-210993	term_size	10	num_hiddens	6
+term	R-HSA-6783984	term_size	1	num_hiddens	6
+term	R-HSA-167200	term_size	8	num_hiddens	6
+term	R-HSA-68882	term_size	40	num_hiddens	6
+term	R-HSA-2467813	term_size	38	num_hiddens	6
+term	R-HSA-381183	term_size	2	num_hiddens	6
+term	R-HSA-438066	term_size	9	num_hiddens	6
+term	R-HSA-912446	term_size	11	num_hiddens	6
+term	R-HSA-1221632	term_size	14	num_hiddens	6
+term	R-HSA-964975	term_size	1	num_hiddens	6
+term	R-HSA-196757	term_size	4	num_hiddens	6
+term	R-HSA-196843	term_size	2	num_hiddens	6
+term	R-HSA-196780	term_size	5	num_hiddens	6
+term	R-HSA-196741	term_size	2	num_hiddens	6
+term	R-HSA-8941856	term_size	8	num_hiddens	6
+term	R-HSA-8949275	term_size	2	num_hiddens	6
+term	R-HSA-8952158	term_size	4	num_hiddens	6
+term	R-HSA-8951911	term_size	2	num_hiddens	6
+term	R-HSA-8951936	term_size	5	num_hiddens	6
+term	R-HSA-8941858	term_size	5	num_hiddens	6
+term	R-HSA-8941855	term_size	5	num_hiddens	6
+term	R-HSA-8951430	term_size	3	num_hiddens	6
+term	R-HSA-2428933	term_size	4	num_hiddens	6
+term	R-HSA-70221	term_size	7	num_hiddens	6
+term	R-HSA-3322077	term_size	4	num_hiddens	6
+term	R-HSA-8876198	term_size	26	num_hiddens	6
+term	R-HSA-8854214	term_size	4	num_hiddens	6
+term	R-HSA-3371571	term_size	8	num_hiddens	6
+term	R-HSA-3371568	term_size	6	num_hiddens	6
+term	R-HSA-179409	term_size	2	num_hiddens	6
+term	R-HSA-174184	term_size	5	num_hiddens	6
+term	R-HSA-444473	term_size	1	num_hiddens	6
+term	R-HSA-389397	term_size	1	num_hiddens	6
+term	R-HSA-5357801	term_size	41	num_hiddens	6
+term	R-HSA-2262749	term_size	9	num_hiddens	6
+term	R-HSA-5633008	term_size	11	num_hiddens	6
+term	R-HSA-6803207	term_size	5	num_hiddens	6
+term	R-HSA-6803211	term_size	3	num_hiddens	6
+term	R-HSA-6803205	term_size	5	num_hiddens	6
+term	R-HSA-6803204	term_size	7	num_hiddens	6
+term	R-HSA-3000497	term_size	3	num_hiddens	6
+term	R-HSA-3000471	term_size	2	num_hiddens	6
+term	R-HSA-3000480	term_size	6	num_hiddens	6
+term	R-HSA-3000484	term_size	3	num_hiddens	6
+term	R-HSA-2168880	term_size	1	num_hiddens	6
+term	R-HSA-5358493	term_size	1	num_hiddens	6
+term	R-HSA-69615	term_size	12	num_hiddens	6
+term	R-HSA-69613	term_size	6	num_hiddens	6
+term	R-HSA-380270	term_size	26	num_hiddens	6
+term	R-HSA-3229121	term_size	3	num_hiddens	6
+term	R-HSA-194441	term_size	2	num_hiddens	6
+term	R-HSA-191859	term_size	2	num_hiddens	6
+term	R-HSA-8948216	term_size	32	num_hiddens	6
+term	R-HSA-5357786	term_size	2	num_hiddens	6
+term	R-HSA-5357905	term_size	8	num_hiddens	6
+term	R-HSA-5357956	term_size	3	num_hiddens	6
+term	R-HSA-2151201	term_size	5	num_hiddens	6
+term	R-HSA-2151209	term_size	1	num_hiddens	6
+term	R-HSA-432722	term_size	14	num_hiddens	6
+term	R-HSA-432720	term_size	8	num_hiddens	6
+term	R-HSA-2122948	term_size	6	num_hiddens	6
+term	R-HSA-2122947	term_size	20	num_hiddens	6
+term	R-HSA-9032845	term_size	2	num_hiddens	6
+term	R-HSA-9026519	term_size	4	num_hiddens	6
+term	R-HSA-9026527	term_size	2	num_hiddens	6
+term	R-HSA-9028335	term_size	3	num_hiddens	6
+term	R-HSA-9032500	term_size	3	num_hiddens	6
+term	R-HSA-9024909	term_size	1	num_hiddens	6
+term	R-HSA-9028731	term_size	4	num_hiddens	6
+term	R-HSA-9026357	term_size	1	num_hiddens	6
+term	R-HSA-9025046	term_size	1	num_hiddens	6
+term	R-HSA-2660825	term_size	2	num_hiddens	6
+term	R-HSA-2660826	term_size	2	num_hiddens	6
+term	R-HSA-168181	term_size	22	num_hiddens	6
+term	R-HSA-3371556	term_size	27	num_hiddens	6
+term	R-HSA-3371511	term_size	4	num_hiddens	6
+term	R-HSA-3371453	term_size	21	num_hiddens	6
+term	R-HSA-74751	term_size	21	num_hiddens	6
+term	R-HSA-74713	term_size	3	num_hiddens	6
+term	R-HSA-74749	term_size	6	num_hiddens	6
+term	R-HSA-1912399	term_size	4	num_hiddens	6
+term	R-HSA-1912420	term_size	4	num_hiddens	6
+term	R-HSA-1912408	term_size	20	num_hiddens	6
+term	R-HSA-3371497	term_size	6	num_hiddens	6
+term	R-HSA-3299685	term_size	2	num_hiddens	6
+term	R-HSA-2559583	term_size	42	num_hiddens	6
+term	R-HSA-5693568	term_size	16	num_hiddens	6
+term	R-HSA-5693554	term_size	14	num_hiddens	6
+term	R-HSA-156580	term_size	2	num_hiddens	6
+term	R-HSA-2644603	term_size	20	num_hiddens	6
+term	R-HSA-417957	term_size	1	num_hiddens	6
+term	R-HSA-198933	term_size	18	num_hiddens	6
+term	R-HSA-2132295	term_size	28	num_hiddens	6
+term	R-HSA-8851680	term_size	4	num_hiddens	6
+term	R-HSA-983169	term_size	70	num_hiddens	6
+term	R-HSA-392517	term_size	5	num_hiddens	6
+term	R-HSA-388841	term_size	20	num_hiddens	6
+term	R-HSA-5637810	term_size	9	num_hiddens	6
+term	R-HSA-69306	term_size	15	num_hiddens	6
+term	R-HSA-72613	term_size	6	num_hiddens	6
+term	R-HSA-156827	term_size	4	num_hiddens	6
+term	R-HSA-420092	term_size	1	num_hiddens	6
+term	R-HSA-211999	term_size	3	num_hiddens	6
+term	R-HSA-1810476	term_size	1	num_hiddens	6
+term	R-HSA-389513	term_size	8	num_hiddens	6
+term	R-HSA-389948	term_size	2	num_hiddens	6
+term	R-HSA-1799339	term_size	1	num_hiddens	6
+term	R-HSA-72764	term_size	1	num_hiddens	6
+term	R-HSA-5368287	term_size	3	num_hiddens	6
+term	R-HSA-168325	term_size	13	num_hiddens	6
+term	R-HSA-205017	term_size	1	num_hiddens	6
+term	R-HSA-983189	term_size	24	num_hiddens	6
+term	R-HSA-2424491	term_size	13	num_hiddens	6
+term	R-HSA-5654741	term_size	13	num_hiddens	6
+term	R-HSA-181429	term_size	8	num_hiddens	6
+term	R-HSA-264642	term_size	7	num_hiddens	6
+term	R-HSA-181430	term_size	8	num_hiddens	6
+term	R-HSA-210500	term_size	8	num_hiddens	6
+term	R-HSA-212676	term_size	10	num_hiddens	6
+term	R-HSA-5689877	term_size	1	num_hiddens	6
+term	R-HSA-5689901	term_size	6	num_hiddens	6
+term	R-HSA-5689603	term_size	17	num_hiddens	6
+term	R-HSA-5689880	term_size	44	num_hiddens	6
+term	R-HSA-5689896	term_size	12	num_hiddens	6
+term	R-HSA-77387	term_size	2	num_hiddens	6
+term	R-HSA-549132	term_size	2	num_hiddens	6
+term	R-HSA-549127	term_size	2	num_hiddens	6
+term	R-HSA-6791226	term_size	12	num_hiddens	6
+term	R-HSA-6790901	term_size	11	num_hiddens	6
+term	R-HSA-1430728	term_size	282	num_hiddens	6
+term	R-HSA-2564830	term_size	4	num_hiddens	6
+term	R-HSA-211859	term_size	16	num_hiddens	6
+term	R-HSA-1475029	term_size	1	num_hiddens	6
+term	R-HSA-2129379	term_size	9	num_hiddens	6
+term	R-HSA-5419276	term_size	2	num_hiddens	6
+term	R-HSA-5368286	term_size	2	num_hiddens	6
+term	R-HSA-5389840	term_size	1	num_hiddens	6
+term	R-HSA-166016	term_size	25	num_hiddens	6
+term	R-HSA-76071	term_size	2	num_hiddens	6
+term	R-HSA-76066	term_size	5	num_hiddens	6
+term	R-HSA-76061	term_size	5	num_hiddens	6
+term	R-HSA-8862803	term_size	8	num_hiddens	6
+term	R-HSA-1655829	term_size	10	num_hiddens	6
+term	R-HSA-2426168	term_size	5	num_hiddens	6
+term	R-HSA-211945	term_size	14	num_hiddens	6
+term	R-HSA-5423646	term_size	1	num_hiddens	6
+term	R-HSA-5218920	term_size	12	num_hiddens	6
+term	R-HSA-5218921	term_size	11	num_hiddens	6
+term	R-HSA-1489509	term_size	14	num_hiddens	6
+term	R-HSA-2022923	term_size	6	num_hiddens	6
+term	R-HSA-2024101	term_size	4	num_hiddens	6
+term	R-HSA-2022870	term_size	5	num_hiddens	6
+term	R-HSA-433137	term_size	2	num_hiddens	6
+term	R-HSA-442660	term_size	2	num_hiddens	6
+term	R-HSA-433692	term_size	1	num_hiddens	6
+term	R-HSA-8963896	term_size	2	num_hiddens	6
+term	R-HSA-8963888	term_size	2	num_hiddens	6
+term	R-HSA-8866423	term_size	2	num_hiddens	6
+term	R-HSA-204174	term_size	1	num_hiddens	6
+term	R-HSA-1253288	term_size	5	num_hiddens	6
+term	R-HSA-1250342	term_size	4	num_hiddens	6
+term	R-HSA-1251985	term_size	6	num_hiddens	6
+term	R-HSA-1250347	term_size	5	num_hiddens	6
+term	R-HSA-3814836	term_size	1	num_hiddens	6
+term	R-HSA-3858516	term_size	1	num_hiddens	6
+term	R-HSA-3828062	term_size	1	num_hiddens	6
+term	R-HSA-3785653	term_size	3	num_hiddens	6
+term	R-HSA-3878781	term_size	1	num_hiddens	6
+term	R-HSA-8963901	term_size	1	num_hiddens	6
+term	R-HSA-8963889	term_size	2	num_hiddens	6
+term	R-HSA-8964041	term_size	2	num_hiddens	6
+term	R-HSA-8935964	term_size	3	num_hiddens	6
+term	R-HSA-8936459	term_size	23	num_hiddens	6
+term	R-HSA-8877330	term_size	3	num_hiddens	6
+term	R-HSA-8931987	term_size	4	num_hiddens	6
+term	R-HSA-8939242	term_size	2	num_hiddens	6
+term	R-HSA-8939256	term_size	4	num_hiddens	6
+term	R-HSA-8939245	term_size	4	num_hiddens	6
+term	R-HSA-8939236	term_size	13	num_hiddens	6
+term	R-HSA-8939247	term_size	3	num_hiddens	6
+term	R-HSA-8939243	term_size	18	num_hiddens	6
+term	R-HSA-8939246	term_size	4	num_hiddens	6
+term	R-HSA-8934593	term_size	10	num_hiddens	6
+term	R-HSA-195258	term_size	78	num_hiddens	6
+term	R-HSA-5625970	term_size	4	num_hiddens	6
+term	R-HSA-5626467	term_size	8	num_hiddens	6
+term	R-HSA-5625900	term_size	8	num_hiddens	6
+term	R-HSA-5627123	term_size	9	num_hiddens	6
+term	R-HSA-5668599	term_size	3	num_hiddens	6
+term	R-HSA-5663213	term_size	12	num_hiddens	6
+term	R-HSA-5627083	term_size	1	num_hiddens	6
+term	R-HSA-5627117	term_size	8	num_hiddens	6
+term	R-HSA-5663220	term_size	35	num_hiddens	6
+term	R-HSA-5666185	term_size	1	num_hiddens	6
+term	R-HSA-2979096	term_size	5	num_hiddens	6
+term	R-HSA-2197563	term_size	5	num_hiddens	6
+term	R-HSA-5365859	term_size	2	num_hiddens	6
+term	R-HSA-983168	term_size	59	num_hiddens	6
+term	R-HSA-983170	term_size	8	num_hiddens	6
+term	R-HSA-2473224	term_size	1	num_hiddens	6
+term	R-HSA-5620922	term_size	2	num_hiddens	6
+term	R-HSA-5620916	term_size	10	num_hiddens	6
+term	R-HSA-196299	term_size	7	num_hiddens	6
+term	R-HSA-4641265	term_size	4	num_hiddens	6
+term	R-HSA-936837	term_size	25	num_hiddens	6
+term	R-HSA-2672351	term_size	44	num_hiddens	6
+term	R-HSA-5602358	term_size	4	num_hiddens	6
+term	R-HSA-5602410	term_size	1	num_hiddens	6
+term	R-HSA-5602498	term_size	2	num_hiddens	6
+term	R-HSA-5603029	term_size	1	num_hiddens	6
+term	R-HSA-5602566	term_size	1	num_hiddens	6
+term	R-HSA-5602571	term_size	1	num_hiddens	6
+term	R-HSA-5603041	term_size	2	num_hiddens	6
+term	R-HSA-5602415	term_size	1	num_hiddens	6
+term	R-HSA-3295583	term_size	19	num_hiddens	6
+term	R-HSA-196025	term_size	5	num_hiddens	6
+term	R-HSA-8953854	term_size	112	num_hiddens	6
+term	R-HSA-72086	term_size	5	num_hiddens	6
+term	R-HSA-428359	term_size	2	num_hiddens	6
+term	R-HSA-5467337	term_size	6	num_hiddens	6
+term	R-HSA-5467333	term_size	1	num_hiddens	6
+term	R-HSA-446388	term_size	1	num_hiddens	6
+term	R-HSA-9032759	term_size	2	num_hiddens	6
+term	R-HSA-2559582	term_size	10	num_hiddens	6
+term	R-HSA-2559585	term_size	16	num_hiddens	6
+term	R-HSA-2559580	term_size	26	num_hiddens	6
+term	R-HSA-418990	term_size	13	num_hiddens	6
+term	R-HSA-1679131	term_size	3	num_hiddens	6
+term	R-HSA-5686938	term_size	4	num_hiddens	6
+term	R-HSA-168176	term_size	18	num_hiddens	6
+term	R-HSA-164938	term_size	5	num_hiddens	6
+term	R-HSA-164940	term_size	3	num_hiddens	6
+term	R-HSA-167590	term_size	2	num_hiddens	6
+term	R-HSA-182218	term_size	1	num_hiddens	6
+term	R-HSA-112412	term_size	5	num_hiddens	6
+term	R-HSA-8937144	term_size	1	num_hiddens	6
+term	R-HSA-217271	term_size	2	num_hiddens	6
+term	R-HSA-5674135	term_size	19	num_hiddens	6
+term	R-HSA-5658442	term_size	14	num_hiddens	6
+term	R-HSA-5673000	term_size	11	num_hiddens	6
+term	R-HSA-5675221	term_size	15	num_hiddens	6
+term	R-HSA-75953	term_size	9	num_hiddens	6
+term	R-HSA-73776	term_size	9	num_hiddens	6
+term	R-HSA-211994	term_size	1	num_hiddens	6
+term	R-HSA-202670	term_size	4	num_hiddens	6
+term	R-HSA-6796648	term_size	22	num_hiddens	6
+term	R-HSA-5628897	term_size	17	num_hiddens	6
+term	R-HSA-72165	term_size	12	num_hiddens	6
+term	R-HSA-72163	term_size	40	num_hiddens	6
+term	R-HSA-77108	term_size	1	num_hiddens	6
+term	R-HSA-77111	term_size	1	num_hiddens	6
+term	R-HSA-139853	term_size	6	num_hiddens	6
+term	R-HSA-418359	term_size	6	num_hiddens	6
+term	R-HSA-420029	term_size	2	num_hiddens	6
+term	R-HSA-373756	term_size	2	num_hiddens	6
+term	R-HSA-8866376	term_size	4	num_hiddens	6
+term	R-HSA-8853659	term_size	12	num_hiddens	6
+term	R-HSA-6811436	term_size	4	num_hiddens	6
+term	R-HSA-6811434	term_size	27	num_hiddens	6
+term	R-HSA-1247673	term_size	1	num_hiddens	6
+term	R-HSA-1237044	term_size	1	num_hiddens	6
+term	R-HSA-71064	term_size	2	num_hiddens	6
+term	R-HSA-71240	term_size	1	num_hiddens	6
+term	R-HSA-70921	term_size	2	num_hiddens	6
+term	R-HSA-196071	term_size	3	num_hiddens	6
+term	R-HSA-196108	term_size	1	num_hiddens	6
+term	R-HSA-193993	term_size	1	num_hiddens	6
+term	R-HSA-194002	term_size	2	num_hiddens	6
+term	R-HSA-1296041	term_size	2	num_hiddens	6
+term	R-HSA-5205647	term_size	1	num_hiddens	6
+term	R-HSA-5205685	term_size	1	num_hiddens	6
+term	R-HSA-1614517	term_size	1	num_hiddens	6
+term	R-HSA-196791	term_size	3	num_hiddens	6
+term	R-HSA-194840	term_size	58	num_hiddens	6
+term	R-HSA-1236382	term_size	10	num_hiddens	6
+term	R-HSA-70263	term_size	6	num_hiddens	6
+term	R-HSA-9020933	term_size	4	num_hiddens	6
+term	R-HSA-8984722	term_size	6	num_hiddens	6
+term	R-HSA-9020956	term_size	5	num_hiddens	6
+term	R-HSA-8875555	term_size	4	num_hiddens	6
+term	R-HSA-8875513	term_size	4	num_hiddens	6
+term	R-HSA-8874081	term_size	3	num_hiddens	6
+term	R-HSA-162588	term_size	3	num_hiddens	6
+term	R-HSA-1839120	term_size	1	num_hiddens	6
+term	R-HSA-8853336	term_size	1	num_hiddens	6
+term	R-HSA-1839117	term_size	11	num_hiddens	6
+term	R-HSA-1839122	term_size	1	num_hiddens	6
+term	R-HSA-3311021	term_size	3	num_hiddens	6
+term	R-HSA-164944	term_size	2	num_hiddens	6
+term	R-HSA-1660499	term_size	24	num_hiddens	6
+term	R-HSA-1483248	term_size	2	num_hiddens	6
+term	R-HSA-1660516	term_size	10	num_hiddens	6
+term	R-HSA-8847453	term_size	1	num_hiddens	6
+term	R-HSA-1660517	term_size	7	num_hiddens	6
+term	R-HSA-1660514	term_size	10	num_hiddens	6
+term	R-HSA-174084	term_size	4	num_hiddens	6
+term	R-HSA-174178	term_size	6	num_hiddens	6
+term	R-HSA-176407	term_size	1	num_hiddens	6
+term	R-HSA-5674499	term_size	5	num_hiddens	6
+term	root	term_size	2133	num_hiddens	6
+epoch	0	cuda_id	1	train_corr	0.001154	val_corr	-0.000000	total_loss	236.192062	elapsed_time	9.572262525558472
+epoch	1	cuda_id	1	train_corr	0.002270	val_corr	0.000000	total_loss	235.938919	elapsed_time	4.908331871032715
+epoch	2	cuda_id	1	train_corr	0.004840	val_corr	0.000000	total_loss	235.684952	elapsed_time	6.330206871032715
+epoch	3	cuda_id	1	train_corr	0.011749	val_corr	0.000000	total_loss	235.431992	elapsed_time	6.293845176696777
+epoch	4	cuda_id	1	train_corr	0.032300	val_corr	0.000001	total_loss	235.178864	elapsed_time	6.179985046386719
+epoch	5	cuda_id	1	train_corr	0.116411	val_corr	0.000009	total_loss	234.926163	elapsed_time	6.180925130844116
+epoch	6	cuda_id	1	train_corr	0.304745	val_corr	0.000002	total_loss	234.673386	elapsed_time	6.2721943855285645
+epoch	7	cuda_id	1	train_corr	0.207002	val_corr	0.000002	total_loss	234.421127	elapsed_time	4.887347221374512
+epoch	8	cuda_id	1	train_corr	0.192933	val_corr	0.000002	total_loss	234.168671	elapsed_time	4.932223320007324
+epoch	9	cuda_id	1	train_corr	0.199312	val_corr	0.000002	total_loss	233.915833	elapsed_time	4.942185878753662
+epoch	10	cuda_id	1	train_corr	0.205277	val_corr	0.000003	total_loss	233.662659	elapsed_time	4.966440677642822
+epoch	11	cuda_id	1	train_corr	0.205859	val_corr	0.000003	total_loss	233.409698	elapsed_time	4.872522830963135
+epoch	12	cuda_id	1	train_corr	0.206899	val_corr	0.000004	total_loss	233.156723	elapsed_time	4.880711078643799
+epoch	13	cuda_id	1	train_corr	0.218598	val_corr	0.000005	total_loss	232.903595	elapsed_time	4.936058759689331
+epoch	14	cuda_id	1	train_corr	0.240027	val_corr	0.000007	total_loss	232.649536	elapsed_time	5.026939392089844
+epoch	15	cuda_id	1	train_corr	0.259504	val_corr	0.000008	total_loss	232.395828	elapsed_time	4.98392128944397
+epoch	16	cuda_id	1	train_corr	0.264107	val_corr	0.000010	total_loss	232.141922	elapsed_time	5.051165819168091
+epoch	17	cuda_id	1	train_corr	0.256626	val_corr	0.000012	total_loss	231.888046	elapsed_time	6.401876211166382
+epoch	18	cuda_id	1	train_corr	0.245737	val_corr	0.000015	total_loss	231.634323	elapsed_time	6.484588384628296
+epoch	19	cuda_id	1	train_corr	0.234988	val_corr	0.000017	total_loss	231.379715	elapsed_time	6.3918304443359375
+epoch	20	cuda_id	1	train_corr	0.225085	val_corr	0.000020	total_loss	231.125061	elapsed_time	6.335370302200317
+epoch	21	cuda_id	1	train_corr	0.216042	val_corr	0.000024	total_loss	230.869919	elapsed_time	6.452876806259155
+epoch	22	cuda_id	1	train_corr	0.207760	val_corr	0.000028	total_loss	230.613876	elapsed_time	6.317795991897583
+epoch	23	cuda_id	1	train_corr	0.200167	val_corr	0.000032	total_loss	230.357224	elapsed_time	6.381718635559082
+epoch	24	cuda_id	1	train_corr	0.193244	val_corr	0.000036	total_loss	230.100006	elapsed_time	6.367578029632568
+epoch	25	cuda_id	1	train_corr	0.186971	val_corr	0.000041	total_loss	229.841980	elapsed_time	6.348543882369995
+epoch	26	cuda_id	1	train_corr	0.181310	val_corr	0.000047	total_loss	229.583420	elapsed_time	6.378305196762085
+epoch	27	cuda_id	1	train_corr	0.176212	val_corr	0.000053	total_loss	229.323334	elapsed_time	6.312442064285278
+epoch	28	cuda_id	1	train_corr	0.171655	val_corr	0.000060	total_loss	229.063202	elapsed_time	6.311642408370972
+epoch	29	cuda_id	1	train_corr	0.167629	val_corr	0.000067	total_loss	228.801636	elapsed_time	6.394488334655762
+epoch	30	cuda_id	1	train_corr	0.163975	val_corr	0.000075	total_loss	228.539230	elapsed_time	6.3900322914123535
+epoch	31	cuda_id	1	train_corr	0.160418	val_corr	0.000084	total_loss	228.275269	elapsed_time	6.420474290847778
+epoch	32	cuda_id	1	train_corr	0.156773	val_corr	0.000094	total_loss	228.010437	elapsed_time	6.4003753662109375
+epoch	33	cuda_id	1	train_corr	0.153108	val_corr	0.000105	total_loss	227.744537	elapsed_time	6.398057460784912
+epoch	34	cuda_id	1	train_corr	0.149743	val_corr	0.000117	total_loss	227.477631	elapsed_time	6.372183084487915
+epoch	35	cuda_id	1	train_corr	0.146750	val_corr	0.000130	total_loss	227.208847	elapsed_time	6.331434488296509
+epoch	36	cuda_id	1	train_corr	0.143982	val_corr	0.000145	total_loss	226.939087	elapsed_time	6.346690654754639
+epoch	37	cuda_id	1	train_corr	0.141280	val_corr	0.000161	total_loss	226.667542	elapsed_time	6.4048542976379395
+epoch	38	cuda_id	1	train_corr	0.138638	val_corr	0.000178	total_loss	226.395142	elapsed_time	6.3566672801971436
+epoch	39	cuda_id	1	train_corr	0.136115	val_corr	0.000197	total_loss	226.120651	elapsed_time	6.417015790939331
+epoch	40	cuda_id	1	train_corr	0.133786	val_corr	0.000217	total_loss	225.844559	elapsed_time	6.344649076461792
+epoch	41	cuda_id	1	train_corr	0.131597	val_corr	0.000238	total_loss	225.567337	elapsed_time	6.35692834854126
+epoch	42	cuda_id	1	train_corr	0.129499	val_corr	0.000261	total_loss	225.288300	elapsed_time	6.391370534896851
+epoch	43	cuda_id	1	train_corr	0.127527	val_corr	0.000286	total_loss	225.006714	elapsed_time	6.423775672912598
+epoch	44	cuda_id	1	train_corr	0.125598	val_corr	0.000312	total_loss	224.723801	elapsed_time	6.337172269821167
+epoch	45	cuda_id	1	train_corr	0.123627	val_corr	0.000340	total_loss	224.439407	elapsed_time	6.3821728229522705
+epoch	46	cuda_id	1	train_corr	0.121693	val_corr	0.000371	total_loss	224.152374	elapsed_time	6.340282201766968
+epoch	47	cuda_id	1	train_corr	0.119812	val_corr	0.000405	total_loss	223.863892	elapsed_time	6.433003664016724
+epoch	48	cuda_id	1	train_corr	0.117956	val_corr	0.000442	total_loss	223.572632	elapsed_time	6.413833141326904
+epoch	49	cuda_id	1	train_corr	0.116247	val_corr	0.000483	total_loss	223.279846	elapsed_time	6.338888168334961
+epoch	50	cuda_id	1	train_corr	0.114584	val_corr	0.000526	total_loss	222.984833	elapsed_time	6.402538061141968
+epoch	51	cuda_id	1	train_corr	0.112883	val_corr	0.000574	total_loss	222.687286	elapsed_time	6.348862171173096
+epoch	52	cuda_id	1	train_corr	0.111203	val_corr	0.000625	total_loss	222.387405	elapsed_time	6.340406179428101
+epoch	53	cuda_id	1	train_corr	0.109465	val_corr	0.000680	total_loss	222.085541	elapsed_time	6.373098134994507
+epoch	54	cuda_id	1	train_corr	0.107505	val_corr	0.000741	total_loss	221.781006	elapsed_time	6.334375858306885
+epoch	55	cuda_id	1	train_corr	0.106398	val_corr	0.000808	total_loss	221.473801	elapsed_time	6.38636326789856
+epoch	56	cuda_id	1	train_corr	0.103998	val_corr	0.000878	total_loss	221.164368	elapsed_time	6.331500053405762
+epoch	57	cuda_id	1	train_corr	0.103510	val_corr	0.000957	total_loss	220.851959	elapsed_time	6.329130172729492
+epoch	58	cuda_id	1	train_corr	0.101797	val_corr	0.001052	total_loss	220.537064	elapsed_time	6.45210599899292
+epoch	59	cuda_id	1	train_corr	0.100514	val_corr	0.001164	total_loss	220.219452	elapsed_time	6.347735643386841
+epoch	60	cuda_id	1	train_corr	0.099385	val_corr	0.001287	total_loss	219.899139	elapsed_time	6.325188159942627
+epoch	61	cuda_id	1	train_corr	0.098118	val_corr	0.001411	total_loss	219.576355	elapsed_time	6.392192840576172
+epoch	62	cuda_id	1	train_corr	0.096826	val_corr	0.001545	total_loss	219.250275	elapsed_time	6.300375461578369
+epoch	63	cuda_id	1	train_corr	0.095774	val_corr	0.001677	total_loss	218.921585	elapsed_time	6.4040913581848145
+epoch	64	cuda_id	1	train_corr	0.094728	val_corr	0.001825	total_loss	218.590103	elapsed_time	6.413923025131226
+epoch	65	cuda_id	1	train_corr	0.093611	val_corr	0.002026	total_loss	218.255371	elapsed_time	6.384303331375122
+epoch	66	cuda_id	1	train_corr	0.092574	val_corr	0.002235	total_loss	217.917786	elapsed_time	6.365021705627441
+epoch	67	cuda_id	1	train_corr	0.091539	val_corr	0.002452	total_loss	217.577087	elapsed_time	6.323309898376465
+epoch	68	cuda_id	1	train_corr	0.090554	val_corr	0.002654	total_loss	217.233398	elapsed_time	6.357943534851074
+epoch	69	cuda_id	1	train_corr	0.089563	val_corr	0.002877	total_loss	216.886429	elapsed_time	6.394435882568359
+epoch	70	cuda_id	1	train_corr	0.088525	val_corr	0.003057	total_loss	216.536514	elapsed_time	6.326030731201172
+epoch	71	cuda_id	1	train_corr	0.087425	val_corr	0.003489	total_loss	216.183807	elapsed_time	6.382695198059082
+epoch	72	cuda_id	1	train_corr	0.086328	val_corr	0.003717	total_loss	215.827438	elapsed_time	6.3538196086883545
+epoch	73	cuda_id	1	train_corr	0.085511	val_corr	0.004047	total_loss	215.467896	elapsed_time	6.34363055229187
+epoch	74	cuda_id	1	train_corr	0.084628	val_corr	0.004608	total_loss	215.104675	elapsed_time	6.40155816078186
+epoch	75	cuda_id	1	train_corr	0.083636	val_corr	0.004770	total_loss	214.738846	elapsed_time	6.320680856704712
+epoch	76	cuda_id	1	train_corr	0.082816	val_corr	0.004590	total_loss	214.369232	elapsed_time	6.376367807388306
+epoch	77	cuda_id	1	train_corr	0.081901	val_corr	0.004794	total_loss	213.996246	elapsed_time	5.044389009475708
+epoch	78	cuda_id	1	train_corr	0.081126	val_corr	0.005181	total_loss	213.620361	elapsed_time	6.3454625606536865
+epoch	79	cuda_id	1	train_corr	0.080232	val_corr	0.005050	total_loss	213.241409	elapsed_time	6.32658314704895
+epoch	80	cuda_id	1	train_corr	0.079437	val_corr	0.005364	total_loss	212.858551	elapsed_time	5.049969911575317
+epoch	81	cuda_id	1	train_corr	0.078647	val_corr	0.005597	total_loss	212.472397	elapsed_time	6.318264961242676
+epoch	82	cuda_id	1	train_corr	0.077842	val_corr	0.005151	total_loss	212.082779	elapsed_time	6.4448323249816895
+epoch	83	cuda_id	1	train_corr	0.077016	val_corr	0.006204	total_loss	211.690353	elapsed_time	4.9956207275390625
+epoch	84	cuda_id	1	train_corr	0.076264	val_corr	0.006066	total_loss	211.294113	elapsed_time	6.383440017700195
+epoch	85	cuda_id	1	train_corr	0.075486	val_corr	0.006594	total_loss	210.894485	elapsed_time	4.997507572174072
+epoch	86	cuda_id	1	train_corr	0.074774	val_corr	0.007236	total_loss	210.491638	elapsed_time	6.375399112701416
+epoch	87	cuda_id	1	train_corr	0.074112	val_corr	0.007181	total_loss	210.085159	elapsed_time	6.344557762145996
+epoch	88	cuda_id	1	train_corr	0.073318	val_corr	0.013568	total_loss	209.675659	elapsed_time	5.05415940284729
+epoch	89	cuda_id	1	train_corr	0.072354	val_corr	0.008535	total_loss	209.263123	elapsed_time	6.346776962280273
+epoch	90	cuda_id	1	train_corr	0.071302	val_corr	0.022153	total_loss	208.847137	elapsed_time	4.99545431137085
+epoch	91	cuda_id	1	train_corr	0.071054	val_corr	0.021939	total_loss	208.427429	elapsed_time	6.370111703872681
+epoch	92	cuda_id	1	train_corr	0.070371	val_corr	0.011430	total_loss	208.004852	elapsed_time	5.05180811882019
+epoch	93	cuda_id	1	train_corr	0.069520	val_corr	0.028108	total_loss	207.579437	elapsed_time	5.036810874938965
+epoch	94	cuda_id	1	train_corr	0.069180	val_corr	0.034391	total_loss	207.150085	elapsed_time	6.377947092056274
+epoch	95	cuda_id	1	train_corr	0.068434	val_corr	0.019681	total_loss	206.718369	elapsed_time	6.329128265380859
+epoch	96	cuda_id	1	train_corr	0.067820	val_corr	0.034644	total_loss	206.283081	elapsed_time	4.985700845718384
+epoch	97	cuda_id	1	train_corr	0.067318	val_corr	0.033722	total_loss	205.845108	elapsed_time	6.354553699493408
+epoch	98	cuda_id	1	train_corr	0.066657	val_corr	0.025749	total_loss	205.404556	elapsed_time	4.987448692321777
+epoch	99	cuda_id	1	train_corr	0.066148	val_corr	0.059912	total_loss	204.960434	elapsed_time	4.996289014816284
+epoch	100	cuda_id	1	train_corr	0.065541	val_corr	0.040429	total_loss	204.514145	elapsed_time	6.40015983581543
+epoch	101	cuda_id	1	train_corr	0.065068	val_corr	0.046440	total_loss	204.064316	elapsed_time	4.974650621414185
+epoch	102	cuda_id	1	train_corr	0.064527	val_corr	0.053526	total_loss	203.612183	elapsed_time	5.054011821746826
+epoch	103	cuda_id	1	train_corr	0.063900	val_corr	0.049220	total_loss	203.157379	elapsed_time	5.010928392410278
+epoch	104	cuda_id	1	train_corr	0.063383	val_corr	0.032834	total_loss	202.699799	elapsed_time	5.076731204986572
+epoch	105	cuda_id	1	train_corr	0.062816	val_corr	0.046128	total_loss	202.239655	elapsed_time	5.02256441116333
+epoch	106	cuda_id	1	train_corr	0.062103	val_corr	0.020256	total_loss	201.777512	elapsed_time	5.05146336555481
+epoch	107	cuda_id	1	train_corr	0.061413	val_corr	0.029055	total_loss	201.313126	elapsed_time	5.000881671905518
+epoch	108	cuda_id	1	train_corr	0.060931	val_corr	0.032385	total_loss	200.845901	elapsed_time	5.049842357635498
+epoch	109	cuda_id	1	train_corr	0.060637	val_corr	0.022936	total_loss	200.376221	elapsed_time	5.009617805480957
+epoch	110	cuda_id	1	train_corr	0.060133	val_corr	0.045352	total_loss	199.904846	elapsed_time	5.03807520866394
+epoch	111	cuda_id	1	train_corr	0.059802	val_corr	0.026742	total_loss	199.431183	elapsed_time	5.00152063369751
+epoch	112	cuda_id	1	train_corr	0.059208	val_corr	0.029684	total_loss	198.955673	elapsed_time	5.0405433177948
+epoch	113	cuda_id	1	train_corr	0.058743	val_corr	0.021139	total_loss	198.478683	elapsed_time	4.989948749542236
+epoch	114	cuda_id	1	train_corr	0.058498	val_corr	0.027624	total_loss	197.999176	elapsed_time	5.055873394012451
+epoch	115	cuda_id	1	train_corr	0.057948	val_corr	0.023625	total_loss	197.518173	elapsed_time	5.021529912948608
+epoch	116	cuda_id	1	train_corr	0.057660	val_corr	0.017179	total_loss	197.035233	elapsed_time	5.069886207580566
+epoch	117	cuda_id	1	train_corr	0.057092	val_corr	0.032356	total_loss	196.551773	elapsed_time	4.982598781585693
+epoch	118	cuda_id	1	train_corr	0.056508	val_corr	0.015145	total_loss	196.066437	elapsed_time	5.034245491027832
+epoch	119	cuda_id	1	train_corr	0.055930	val_corr	0.038164	total_loss	195.580276	elapsed_time	4.971788644790649
+epoch	120	cuda_id	1	train_corr	0.055275	val_corr	0.025082	total_loss	195.093063	elapsed_time	5.082414865493774
+epoch	121	cuda_id	1	train_corr	0.055442	val_corr	0.020136	total_loss	194.602280	elapsed_time	4.968008756637573
+epoch	122	cuda_id	1	train_corr	0.054856	val_corr	0.032958	total_loss	194.112900	elapsed_time	5.039477586746216
+epoch	123	cuda_id	1	train_corr	0.054020	val_corr	0.033434	total_loss	193.623444	elapsed_time	5.034143447875977
+epoch	124	cuda_id	1	train_corr	0.054183	val_corr	0.027952	total_loss	193.130295	elapsed_time	4.999908685684204
+epoch	125	cuda_id	1	train_corr	0.053684	val_corr	0.036789	total_loss	192.638123	elapsed_time	5.042423725128174
+epoch	126	cuda_id	1	train_corr	0.053228	val_corr	0.034323	total_loss	192.145554	elapsed_time	5.0378944873809814
+epoch	127	cuda_id	1	train_corr	0.053164	val_corr	0.030563	total_loss	191.651154	elapsed_time	5.053755044937134
+epoch	128	cuda_id	1	train_corr	0.052568	val_corr	0.033004	total_loss	191.158279	elapsed_time	4.999976634979248
+epoch	129	cuda_id	1	train_corr	0.052232	val_corr	0.036320	total_loss	190.664108	elapsed_time	5.060556411743164
+epoch	130	cuda_id	1	train_corr	0.052085	val_corr	0.033139	total_loss	190.169266	elapsed_time	4.995374917984009
+epoch	131	cuda_id	1	train_corr	0.051489	val_corr	0.023614	total_loss	189.675888	elapsed_time	5.08296012878418
+epoch	132	cuda_id	1	train_corr	0.051261	val_corr	0.030337	total_loss	189.181046	elapsed_time	5.023819923400879
+epoch	133	cuda_id	1	train_corr	0.051047	val_corr	0.033718	total_loss	188.686554	elapsed_time	5.083619832992554
+epoch	134	cuda_id	1	train_corr	0.050598	val_corr	0.022122	total_loss	188.193237	elapsed_time	4.993093252182007
+epoch	135	cuda_id	1	train_corr	0.050327	val_corr	0.021789	total_loss	187.699249	elapsed_time	5.0498738288879395
+epoch	136	cuda_id	1	train_corr	0.050111	val_corr	0.028691	total_loss	187.206085	elapsed_time	5.008663177490234
+epoch	137	cuda_id	1	train_corr	0.049772	val_corr	0.019687	total_loss	186.713593	elapsed_time	5.080254554748535
+epoch	138	cuda_id	1	train_corr	0.049339	val_corr	0.021173	total_loss	186.222534	elapsed_time	5.0177953243255615
+epoch	139	cuda_id	1	train_corr	0.049274	val_corr	0.021375	total_loss	185.730728	elapsed_time	5.056547403335571
+epoch	140	cuda_id	1	train_corr	0.048857	val_corr	0.013753	total_loss	185.241211	elapsed_time	4.978287935256958
+epoch	141	cuda_id	1	train_corr	0.048528	val_corr	0.016509	total_loss	184.752121	elapsed_time	5.055632829666138
+epoch	142	cuda_id	1	train_corr	0.048318	val_corr	0.015551	total_loss	184.263977	elapsed_time	5.009432554244995
+epoch	143	cuda_id	1	train_corr	0.048130	val_corr	0.012245	total_loss	183.776810	elapsed_time	5.027561902999878
+epoch	144	cuda_id	1	train_corr	0.047705	val_corr	0.015558	total_loss	183.291977	elapsed_time	4.989412546157837
+epoch	145	cuda_id	1	train_corr	0.047490	val_corr	0.012016	total_loss	182.807922	elapsed_time	5.055187225341797
+epoch	146	cuda_id	1	train_corr	0.047232	val_corr	0.012645	total_loss	182.325302	elapsed_time	5.044301509857178
+epoch	147	cuda_id	1	train_corr	0.047006	val_corr	0.010929	total_loss	181.844574	elapsed_time	5.036591529846191
+epoch	148	cuda_id	1	train_corr	0.046783	val_corr	0.010175	total_loss	181.365234	elapsed_time	5.046493053436279
+epoch	149	cuda_id	1	train_corr	0.046547	val_corr	0.010209	total_loss	180.888275	elapsed_time	5.045041561126709
+epoch	150	cuda_id	1	train_corr	0.046250	val_corr	0.009407	total_loss	180.413116	elapsed_time	5.08392858505249
+epoch	151	cuda_id	1	train_corr	0.045958	val_corr	0.010130	total_loss	179.940262	elapsed_time	5.0054991245269775
+epoch	152	cuda_id	1	train_corr	0.045678	val_corr	0.006771	total_loss	179.469559	elapsed_time	5.056741714477539
+epoch	153	cuda_id	1	train_corr	0.044827	val_corr	0.011679	total_loss	179.003555	elapsed_time	5.0051109790802
+epoch	154	cuda_id	1	train_corr	0.044311	val_corr	0.007697	total_loss	178.538742	elapsed_time	5.035202741622925
+epoch	155	cuda_id	1	train_corr	0.044414	val_corr	0.007941	total_loss	178.072906	elapsed_time	4.983027935028076
+epoch	156	cuda_id	1	train_corr	0.044277	val_corr	0.012025	total_loss	177.611084	elapsed_time	5.050736665725708
+epoch	157	cuda_id	1	train_corr	0.043926	val_corr	0.008199	total_loss	177.153564	elapsed_time	5.010913372039795
+epoch	158	cuda_id	1	train_corr	0.044139	val_corr	0.007568	total_loss	176.694702	elapsed_time	5.047366380691528
+epoch	159	cuda_id	1	train_corr	0.043779	val_corr	0.010291	total_loss	176.242279	elapsed_time	4.996464490890503
+epoch	160	cuda_id	1	train_corr	0.043677	val_corr	0.009108	total_loss	175.791519	elapsed_time	5.046250820159912
+epoch	161	cuda_id	1	train_corr	0.043543	val_corr	0.006765	total_loss	175.343140	elapsed_time	5.0744524002075195
+epoch	162	cuda_id	1	train_corr	0.043203	val_corr	0.008176	total_loss	174.899307	elapsed_time	5.051004648208618
+epoch	163	cuda_id	1	train_corr	0.043163	val_corr	0.009564	total_loss	174.456635	elapsed_time	4.997849941253662
+epoch	164	cuda_id	1	train_corr	0.042881	val_corr	0.006938	total_loss	174.018585	elapsed_time	5.063032388687134
+epoch	165	cuda_id	1	train_corr	0.042605	val_corr	0.006859	total_loss	173.583588	elapsed_time	5.046652793884277
+epoch	166	cuda_id	1	train_corr	0.042587	val_corr	0.008307	total_loss	173.150696	elapsed_time	5.034116506576538
+epoch	167	cuda_id	1	train_corr	0.042181	val_corr	0.006806	total_loss	172.723083	elapsed_time	5.086957693099976
+epoch	168	cuda_id	1	train_corr	0.041917	val_corr	0.007176	total_loss	172.298416	elapsed_time	5.017344236373901
+epoch	169	cuda_id	1	train_corr	0.041967	val_corr	0.007981	total_loss	171.875351	elapsed_time	5.076205492019653
+epoch	170	cuda_id	1	train_corr	0.041522	val_corr	0.005728	total_loss	171.458817	elapsed_time	5.016352415084839
+epoch	171	cuda_id	1	train_corr	0.041163	val_corr	0.006592	total_loss	171.044891	elapsed_time	5.051059722900391
+epoch	172	cuda_id	1	train_corr	0.041336	val_corr	0.007946	total_loss	170.631897	elapsed_time	5.0289106369018555
+epoch	173	cuda_id	1	train_corr	0.040790	val_corr	0.005472	total_loss	170.227234	elapsed_time	5.050407409667969
+epoch	174	cuda_id	1	train_corr	0.040634	val_corr	0.005520	total_loss	169.823318	elapsed_time	5.010482311248779
+epoch	175	cuda_id	1	train_corr	0.040725	val_corr	0.006876	total_loss	169.421906	elapsed_time	5.069417238235474
+epoch	176	cuda_id	1	train_corr	0.040215	val_corr	0.005771	total_loss	169.028870	elapsed_time	5.010743618011475
+epoch	177	cuda_id	1	train_corr	0.040428	val_corr	0.005202	total_loss	168.634216	elapsed_time	5.058825254440308
+epoch	178	cuda_id	1	train_corr	0.040086	val_corr	0.005945	total_loss	168.246918	elapsed_time	5.016029119491577
+epoch	179	cuda_id	1	train_corr	0.040024	val_corr	0.005411	total_loss	167.862411	elapsed_time	5.0446085929870605
+epoch	180	cuda_id	1	train_corr	0.039932	val_corr	0.005017	total_loss	167.481873	elapsed_time	5.024036884307861
+epoch	181	cuda_id	1	train_corr	0.039706	val_corr	0.005447	total_loss	167.105911	elapsed_time	5.049362659454346
+epoch	182	cuda_id	1	train_corr	0.039620	val_corr	0.004853	total_loss	166.734131	elapsed_time	5.0511980056762695
+epoch	183	cuda_id	1	train_corr	0.039432	val_corr	0.004642	total_loss	166.366272	elapsed_time	5.067328929901123
+epoch	184	cuda_id	1	train_corr	0.039217	val_corr	0.005291	total_loss	166.002625	elapsed_time	5.01887845993042
+epoch	185	cuda_id	1	train_corr	0.039162	val_corr	0.004517	total_loss	165.642319	elapsed_time	5.045490741729736
+epoch	186	cuda_id	1	train_corr	0.038954	val_corr	0.004150	total_loss	165.287231	elapsed_time	5.060586452484131
+epoch	187	cuda_id	1	train_corr	0.038675	val_corr	0.004930	total_loss	164.936630	elapsed_time	5.036707162857056
+epoch	188	cuda_id	1	train_corr	0.038677	val_corr	0.004158	total_loss	164.588333	elapsed_time	5.048657178878784
+epoch	189	cuda_id	1	train_corr	0.038480	val_corr	0.003880	total_loss	164.245605	elapsed_time	5.005679130554199
+epoch	190	cuda_id	1	train_corr	0.038263	val_corr	0.004534	total_loss	163.907166	elapsed_time	5.070258378982544
+epoch	191	cuda_id	1	train_corr	0.038130	val_corr	0.003765	total_loss	163.572861	elapsed_time	4.99519944190979
+epoch	192	cuda_id	1	train_corr	0.037930	val_corr	0.004188	total_loss	163.242538	elapsed_time	5.047963380813599
+epoch	193	cuda_id	1	train_corr	0.037789	val_corr	0.003463	total_loss	162.916306	elapsed_time	5.002642631530762
+epoch	194	cuda_id	1	train_corr	0.037436	val_corr	0.003864	total_loss	162.596130	elapsed_time	5.069676876068115
+epoch	195	cuda_id	1	train_corr	0.037430	val_corr	0.003573	total_loss	162.277344	elapsed_time	5.079812288284302
+epoch	196	cuda_id	1	train_corr	0.037396	val_corr	0.003363	total_loss	161.962982	elapsed_time	5.067871332168579
+epoch	197	cuda_id	1	train_corr	0.037242	val_corr	0.003231	total_loss	161.653839	elapsed_time	5.007736921310425
+epoch	198	cuda_id	1	train_corr	0.037038	val_corr	0.003163	total_loss	161.349045	elapsed_time	5.0629048347473145
+epoch	199	cuda_id	1	train_corr	0.036924	val_corr	0.003174	total_loss	161.048248	elapsed_time	5.000551462173462
+epoch	200	cuda_id	1	train_corr	0.036820	val_corr	0.002740	total_loss	160.751221	elapsed_time	5.067975044250488
+epoch	201	cuda_id	1	train_corr	0.036516	val_corr	0.003307	total_loss	160.459976	elapsed_time	5.0083348751068115
+epoch	202	cuda_id	1	train_corr	0.036575	val_corr	0.002968	total_loss	160.170578	elapsed_time	5.065375328063965
+epoch	203	cuda_id	1	train_corr	0.036324	val_corr	0.002967	total_loss	159.887085	elapsed_time	5.0699052810668945
+epoch	204	cuda_id	1	train_corr	0.036367	val_corr	0.002887	total_loss	159.605713	elapsed_time	5.506196022033691
+epoch	205	cuda_id	1	train_corr	0.036184	val_corr	0.002630	total_loss	159.329803	elapsed_time	6.541890621185303
+epoch	206	cuda_id	1	train_corr	0.036087	val_corr	0.002910	total_loss	159.057678	elapsed_time	6.4619460105896
+epoch	207	cuda_id	1	train_corr	0.035989	val_corr	0.002727	total_loss	158.789673	elapsed_time	6.469416856765747
+epoch	208	cuda_id	1	train_corr	0.035704	val_corr	0.003100	total_loss	158.527267	elapsed_time	5.712087154388428
+epoch	209	cuda_id	1	train_corr	0.035591	val_corr	0.002455	total_loss	158.267578	elapsed_time	5.168699026107788
+epoch	210	cuda_id	1	train_corr	0.034881	val_corr	0.003225	total_loss	158.014877	elapsed_time	5.010432004928589
+epoch	211	cuda_id	1	train_corr	0.035397	val_corr	0.003047	total_loss	157.759796	elapsed_time	5.048441410064697
+epoch	212	cuda_id	1	train_corr	0.035066	val_corr	0.002434	total_loss	157.514023	elapsed_time	4.998813629150391
+epoch	213	cuda_id	1	train_corr	0.034593	val_corr	0.003376	total_loss	157.272141	elapsed_time	5.050576686859131
+epoch	214	cuda_id	1	train_corr	0.034913	val_corr	0.003262	total_loss	157.029343	elapsed_time	4.998672246932983
+epoch	215	cuda_id	1	train_corr	0.034707	val_corr	0.002604	total_loss	156.794373	elapsed_time	5.043569564819336
+epoch	216	cuda_id	1	train_corr	0.034579	val_corr	0.002995	total_loss	156.561569	elapsed_time	4.9919517040252686
+epoch	217	cuda_id	1	train_corr	0.034599	val_corr	0.003439	total_loss	156.331192	elapsed_time	5.051474571228027
+epoch	218	cuda_id	1	train_corr	0.034423	val_corr	0.002656	total_loss	156.107544	elapsed_time	4.977912902832031
+epoch	219	cuda_id	1	train_corr	0.034354	val_corr	0.002688	total_loss	155.885559	elapsed_time	5.115820407867432
+epoch	220	cuda_id	1	train_corr	0.034293	val_corr	0.003264	total_loss	155.667572	elapsed_time	4.9587695598602295
+epoch	221	cuda_id	1	train_corr	0.034159	val_corr	0.002785	total_loss	155.453873	elapsed_time	4.965455770492554
+epoch	222	cuda_id	1	train_corr	0.034097	val_corr	0.002713	total_loss	155.243027	elapsed_time	4.890701532363892
+epoch	223	cuda_id	1	train_corr	0.033993	val_corr	0.003155	total_loss	155.036057	elapsed_time	4.94535756111145
+epoch	224	cuda_id	1	train_corr	0.033944	val_corr	0.002927	total_loss	154.832870	elapsed_time	4.884880304336548
+epoch	225	cuda_id	1	train_corr	0.033800	val_corr	0.002859	total_loss	154.633255	elapsed_time	4.943922996520996
+epoch	226	cuda_id	1	train_corr	0.033815	val_corr	0.003168	total_loss	154.436249	elapsed_time	4.878902912139893
+epoch	227	cuda_id	1	train_corr	0.033579	val_corr	0.003059	total_loss	154.244644	elapsed_time	4.936093330383301
+epoch	228	cuda_id	1	train_corr	0.033476	val_corr	0.003196	total_loss	154.054688	elapsed_time	4.930761098861694
+epoch	229	cuda_id	1	train_corr	0.033450	val_corr	0.003167	total_loss	153.868088	elapsed_time	4.86673641204834
+epoch	230	cuda_id	1	train_corr	0.033299	val_corr	0.002648	total_loss	153.686295	elapsed_time	4.921795606613159
+epoch	231	cuda_id	1	train_corr	0.033120	val_corr	0.003069	total_loss	153.506638	elapsed_time	4.898413181304932
+epoch	232	cuda_id	1	train_corr	0.033187	val_corr	0.003306	total_loss	153.329315	elapsed_time	4.955862998962402
+epoch	233	cuda_id	1	train_corr	0.032929	val_corr	0.002351	total_loss	153.158157	elapsed_time	4.893128395080566
+epoch	234	cuda_id	1	train_corr	0.032536	val_corr	0.002782	total_loss	152.989929	elapsed_time	4.9597327709198
+epoch	235	cuda_id	1	train_corr	0.032733	val_corr	0.003514	total_loss	152.820374	elapsed_time	4.903663635253906
+epoch	236	cuda_id	1	train_corr	0.032570	val_corr	0.002458	total_loss	152.658066	elapsed_time	4.961735248565674
+epoch	237	cuda_id	1	train_corr	0.032702	val_corr	0.002103	total_loss	152.495285	elapsed_time	4.947437047958374
+epoch	238	cuda_id	1	train_corr	0.032456	val_corr	0.002820	total_loss	152.337723	elapsed_time	4.9876017570495605
+epoch	239	cuda_id	1	train_corr	0.032485	val_corr	0.002734	total_loss	152.182449	elapsed_time	4.891675710678101
+epoch	240	cuda_id	1	train_corr	0.032490	val_corr	0.002202	total_loss	152.029678	elapsed_time	4.951102256774902
+epoch	241	cuda_id	1	train_corr	0.032326	val_corr	0.002101	total_loss	151.880280	elapsed_time	4.886558532714844
+epoch	242	cuda_id	1	train_corr	0.032273	val_corr	0.002128	total_loss	151.733673	elapsed_time	4.969990253448486
+epoch	243	cuda_id	1	train_corr	0.032191	val_corr	0.002033	total_loss	151.589539	elapsed_time	4.9283928871154785
+epoch	244	cuda_id	1	train_corr	0.032128	val_corr	0.002084	total_loss	151.448837	elapsed_time	4.9805333614349365
+epoch	245	cuda_id	1	train_corr	0.032045	val_corr	0.002071	total_loss	151.310516	elapsed_time	4.976343870162964
+epoch	246	cuda_id	1	train_corr	0.031984	val_corr	0.001930	total_loss	151.174255	elapsed_time	4.966265916824341
+epoch	247	cuda_id	1	train_corr	0.031863	val_corr	0.001924	total_loss	151.041779	elapsed_time	4.889904022216797
+epoch	248	cuda_id	1	train_corr	0.031804	val_corr	0.001849	total_loss	150.910629	elapsed_time	4.968442440032959
+epoch	249	cuda_id	1	train_corr	0.031720	val_corr	0.001748	total_loss	150.782684	elapsed_time	4.964723110198975
+epoch	250	cuda_id	1	train_corr	0.031632	val_corr	0.001564	total_loss	150.657104	elapsed_time	4.901952743530273
+epoch	251	cuda_id	1	train_corr	0.031554	val_corr	0.001477	total_loss	150.533905	elapsed_time	4.972127676010132
+epoch	252	cuda_id	1	train_corr	0.031473	val_corr	0.001530	total_loss	150.412979	elapsed_time	4.924617052078247
+epoch	253	cuda_id	1	train_corr	0.031400	val_corr	0.001390	total_loss	150.294556	elapsed_time	4.953105926513672
+epoch	254	cuda_id	1	train_corr	0.031311	val_corr	0.001337	total_loss	150.178360	elapsed_time	4.899951219558716
+epoch	255	cuda_id	1	train_corr	0.031226	val_corr	0.001338	total_loss	150.065048	elapsed_time	4.9416632652282715
+epoch	256	cuda_id	1	train_corr	0.031169	val_corr	0.001293	total_loss	149.953705	elapsed_time	4.891022205352783
+epoch	257	cuda_id	1	train_corr	0.031088	val_corr	0.001088	total_loss	149.844574	elapsed_time	4.961693048477173
+epoch	258	cuda_id	1	train_corr	0.030954	val_corr	0.001256	total_loss	149.738007	elapsed_time	4.890871286392212
+epoch	259	cuda_id	1	train_corr	0.030905	val_corr	0.001036	total_loss	149.633377	elapsed_time	4.958455801010132
+epoch	260	cuda_id	1	train_corr	0.030736	val_corr	0.001040	total_loss	149.531189	elapsed_time	4.899157524108887
+epoch	261	cuda_id	1	train_corr	0.030718	val_corr	0.001034	total_loss	149.430634	elapsed_time	4.949746131896973
+epoch	262	cuda_id	1	train_corr	0.030485	val_corr	0.000982	total_loss	149.333740	elapsed_time	4.94419002532959
+epoch	263	cuda_id	1	train_corr	0.030524	val_corr	0.000807	total_loss	149.236404	elapsed_time	4.982048273086548
+epoch	264	cuda_id	1	train_corr	0.029948	val_corr	0.001278	total_loss	149.147110	elapsed_time	4.912464618682861
+epoch	265	cuda_id	1	train_corr	0.030176	val_corr	0.000968	total_loss	149.053101	elapsed_time	4.965278148651123
+epoch	266	cuda_id	1	train_corr	0.030204	val_corr	0.000768	total_loss	148.961075	elapsed_time	4.912609100341797
+epoch	267	cuda_id	1	train_corr	0.030153	val_corr	0.001040	total_loss	148.872208	elapsed_time	4.9413111209869385
+epoch	268	cuda_id	1	train_corr	0.029906	val_corr	0.001080	total_loss	148.788177	elapsed_time	4.905369758605957
+epoch	269	cuda_id	1	train_corr	0.029264	val_corr	0.001269	total_loss	148.706955	elapsed_time	4.978474140167236
+epoch	270	cuda_id	1	train_corr	0.029487	val_corr	0.001299	total_loss	148.622269	elapsed_time	4.940754175186157
+epoch	271	cuda_id	1	train_corr	0.029847	val_corr	0.001022	total_loss	148.539246	elapsed_time	4.987256050109863
+epoch	272	cuda_id	1	train_corr	0.029546	val_corr	0.001091	total_loss	148.461060	elapsed_time	4.9728569984436035
+epoch	273	cuda_id	1	train_corr	0.029647	val_corr	0.001625	total_loss	148.380493	elapsed_time	4.965733051300049
+epoch	274	cuda_id	1	train_corr	0.029551	val_corr	0.001506	total_loss	148.306274	elapsed_time	5.00126051902771
+epoch	275	cuda_id	1	train_corr	0.029564	val_corr	0.001365	total_loss	148.230759	elapsed_time	4.938293695449829
+epoch	276	cuda_id	1	train_corr	0.029371	val_corr	0.001311	total_loss	148.158112	elapsed_time	4.954771041870117
+epoch	277	cuda_id	1	train_corr	0.029508	val_corr	0.001201	total_loss	148.084793	elapsed_time	4.955132484436035
+epoch	278	cuda_id	1	train_corr	0.029403	val_corr	0.001338	total_loss	148.014923	elapsed_time	5.0182201862335205
+epoch	279	cuda_id	1	train_corr	0.029382	val_corr	0.001573	total_loss	147.945648	elapsed_time	4.891655206680298
+epoch	280	cuda_id	1	train_corr	0.029343	val_corr	0.001480	total_loss	147.878891	elapsed_time	4.958475589752197
+epoch	281	cuda_id	1	train_corr	0.029344	val_corr	0.001228	total_loss	147.811920	elapsed_time	4.929673194885254
+epoch	282	cuda_id	1	train_corr	0.029184	val_corr	0.001285	total_loss	147.748962	elapsed_time	4.952541351318359
+epoch	283	cuda_id	1	train_corr	0.029217	val_corr	0.001503	total_loss	147.684769	elapsed_time	4.915329933166504
+epoch	284	cuda_id	1	train_corr	0.029135	val_corr	0.001358	total_loss	147.623871	elapsed_time	4.95113205909729
+epoch	285	cuda_id	1	train_corr	0.029127	val_corr	0.001175	total_loss	147.563339	elapsed_time	4.917206764221191
+epoch	286	cuda_id	1	train_corr	0.029023	val_corr	0.001143	total_loss	147.504745	elapsed_time	4.968238353729248
+epoch	287	cuda_id	1	train_corr	0.028984	val_corr	0.001257	total_loss	147.446793	elapsed_time	4.910658121109009
+epoch	288	cuda_id	1	train_corr	0.028901	val_corr	0.001281	total_loss	147.391022	elapsed_time	4.967493057250977
+epoch	289	cuda_id	1	train_corr	0.028910	val_corr	0.001136	total_loss	147.335617	elapsed_time	4.894750118255615
+epoch	290	cuda_id	1	train_corr	0.028826	val_corr	0.000965	total_loss	147.281937	elapsed_time	4.966431140899658
+epoch	291	cuda_id	1	train_corr	0.028762	val_corr	0.001035	total_loss	147.229691	elapsed_time	4.97816276550293
+epoch	292	cuda_id	1	train_corr	0.028705	val_corr	0.000982	total_loss	147.177979	elapsed_time	4.934956073760986
+epoch	293	cuda_id	1	train_corr	0.028665	val_corr	0.001022	total_loss	147.127487	elapsed_time	4.956846475601196
+epoch	294	cuda_id	1	train_corr	0.028612	val_corr	0.001046	total_loss	147.078156	elapsed_time	4.910109996795654
+epoch	295	cuda_id	1	train_corr	0.028575	val_corr	0.000842	total_loss	147.030090	elapsed_time	4.9453043937683105
+epoch	296	cuda_id	1	train_corr	0.028462	val_corr	0.000886	total_loss	146.983307	elapsed_time	4.91561222076416
+epoch	297	cuda_id	1	train_corr	0.028464	val_corr	0.000928	total_loss	146.937332	elapsed_time	4.945535898208618
+epoch	298	cuda_id	1	train_corr	0.028367	val_corr	0.000770	total_loss	146.892868	elapsed_time	4.952517032623291
+epoch	299	cuda_id	1	train_corr	0.028210	val_corr	0.000806	total_loss	146.848892	elapsed_time	4.9645819664001465
+Best performed model (epoch)	99
