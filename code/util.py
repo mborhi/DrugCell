@@ -25,6 +25,14 @@ def confusion_matrix(x, y):
 		c_m[preds[i]][target] += 1
 	return c_m
 
+def matthew_cc(c_m):
+	tp = c_m[0][0]
+	tn = c_m[1][1]
+	fp = c_m[0][1]
+	fn = c_m[1][0]
+	numerator = (tp * tn) - (fp * fn)
+	denom = np.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
+	return numerator / denom
 
 def get_total_genes(term, dG, subsystem_to_genes, total_genes: set):
     if term in subsystem_to_genes:
