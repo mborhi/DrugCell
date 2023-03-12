@@ -44,6 +44,7 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	max_corr = 0
 	max_acc = 0
 	max_mcc = -(np.inf)
+	max_f1 = -(np.inf)
 
 	# dcell neural network
 	# model = drugcell_nn(term_size_map, term_direct_gene_map, dG, gene_dim, drug_dim, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final)
@@ -143,15 +144,18 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 
 		test_corr = pearson_corr(test_predict, test_label_gpu)
 		test_acc = accuracy(test_predict, test_label_gpu)
-		mcc = matthew_cc(confusion_matrix(test_predict, test_label_gpu))
+		c_m = confusion_matrix(test_predict, test_label_gpu)
+		mcc = matthew_cc(c_m)
+		f1 = f1_score(c_m)
 
 		epoch_end_time = time.time()
 		# print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, total_loss, epoch_end_time-epoch_start_time))
-		print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\tacc\t%.6f\tmcc\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, test_acc, mcc, total_loss, epoch_end_time-epoch_start_time))
+		print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\tacc\t%.6f\tmcc\t%.6f\tf1\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, test_acc, mcc, f1, total_loss, epoch_end_time-epoch_start_time))
 		epoch_start_time = epoch_end_time
 	
 		if test_corr >= max_corr:
 			max_corr = test_corr
+			max_f1 = f1
 			best_model = epoch
 			# save new best
 			# torch.save(model, model_save_folder + '/model_' + str(epoch) + '.pt')
@@ -172,6 +176,8 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	print("Best performed model (epoch)\t%d" % best_model)
 	print("Best accuracy performed model (epoch)\t%d" % best_model_acc)
 	print("Best MCC performed model (epoch)\t%d" % best_model_mcc)
+
+	return max_corr, max_mcc, max_acc, max_f1
 
 
 
@@ -227,5 +233,6 @@ num_hiddens_final = opt.final_hiddens
 CUDA_ID = opt.cuda
 
 # train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, drug_dim, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final, cell_features, drug_features)
-train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_final, cell_features)
+if __name__ == "__main__":
+	train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_final, cell_features)
 

@@ -34,6 +34,15 @@ def matthew_cc(c_m):
 	denom = np.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
 	return numerator / denom
 
+def f1_score(c_m):
+	tp = c_m[0][0]
+	tn = c_m[1][1]
+	fp = c_m[0][1]
+	fn = c_m[1][0]
+	precision = tp / (tp + fp)
+	recall = tp / (tp + fn)
+	return 2 * (precision * recall) / (precision + recall)
+
 def get_total_genes(term, dG, subsystem_to_genes, total_genes: set):
     if term in subsystem_to_genes:
         total_genes = total_genes.union(subsystem_to_genes[term])
