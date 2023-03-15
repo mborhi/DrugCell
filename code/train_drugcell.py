@@ -41,10 +41,11 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	best_model = 0
 	best_model_acc = 0
 	best_model_mcc = 0
+	best_model_f1 = 0
 	max_corr = 0
 	max_acc = 0
-	max_mcc = -(np.inf)
-	max_f1 = -(np.inf)
+	max_mcc = 0
+	max_f1 = 0
 
 	# dcell neural network
 	# model = drugcell_nn(term_size_map, term_direct_gene_map, dG, gene_dim, drug_dim, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final)
@@ -155,7 +156,6 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	
 		if test_corr >= max_corr:
 			max_corr = test_corr
-			max_f1 = f1
 			best_model = epoch
 			# save new best
 			# torch.save(model, model_save_folder + '/model_' + str(epoch) + '.pt')
@@ -170,12 +170,18 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 			max_mcc = mcc
 			best_model_mcc = epoch 
 			torch.save(model, model_save_folder + '/model_best_mcc.pt')
+		
+		if f1 >= max_f1:
+			max_f1 = f1
+			best_model_f1 = epoch 
+			torch.save(model, model_save_folder + '/model_best_f1.pt')
 
 	torch.save(model, model_save_folder + '/model_final.pt')	
 
 	print("Best performed model (epoch)\t%d" % best_model)
 	print("Best accuracy performed model (epoch)\t%d" % best_model_acc)
 	print("Best MCC performed model (epoch)\t%d" % best_model_mcc)
+	print("Best F1 Score performed model (epoch)\t%d" % best_model_f1)
 
 	return max_corr, max_mcc, max_acc, max_f1
 
