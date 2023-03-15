@@ -1,0 +1,8 @@
+Total number of cell lines = 7709
+Total number of genes = 3566
+Test pearson corr	root	0.014948
+Accuracy	0.9541918755401901
+Confusion Matrix	tensor([[958.,  36.],
+        [ 17., 146.]])
+Matthew Correlation Coefficient	0.8212755918502808
+F1 Score	0.9730827808380127
