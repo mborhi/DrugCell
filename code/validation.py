@@ -23,7 +23,10 @@ def prepare_data(test_file, train_files, cell2id_mapping):
     train_feature = []
     train_label = []
     for train_file in train_files:
-        
+        # exclude the test_file
+        if test_file == train_file:
+            continue
+        # load the train file
         with open(train_file, 'r') as fi:
             for line in fi:
                 tokens = line.strip().split('\t')
