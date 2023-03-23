@@ -46,6 +46,7 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	max_acc = 0
 	max_mcc = 0
 	max_f1 = 0
+	max_neg_f1 = 0
 
 	# dcell neural network
 	# model = drugcell_nn(term_size_map, term_direct_gene_map, dG, gene_dim, drug_dim, root, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final)
@@ -148,10 +149,11 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 		c_m = confusion_matrix(test_predict, test_label_gpu)
 		mcc = matthew_cc(c_m)
 		f1 = f1_score(c_m)
+		neg_f1 = specific_agreement(1, c_m)
 
 		epoch_end_time = time.time()
 		# print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, total_loss, epoch_end_time-epoch_start_time))
-		print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\tacc\t%.6f\tmcc\t%.6f\tf1\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, test_acc, mcc, f1, total_loss, epoch_end_time-epoch_start_time))
+		print("epoch\t%d\tcuda_id\t%d\ttrain_corr\t%.6f\tval_corr\t%.6f\tacc\t%.6f\tmcc\t%.6f\tf1\t%.6f\tneg_f1\t%.6f\ttotal_loss\t%.6f\telapsed_time\t%s" % (epoch, CUDA_ID, train_corr, test_corr, test_acc, mcc, f1, neg_f1, total_loss, epoch_end_time-epoch_start_time))
 		epoch_start_time = epoch_end_time
 	
 		if test_corr >= max_corr:
@@ -176,14 +178,26 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 			best_model_f1 = epoch 
 			torch.save(model, model_save_folder + '/model_best_f1.pt')
 
+		if neg_f1 >= max_neg_f1:
+			max_neg_f1 = neg_f1 
+			best_model_neg_f1 = epoch 
+			torch.save(model, model_save_folder + '/model_best_neg_f1.pt')
+
 	torch.save(model, model_save_folder + '/model_final.pt')	
 
-	print("Best performed model (epoch)\t%d" % best_model)
-	print("Best accuracy performed model (epoch)\t%d" % best_model_acc)
-	print("Best MCC performed model (epoch)\t%d" % best_model_mcc)
-	print("Best F1 Score performed model (epoch)\t%d" % best_model_f1)
+	# print("Best Pearson corr performed model (epoch)\t%d:\t%.6f" % best_model, max_corr)
+	# print("Best accuracy performed model (epoch)\t%d:\t%.6f" % best_model_acc, max_acc)
+	# print("Best MCC performed model (epoch)\t%d:\t%.6f" % best_model_mcc, max_mcc)
+	# print("Best F1 Score performed model (epoch)\t%d:\t%.6f" % best_model_f1, max_f1)
+	# print("Best Negative F1 Score performed model (epoch)\t%d:\t%.6f" % best_model_neg_f1, max_neg_f1)
 
-	return max_corr, max_mcc, max_acc, max_f1
+	print(f"Best Pearson corr performed model (epoch)\t{best_model}:\t{max_corr:.6f}")
+	print(f"Best accuracy performed model (epoch)\t{best_model_acc}:\t{max_acc:.6f}")
+	print(f"Best MCC performed model (epoch)\t{best_model_mcc}:\t{max_mcc:.6f}")
+	print(f"Best F1 Score performed model (epoch)\t{best_model_f1}:\t{max_f1:.6f}")
+	print(f"Best Negative F1 Score performed model (epoch)\t{best_model_neg_f1}:\t{max_neg_f1:.6f}")
+
+	return max_corr, max_mcc, max_acc, max_f1, max_neg_f1
 
 
 

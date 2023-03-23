@@ -20,6 +20,7 @@ def accuracy(x, y):
 def confusion_matrix(x, y):
 	preds = torch.argmax(x, dim=1).long()
 	targets = torch.squeeze(y).long()
+	# TODO genearlize to N by N
 	c_m = torch.zeros(2, 2)
 	for i, target in enumerate(targets):
 		c_m[preds[i]][target] += 1
@@ -33,6 +34,27 @@ def matthew_cc(c_m):
 	numerator = (tp * tn) - (fp * fn)
 	denom = np.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
 	return numerator / denom
+
+def specific_agreement(category, conf_mat):
+    """Calculates Specific Agreement scores for dichotomous catgories.
+    
+    https://github.com/jmgirard/mReliability/wiki/Specific-agreement-coefficient
+
+    Inputs
+    ------
+    category: int
+        Either 0 or 1, signifying the positive and negative categories respectively. 
+    conf-mat: [[int]]
+        The confusion matrix.
+    
+    Returns
+    -------
+    float 
+        The Specific Agreement score for the given category.
+    """
+    num = 2 * conf_mat[category][category]
+    denom = 2 * conf_mat[category][category] + conf_mat[0][1] + conf_mat[1][0]
+    return num / denom
 
 def f1_score(c_m):
 	tp = c_m[0][0]

@@ -48,31 +48,35 @@ def cross_validate(data_dir, onto_file):
     iter = 0
     for filepath in filepaths:
         train_data = prepare_data(filepath, filepaths, cell2id_mapping)
-        print(f"Fold {iter} / 5")
+        print(f"Fold {iter + 1} / 5")
         store_dir = model_save_folder + "_" + str(iter)
         if not os.path.exists(store_dir):
             os.makedirs(store_dir)
         dG, root, term_size_map, term_direct_gene_map = load_ontology(onto_file, gene2id_mapping)
-        max_corr, max_mcc, max_acc, f1 = train_drugcell.train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_dim, model_save_folder + "_" + str(iter), train_epochs, batch_size, learning_rate, num_hiddens_genotype, num_hiddens_final, cell_features)
+        max_corr, max_mcc, max_acc, f1, neg_f1 = train_drugcell.train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_dim, model_save_folder + "_" + str(iter), train_epochs, batch_size, learning_rate, num_hiddens_genotype, num_hiddens_final, cell_features)
 
         results.append({"f1" : f1,
                         "corr": max_corr,
                         "mcc": max_mcc,
-                        "acc": max_acc
+                        "acc": max_acc,
+                        "neg_f1": neg_f1
                         })
         iter += 1
 
-    corr_avg, mcc_avg, acc_avg, f1_avg = 0, 0, 0, 0
+    corr_avg, mcc_avg, acc_avg, f1_avg, neg_f1_avg = 0, 0, 0, 0, 0
     for result in results:
         corr_avg += result["corr"]
         mcc_avg += result["mcc"]
         acc_avg += result["acc"]
         f1_avg += result["f1"]
+        neg_f1_avg += result["neg_f1"]
+
     
     print(f"Pearson correlation average: {corr_avg / 5}")
     print(f"MCC average: {mcc_avg / 5}")
     print(f"Accuracy average: {acc_avg / 5}")
     print(f"F1 score average: {f1_avg / 5}")
+    print(f"Negative F1 score average: {neg_f1_avg / 5}")
     
 
     return results

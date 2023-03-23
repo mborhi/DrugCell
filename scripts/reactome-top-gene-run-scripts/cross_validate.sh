@@ -11,9 +11,9 @@ mutationfile=$inputdir"top-gene-reactome-sample2binary_mutation.txt"
 
 cudaid=1
 
-modeldir=Reactome_Top_Genes_Cross_Validation
-mkdir $modeldir
+modeldir=Reactome_Top_Genes_Cross_Validation_All_Metrics
+# mkdir $modeldir
 
 source activate pytorch3drugcell
 
-python -u ../../code/validation.py -onto $ontfile -gene2id $gene2idfile -cell2id $cell2idfile -train $traindatafile -test $valdatafile -model $modeldir -cuda $cudaid -genotype $mutationfile -genotype_hiddens 6 -final_hiddens 2 -epoch 300 -batchsize 3000 > cross_validation.log
+python -u ../../code/validation.py -onto $ontfile -gene2id $gene2idfile -cell2id $cell2idfile -train $traindatafile -test $valdatafile -model $modeldir -cuda $cudaid -genotype $mutationfile -genotype_hiddens 6 -final_hiddens 2 -epoch 300 -batchsize 3000 > cross_validation_all_metrics.log
