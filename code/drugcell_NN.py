@@ -48,7 +48,6 @@ class drugcell_nn(nn.Module):
 		# self.add_module('final_linear_layer_output', nn.Linear(1, 1)) # original
 		# self.add_module('final_linear_layer_output', nn.Sigmoid()) # single neuron sigmoid prediction
 		self.add_module('final_linear_layer_output', nn.Linear(final_input_size, 2)) # cross entropy, two neuron
-		# self.add_module('final_linear_layer_output', nn.Softmax(dim=1)) # cross entropy, two neuron
 
 	# calculate the number of values in a state (term)
 	def cal_term_dim(self, term_size_map):
@@ -60,7 +59,7 @@ class drugcell_nn(nn.Module):
 				
 			# log the number of hidden variables per each term
 			num_output = int(num_output)
-			print("term\t%s\tterm_size\t%d\tnum_hiddens\t%d" % (term, term_size, num_output))
+			# print("term\t%s\tterm_size\t%d\tnum_hiddens\t%d" % (term, term_size, num_output))
 			self.term_dim_map[term] = num_output
 
 
@@ -130,12 +129,10 @@ class drugcell_nn(nn.Module):
 
 				self.add_module(term+'_linear_layer', nn.Linear(input_size, term_hidden))
 				self.add_module(term+'_batchnorm_layer', nn.BatchNorm1d(term_hidden))
-				# self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,1)) # change from (term_hidden, 1)
-				self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,2)) # change from (term_hidden, 1)
-				# self.add_module(term+'_aux_linear_layer2', nn.Linear(1, 1)) # change from nn.Linear(1, 1)
-				# self.add_module(term+'_aux_linear_layer2', nn.Softmax(dim=1)) # change from nn.Linear(1, 1)
-				self.add_module(term+'_aux_linear_layer2', nn.Linear(2, 2)) # change from nn.Linear(1, 1)
-
+				# self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,1))
+				self.add_module(term+'_aux_linear_layer1', nn.Linear(term_hidden,2))
+				# self.add_module(term+'_aux_linear_layer2', nn.Linear(1, 1))
+				self.add_module(term+'_aux_linear_layer2', nn.Linear(2, 2))
 			dG.remove_nodes_from(leaves)
 
 
@@ -178,7 +175,6 @@ class drugcell_nn(nn.Module):
 		"""
 		drug_out = drug_input
 
-		## TODO: remove this
 		for i in range(1, len(self.num_hiddens_drug)+1, 1):
 			drug_out = self._modules['drug_batchnorm_layer_'+str(i)]( torch.tanh(self._modules['drug_linear_layer_' + str(i)](drug_out)))
 			term_NN_out_map['drug_'+str(i)] = drug_out
@@ -189,16 +185,13 @@ class drugcell_nn(nn.Module):
 		# connect two neural networks at the top #################################################
 		final_input = torch.cat((term_NN_out_map[self.root], drug_out), 1)
 
-		## TODO: Change final out to either two neuron cross entropy or single neuron sigmoid
 		out = self._modules['final_batchnorm_layer'](torch.tanh(self._modules['final_linear_layer'](final_input)))
 		"""
-		# print(f"VNN final output: {term_NN_out_map[self.root].size()}")
-		#out = self._modules['final_linear_layer'](term_NN_out_map[self.root])
+		# out = self._modules['final_linear_layer'](term_NN_out_map[self.root])
 		# term_NN_out_map['final'] = out
 
 		# aux_layer_out = torch.tanh(self._modules['final_aux_linear_layer'](out))
 		# aux_out_map['final'] = self._modules['final_linear_layer_output'](aux_layer_out)
 		aux_out_map['final'] = self._modules['final_linear_layer_output'](term_NN_out_map[self.root])
-		# print(f"Final model output: {aux_out_map['final']}")
 
 		return aux_out_map, term_NN_out_map

@@ -13,6 +13,7 @@ import argparse
 import numpy as np
 import time
 
+CUDA_ID = 1
 
 # build mask: matrix (nrows = number of relevant gene set, ncols = number all genes)
 # elements of matrix are 1 if the corresponding gene is one of the relevant genes
@@ -200,59 +201,59 @@ def train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_
 	return max_corr, max_mcc, max_acc, max_f1, max_neg_f1
 
 
-
-parser = argparse.ArgumentParser(description='Train dcell')
-parser.add_argument('-onto', help='Ontology file used to guide the neural network', type=str)
-parser.add_argument('-train', help='Training dataset', type=str)
-parser.add_argument('-test', help='Validation dataset', type=str)
-parser.add_argument('-epoch', help='Training epochs for training', type=int, default=300)
-parser.add_argument('-lr', help='Learning rate', type=float, default=0.001)
-parser.add_argument('-batchsize', help='Batchsize', type=int, default=5000)
-parser.add_argument('-modeldir', help='Folder for trained models', type=str, default='MODEL/')
-parser.add_argument('-cuda', help='Specify GPU', type=int, default=0)
-parser.add_argument('-gene2id', help='Gene to ID mapping file', type=str)
-# parser.add_argument('-drug2id', help='Drug to ID mapping file', type=str)
-parser.add_argument('-cell2id', help='Cell to ID mapping file', type=str)
-
-parser.add_argument('-genotype_hiddens', help='Mapping for the number of neurons in each term in genotype parts', type=int, default=6)
-# parser.add_argument('-drug_hiddens', help='Mapping for the number of neurons in each layer', type=str, default='100,50,6')
-parser.add_argument('-final_hiddens', help='The number of neurons in the top layer', type=int, default=6)
-
-parser.add_argument('-genotype', help='Mutation information for cell lines', type=str)
-# parser.add_argument('-fingerprint', help='Morgan fingerprint representation for drugs', type=str)
-
-# call functions
-opt = parser.parse_args()
-torch.set_printoptions(precision=5)
-
-# load input data
-# train_data, cell2id_mapping, drug2id_mapping = prepare_train_data(opt.train, opt.test, opt.cell2id, opt.drug2id)
-train_data, cell2id_mapping = prepare_train_data(opt.train, opt.test, opt.cell2id)
-gene2id_mapping = load_mapping(opt.gene2id)
-
-# load cell/drug features
-cell_features = np.genfromtxt(opt.genotype, delimiter=',')
-# drug_features = np.genfromtxt(opt.fingerprint, delimiter=',')
-
-num_cells = len(cell2id_mapping)
-# num_drugs = len(drug2id_mapping)
-num_genes = len(gene2id_mapping)
-# drug_dim = len(drug_features[0,:])
-
-# load ontology
-dG, root, term_size_map, term_direct_gene_map = load_ontology(opt.onto, gene2id_mapping)
-
-# load the number of hiddens #######
-num_hiddens_genotype = opt.genotype_hiddens
-
-# num_hiddens_drug = list(map(int, opt.drug_hiddens.split(',')))
-
-num_hiddens_final = opt.final_hiddens
-#####################################
-
-CUDA_ID = opt.cuda
-
-# train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, drug_dim, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final, cell_features, drug_features)
 if __name__ == "__main__":
-	train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_final, cell_features)
+	parser = argparse.ArgumentParser(description='Train dcell')
+	parser.add_argument('-onto', help='Ontology file used to guide the neural network', type=str)
+	parser.add_argument('-train', help='Training dataset', type=str)
+	parser.add_argument('-test', help='Validation dataset', type=str)
+	parser.add_argument('-epoch', help='Training epochs for training', type=int, default=300)
+	parser.add_argument('-lr', help='Learning rate', type=float, default=0.001)
+	parser.add_argument('-batchsize', help='Batchsize', type=int, default=5000)
+	parser.add_argument('-modeldir', help='Folder for trained models', type=str, default='MODEL/')
+	parser.add_argument('-cuda', help='Specify GPU', type=int, default=0)
+	parser.add_argument('-gene2id', help='Gene to ID mapping file', type=str)
+	# parser.add_argument('-drug2id', help='Drug to ID mapping file', type=str)
+	parser.add_argument('-cell2id', help='Cell to ID mapping file', type=str)
+
+	parser.add_argument('-genotype_hiddens', help='Mapping for the number of neurons in each term in genotype parts', type=int, default=6)
+	# parser.add_argument('-drug_hiddens', help='Mapping for the number of neurons in each layer', type=str, default='100,50,6')
+	parser.add_argument('-final_hiddens', help='The number of neurons in the top layer', type=int, default=6)
+
+	parser.add_argument('-genotype', help='Mutation information for cell lines', type=str)
+	# parser.add_argument('-fingerprint', help='Morgan fingerprint representation for drugs', type=str)
+
+	# call functions
+	opt = parser.parse_args()
+	torch.set_printoptions(precision=5)
+
+	# load input data
+	# train_data, cell2id_mapping, drug2id_mapping = prepare_train_data(opt.train, opt.test, opt.cell2id, opt.drug2id)
+	train_data, cell2id_mapping = prepare_train_data(opt.train, opt.test, opt.cell2id)
+	gene2id_mapping = load_mapping(opt.gene2id)
+
+	# load cell/drug features
+	cell_features = np.genfromtxt(opt.genotype, delimiter=',')
+	# drug_features = np.genfromtxt(opt.fingerprint, delimiter=',')
+
+	num_cells = len(cell2id_mapping)
+	# num_drugs = len(drug2id_mapping)
+	num_genes = len(gene2id_mapping)
+	# drug_dim = len(drug_features[0,:])
+
+	# load ontology
+	dG, root, term_size_map, term_direct_gene_map = load_ontology(opt.onto, gene2id_mapping)
+
+	# load the number of hiddens #######
+	num_hiddens_genotype = opt.genotype_hiddens
+
+	# num_hiddens_drug = list(map(int, opt.drug_hiddens.split(',')))
+
+	num_hiddens_final = opt.final_hiddens
+	#####################################
+
+	CUDA_ID = opt.cuda
+
+	# train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, drug_dim, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_drug, num_hiddens_final, cell_features, drug_features)
+	if __name__ == "__main__":
+		train_model(root, term_size_map, term_direct_gene_map, dG, train_data, num_genes, opt.modeldir, opt.epoch, opt.batchsize, opt.lr, num_hiddens_genotype, num_hiddens_final, cell_features)
 

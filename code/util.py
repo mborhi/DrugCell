@@ -182,7 +182,6 @@ def load_reactome(file_name, gene2id_mapping):
 
         # jisoo
         if len(term_gene_set) == 0:
-            print("no terms? but there are:", get_total_genes(term, dG, term_direct_gene_map, set()))
             print('There is empty terms, please delete term:', term)
             sys.exit(1)
         else:

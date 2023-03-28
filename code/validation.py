@@ -10,7 +10,7 @@ import train_drugcell
 # import util
 from util import *
 # from drugcell_NN import *
-import argparse
+# import argparse
 
 
 def prepare_data(test_file, train_files, cell2id_mapping):
@@ -82,50 +82,52 @@ def cross_validate(data_dir, onto_file):
     return results
     
 
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Validate dcell')
 
-parser = argparse.ArgumentParser(description='Validate dcell')
+    # parser.add_argument('-datadir', help='directory containing data splits for k-fold cross validation', type=str)
+    parser.add_argument('-onto', help='Ontology file used to guide the neural network', type=str)
+    parser.add_argument('-splitsdir', help='Directory containing data splits', action='store', type=str)
+    parser.add_argument('-train', help='Training dataset', type=str)
+    parser.add_argument('-test', help='Validation dataset', type=str)
+    parser.add_argument('-epoch', help='Training epochs for training', type=int, default=300)
+    parser.add_argument('-lr', help='Learning rate', type=float, default=0.001)
+    parser.add_argument('-batchsize', help='Batchsize', type=int, default=3000)
+    parser.add_argument('-modeldir', help='Folder for trained models', type=str, default='MODEL/')
+    parser.add_argument('-cuda', help='Specify GPU', type=int, default=0)
+    parser.add_argument('-gene2id', help='Gene to ID mapping file', type=str)
+    parser.add_argument('-cell2id', help='Cell to ID mapping file', type=str)
+    parser.add_argument('-genotype_hiddens', help='Mapping for the number of neurons in each term in genotype parts', type=int, default=2)
+    parser.add_argument('-final_hiddens', help='The number of neurons in the top layer', type=int, default=6)
+    parser.add_argument('-genotype', help='Mutation information for cell lines', type=str)
 
-# parser.add_argument('-datadir', help='directory containing data splits for k-fold cross validation', type=str)
-parser.add_argument('-onto', help='Ontology file used to guide the neural network', type=str)
-parser.add_argument('-train', help='Training dataset', type=str)
-parser.add_argument('-test', help='Validation dataset', type=str)
-parser.add_argument('-epoch', help='Training epochs for training', type=int, default=300)
-parser.add_argument('-lr', help='Learning rate', type=float, default=0.001)
-parser.add_argument('-batchsize', help='Batchsize', type=int, default=3000)
-parser.add_argument('-modeldir', help='Folder for trained models', type=str, default='MODEL/')
-parser.add_argument('-cuda', help='Specify GPU', type=int, default=0)
-parser.add_argument('-gene2id', help='Gene to ID mapping file', type=str)
-parser.add_argument('-cell2id', help='Cell to ID mapping file', type=str)
-parser.add_argument('-genotype_hiddens', help='Mapping for the number of neurons in each term in genotype parts', type=int, default=2)
-parser.add_argument('-final_hiddens', help='The number of neurons in the top layer', type=int, default=6)
-parser.add_argument('-genotype', help='Mutation information for cell lines', type=str)
+    opt = parser.parse_args()
+    torch.set_printoptions(precision=5)
 
-opt = parser.parse_args()
-torch.set_printoptions(precision=5)
+    # load input data
+    train_data, cell2id_mapping = prepare_train_data(opt.train, opt.test, opt.cell2id)
+    gene2id_mapping = load_mapping(opt.gene2id)
 
-# load input data
-train_data, cell2id_mapping = prepare_train_data(opt.train, opt.test, opt.cell2id)
-gene2id_mapping = load_mapping(opt.gene2id)
+    # load cell features
+    cell_features = np.genfromtxt(opt.genotype, delimiter=',')
+    num_cells = len(cell2id_mapping)
+    gene_dim = len(gene2id_mapping)
 
-# load cell features
-cell_features = np.genfromtxt(opt.genotype, delimiter=',')
-num_cells = len(cell2id_mapping)
-gene_dim = len(gene2id_mapping)
+    # load ontology
+    # dG, root, term_size_map, term_direct_gene_map = load_ontology(opt.onto, gene2id_mapping)
 
-# load ontology
-# dG, root, term_size_map, term_direct_gene_map = load_ontology(opt.onto, gene2id_mapping)
+    # load the number of hiddens #######
+    num_hiddens_genotype = opt.genotype_hiddens
 
-# load the number of hiddens #######
-num_hiddens_genotype = opt.genotype_hiddens
+    # num_hiddens_drug = list(map(int, opt.drug_hiddens.split(',')))
 
-# num_hiddens_drug = list(map(int, opt.drug_hiddens.split(',')))
+    num_hiddens_final = opt.final_hiddens
+    #####################################
 
-num_hiddens_final = opt.final_hiddens
-#####################################
+    CUDA_ID = opt.cuda
+    model_save_folder, train_epochs, batch_size, learning_rate = opt.modeldir, opt.epoch, opt.batchsize, opt.lr
 
-CUDA_ID = opt.cuda
-model_save_folder, train_epochs, batch_size, learning_rate = opt.modeldir, opt.epoch, opt.batchsize, opt.lr
-
-data_dir = "../../classification_data/cross_validation_data/"
-onto_file = opt.onto
-cross_validate(data_dir, onto_file)
+    # data_dir = "../../classification_data/cross_validation_data/"
+    data_dir = opt.splitsdir
+    onto_file = opt.onto
+    cross_validate(data_dir, onto_file)
