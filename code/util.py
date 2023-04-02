@@ -105,7 +105,12 @@ def load_reactome(file_name, gene2id_mapping):
     file_handle.close()
 
     print('There are', len(gene_set), 'genes')
-
+    
+    leaves = [n for n in dG.nodes if dG.in_degree(n) == 0]
+    root_node = 'root'
+    edges = [(root_node, n) for n in leaves]
+    dG.add_edges_from(edges)
+    
     min_req_genes = 0#30
     min_distinct = 0#10
     nodes_to_remove = []
@@ -151,21 +156,21 @@ def load_reactome(file_name, gene2id_mapping):
     uG = dG.to_undirected()
     connected_subG_list = list(nxacc.connected_components(uG))
 
-    root_node = 'root'
-    edges = [(root_node, n) for n in leaves]
-    dG.add_edges_from(edges)
+    # root_node = 'root'
+    # edges = [(root_node, n) for n in leaves]
+    # dG.add_edges_from(edges)
 
     print('There are', len(leaves), 'roots:', leaves)
     print('There are', len(dG.nodes()), 'terms')
     print('There are', len(connected_subG_list), 'connected componenets')
 
-    leaves = [n for n in dG.nodes if dG.in_degree(n) == 0]
-    uG = dG.to_undirected()
-    connected_subG_list = list(nxacc.connected_components(uG))
-    print("Making adjustments...")
-    print('There are', len(leaves), 'roots:', leaves)
-    print('There are', len(dG.nodes()), 'terms')
-    print('There are', len(connected_subG_list), 'connected componenets')
+    # leaves = [n for n in dG.nodes if dG.in_degree(n) == 0]
+    # uG = dG.to_undirected()
+    # connected_subG_list = list(nxacc.connected_components(uG))
+    # print("Making adjustments...")
+    # print('There are', len(leaves), 'roots:', leaves)
+    # print('There are', len(dG.nodes()), 'terms')
+    # print('There are', len(connected_subG_list), 'connected componenets')
 
     for term in dG.nodes():
         

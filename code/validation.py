@@ -49,11 +49,11 @@ def cross_validate(data_dir, onto_file):
     for filepath in filepaths:
         train_data = prepare_data(filepath, filepaths, cell2id_mapping)
         print(f"Fold {iter + 1} / 5")
-        store_dir = model_save_folder + "_" + str(iter)
+        store_dir = base_dir + "/" + model_save_folder + "_" + str(iter)
         if not os.path.exists(store_dir):
             os.makedirs(store_dir)
         dG, root, term_size_map, term_direct_gene_map = load_ontology(onto_file, gene2id_mapping)
-        max_corr, max_mcc, max_acc, f1, neg_f1 = train_drugcell.train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_dim, model_save_folder + "_" + str(iter), train_epochs, batch_size, learning_rate, num_hiddens_genotype, num_hiddens_final, cell_features)
+        max_corr, max_mcc, max_acc, f1, neg_f1 = train_drugcell.train_model(root, term_size_map, term_direct_gene_map, dG, train_data, gene_dim, store_dir, train_epochs, batch_size, learning_rate, num_hiddens_genotype, num_hiddens_final, cell_features)
 
         results.append({"f1" : f1,
                         "corr": max_corr,
@@ -93,6 +93,7 @@ if __name__ == "__main__":
     parser.add_argument('-epoch', help='Training epochs for training', type=int, default=300)
     parser.add_argument('-lr', help='Learning rate', type=float, default=0.001)
     parser.add_argument('-batchsize', help='Batchsize', type=int, default=3000)
+    parser.add_argument('-basedir', help='Base folder for trained models', type=str, default='FOLDS/')
     parser.add_argument('-modeldir', help='Folder for trained models', type=str, default='MODEL/')
     parser.add_argument('-cuda', help='Specify GPU', type=int, default=0)
     parser.add_argument('-gene2id', help='Gene to ID mapping file', type=str)
@@ -126,6 +127,7 @@ if __name__ == "__main__":
 
     CUDA_ID = opt.cuda
     model_save_folder, train_epochs, batch_size, learning_rate = opt.modeldir, opt.epoch, opt.batchsize, opt.lr
+    base_dir = opt.basedir
 
     # data_dir = "../../classification_data/cross_validation_data/"
     data_dir = opt.splitsdir
