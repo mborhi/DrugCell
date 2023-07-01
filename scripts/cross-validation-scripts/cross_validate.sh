@@ -1,5 +1,5 @@
 #!/bin/bash
-collection="Colorectal_Adenocarcinoma"
+collection="Stomach_Esophageal"
 pathway_files="../../classification_data/"
 inputdir="../../datasets/"
 collection_data="../../datasets/"$collection"/"
@@ -18,8 +18,24 @@ mutationfile=$collection_data$collection"_sample2binary_top_varied_gene_mutation
 cudaid=1
 
 modeldir=$collection"_Cross_Validation"
-# mkdir $modeldirs
+# mkdir $modeldir
+mkdir $collection
 
 source activate pytorch3drugcell
 
-python -u ../../code/validation.py -onto $ontfile -splitsdir $splitsdir -gene2id $gene2idfile -cell2id $cell2idfile -train $traindatafile -test $valdatafile -model $modeldir -cuda $cudaid -genotype $mutationfile -genotype_hiddens 6 -final_hiddens 2 -epoch 300 -batchsize 3000 > $collection"_cross_validation.log"
+python -u ../../code/validation.py \
+    -onto $ontfile \
+    -splitsdir $splitsdir \
+    -gene2id $gene2idfile \
+    -cell2id $cell2idfile \
+    -train $traindatafile \
+    -test $valdatafile \
+    -modeldir $modeldir \
+    -basedir $collection \
+    -cuda $cudaid \
+    -genotype $mutationfile \
+    -genotype_hiddens 6 \
+    -final_hiddens 2 \
+    -epoch 300 \
+    -batchsize 3000 \
+    > $collection"_cross_validation.log"
